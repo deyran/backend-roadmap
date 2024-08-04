@@ -26,3 +26,20 @@ TCP/IP, OpenFlow, Http, E-mail, Browsers, etc.
 ## Internet
 
 A **internet** é uma rede global de computadores interconectados. Ela permite a troca de informações, serviços e recursos entre dispositivos em todo o mundo.
+
+## Protocolos
+
+**Protocolos** de rede são como uma linguagem universal que permite que computadores se comuniquem entre si, independentemente das diferenças em seus softwares e hardwares. 
+
+Aqui estão alguns **protocolos de rede** comuns e suas aplicações:
+
+1. **IP (Internet Protocol)**: Responsável pela elaboração e transporte de pacotes de dados na internet, mas não garante a entrega. O endereço IP determina o destinatário da mensagem³.
+2. **TCP/IP (Transmission Control Protocol/Internet Protocol)**: Combinação de dois protocolos essenciais para a comunicação na web.
+3. **HTTP/HTTPS (Hypertext Transfer Protocol/Secure)**: Usado para transferir páginas da web e recursos associados.
+4. **FTP (File Transfer Protocol)**: Facilita a transferência de arquivos entre computadores.
+5. **SMTP (Simple Mail Transfer Protocol)**: Envia e-mails.
+6. **POP3 (Post Office Protocol version 3)**: Recebe e-mails.
+7. **SSH (Secure Shell)**: Permite acesso seguro a servidores remotos.
+8. **ICMP (Internet Control Message Protocol)**: Usado para diagnóstico de rede e gerenciamento¹⁴.
+
+Esses protocolos são fundamentais para a comunicação eficiente entre dispositivos em redes de computadores!
