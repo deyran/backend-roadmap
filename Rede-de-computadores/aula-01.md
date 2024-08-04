@@ -22,3 +22,7 @@ Computadores, smartphones, roteadores, switches, servidores, etc.
 TCP/IP, OpenFlow, Http, E-mail, Browsers, etc.
 
 3. Rede computadores são formados por hardware e software
+   
+## Internet
+
+A **internet** é uma rede global de computadores interconectados. Ela permite a troca de informações, serviços e recursos entre dispositivos em todo o mundo.
