@@ -31,9 +31,9 @@ A **internet** é uma rede global de computadores interconectados. Ela permite a
 
 **Protocolos** de rede são como uma linguagem universal que permite que computadores se comuniquem entre si, independentemente das diferenças em seus softwares e hardwares. 
 
-Aqui estão alguns **protocolos de rede** comuns e suas aplicações:
+Toda atividade de comunicação na Internet é governada por protocolos. Aqui estão alguns **protocolos de rede** comuns e suas aplicações:
 
-1. **IP (Internet Protocol)**: Responsável pela elaboração e transporte de pacotes de dados na internet, mas não garante a entrega. O endereço IP determina o destinatário da mensagem³.
+1. **IP (Internet Protocol)**: Responsável pela elaboração e transporte de pacotes de dados na internet, mas não garante a entrega. O endereço IP determina o destinatário da mensagem.
 2. **TCP/IP (Transmission Control Protocol/Internet Protocol)**: Combinação de dois protocolos essenciais para a comunicação na web.
 3. **HTTP/HTTPS (Hypertext Transfer Protocol/Secure)**: Usado para transferir páginas da web e recursos associados.
 4. **FTP (File Transfer Protocol)**: Facilita a transferência de arquivos entre computadores.
@@ -42,4 +42,7 @@ Aqui estão alguns **protocolos de rede** comuns e suas aplicações:
 7. **SSH (Secure Shell)**: Permite acesso seguro a servidores remotos.
 8. **ICMP (Internet Control Message Protocol)**: Usado para diagnóstico de rede e gerenciamento¹⁴.
 
-Esses protocolos são fundamentais para a comunicação eficiente entre dispositivos em redes de computadores!
+Protocolos definem regras que:
+
+1. Estabelecem os formatos e a ordem das mensagens.
+2. Definem ações a serem tomadas na transmissão e recepção das mensagens
