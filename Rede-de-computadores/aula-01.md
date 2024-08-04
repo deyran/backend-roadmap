@@ -46,3 +46,7 @@ Protocolos definem regras que:
 
 1. Estabelecem os formatos e a ordem das mensagens.
 2. Definem ações a serem tomadas na transmissão e recepção das mensagens
+
+## Estrutura da Rede
+
+https://youtu.be/1csTmCZj-io?list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk&t=886
