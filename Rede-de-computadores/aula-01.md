@@ -12,3 +12,13 @@
 **Redes de computadores** são sistemas que permitem a comunicação e o compartilhamento de informações entre dispositivos eletrônicos, como computadores, servidores, roteadores e switches. Essas redes podem ser cabeadas (usando cabos) ou sem fio (Wi-Fi), e são essenciais para a troca de dados e recursos em escala global.
 
 ## Rede - Componentes
+
+1. Hardware
+   
+Computadores, smartphones, roteadores, switches, servidores, etc.
+
+2. Software
+
+TCP/IP, OpenFlow, Http, E-mail, Browsers, etc.
+
+3. Rede computadores são formados por hardware e software
