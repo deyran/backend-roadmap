@@ -27,11 +27,11 @@ TCP/IP, OpenFlow, Http, E-mail, Browsers, etc.
 
 A **internet** é uma rede global de computadores interconectados. Ela permite a troca de informações, serviços e recursos entre dispositivos em todo o mundo.
 
-## Protocolos
+## Protocolos de rede
 
-**Protocolos** de rede são como uma linguagem universal que permite que computadores se comuniquem entre si, independentemente das diferenças em seus softwares e hardwares. 
+**Protocolos de rede** são como uma linguagem universal que permite que computadores se comuniquem entre si, independentemente das diferenças em seus softwares e hardwares.
 
-Toda atividade de comunicação na Internet é governada por protocolos. Aqui estão alguns **protocolos de rede** comuns e suas aplicações:
+*Toda atividade de comunicação na Internet é governada por protocolos*. Aqui estão alguns **protocolos de rede** comuns e suas aplicações:
 
 1. **IP (Internet Protocol)**: Responsável pela elaboração e transporte de pacotes de dados na internet, mas não garante a entrega. O endereço IP determina o destinatário da mensagem.
 2. **TCP/IP (Transmission Control Protocol/Internet Protocol)**: Combinação de dois protocolos essenciais para a comunicação na web.
@@ -47,6 +47,6 @@ Protocolos definem regras que:
 1. Estabelecem os formatos e a ordem das mensagens.
 2. Definem ações a serem tomadas na transmissão e recepção das mensagens
 
-## Estrutura da Rede
+## Estrutura da Rede - Como a internet é estruturada?
 
 https://youtu.be/1csTmCZj-io?list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk&t=886
