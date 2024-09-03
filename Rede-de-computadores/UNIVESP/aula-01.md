@@ -49,7 +49,11 @@ Protocolos definem regras que:
 
 ## Estrutura da Rede
 
-A internet é estruturada da seguinte forma: **Borda da rede** e **Núcleo da rede**.
+A internet é estruturada da seguinte forma:
+
+1. Borda da rede: Aplicações e hospedeiros.
+2. Núcleo da rede: Roteadores e rede de redes
+3. Redes de acesso, meio físico: Enlaces de comunicação
 
 ### Borda da rede: Serviço orientado a conexão
 
