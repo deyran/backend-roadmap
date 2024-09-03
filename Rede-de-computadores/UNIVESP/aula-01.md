@@ -22,7 +22,7 @@ Computadores, smartphones, roteadores, switches, servidores, etc.
 TCP/IP, OpenFlow, Http, E-mail, Browsers, etc.
 
 3. Rede computadores são formados por hardware e software
-   
+
 ## Internet
 
 A **internet** é uma rede global de computadores interconectados. Ela permite a troca de informações, serviços e recursos entre dispositivos em todo o mundo.
@@ -64,5 +64,7 @@ A internet é estruturada da seguinte forma: **Borda da rede** e **Núcleo da re
 3. Redes de acesso
 
 ### Borda da rede: Serviço orientado a conexão
+
+Uma conexão deve ser criada antes de
 
 ### Borda da rede: Sem conexão
