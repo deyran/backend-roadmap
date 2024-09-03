@@ -70,6 +70,6 @@ Serviço orientado a conexão estabelece uma conexão dedicada antes de transfer
 1. Estabelecimento de conexão: Processo de handshake
 2. Confiabilidade: Dados chegam ao destino corretamente
 3. Sequenciamento: Pacotes recebidos na ordem correta
-3. Controle de fluxo: Gerencia a quantidade de dados enviados evitando assim congestionamento
+4. Controle de fluxo: Gerencia a quantidade de dados enviados evitando assim congestionamento
 
 ### Borda da rede: Sem conexão
