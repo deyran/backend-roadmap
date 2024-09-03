@@ -51,18 +51,6 @@ Protocolos definem regras que:
 
 A internet é estruturada da seguinte forma: **Borda da rede** e **Núcleo da rede**.
 
-* Borda da rede
-
-1. Aplicação
-2. hospedeiros
-3. Dois tipos de servilos: Orientado a conexão e Sem conexão
-
-* Núcleo da rede
-
-1. Roteadores
-2. Rede de Redes
-3. Redes de acesso
-
 ### Borda da rede: Serviço orientado a conexão
 
 Serviço orientado a conexão estabelece uma conexão dedicada antes de transferir dados, exemplo TCP (Transmission Control Protocol), que garante a entrega confiável dos dados na ordem correta. Algunas características:
@@ -71,6 +59,12 @@ Serviço orientado a conexão estabelece uma conexão dedicada antes de transfer
 2. Confiabilidade: Dados chegam ao destino corretamente
 3. Sequenciamento: Pacotes recebidos na ordem correta
 4. Controle de fluxo: Gerencia a quantidade de dados enviados evitando assim congestionamento
+
+#### Aplicações usando TCP
+
+1. HTTP (Hypertext Transfer Protocol).
+2. FTP (File Transfer Protocol)
+3. SMTP (Simple Mail Transfer Protocol)
 
 ### Borda da rede: Serviço Sem Conexão
 
