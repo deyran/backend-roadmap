@@ -51,18 +51,18 @@ Protocolos definem regras que:
 
 A internet é estruturada da seguinte forma:
 
-1. Borda da rede: Aplicações e hospedeiros.
-2. Núcleo da rede: Roteadores e rede de redes
-3. Redes de acesso, meio físico: Enlaces de comunicação
+1. **Borda da rede**: Aplicações e hospedeiros.
+2. **Núcleo da rede**: Roteadores e rede de redes
+3. **Redes de acesso, meio físico**: Enlaces de comunicação
 
 ### Borda da rede: Serviço orientado a conexão
 
 Serviço orientado a conexão estabelece uma conexão dedicada antes de transferir dados, exemplo TCP (Transmission Control Protocol), que garante a entrega confiável dos dados na ordem correta. Algunas características:
 
-1. Estabelecimento de conexão: Processo de handshake
-2. Confiabilidade: Dados chegam ao destino corretamente
-3. Sequenciamento: Pacotes recebidos na ordem correta
-4. Controle de fluxo: Gerencia a quantidade de dados enviados evitando assim congestionamento
+1. **Estabelecimento de conexão**: Processo de handshake
+2. **Confiabilidade**: Dados chegam ao destino corretamente
+3. **Sequenciamento**: Pacotes recebidos na ordem correta
+4. **Controle de fluxo**: Gerencia a quantidade de dados enviados evitando assim congestionamento
 
 #### Aplicações usando TCP
 
