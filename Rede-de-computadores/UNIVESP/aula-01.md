@@ -72,4 +72,11 @@ Serviço orientado a conexão estabelece uma conexão dedicada antes de transfer
 3. Sequenciamento: Pacotes recebidos na ordem correta
 4. Controle de fluxo: Gerencia a quantidade de dados enviados evitando assim congestionamento
 
-### Borda da rede: Sem conexão
+### Borda da rede: Serviço Sem Conexão
+
+Serviço Sem Conexão não estabele uma conexão dedicada antes de enviar os dados, exemplo UDP (User Datagram Protocol), que é rápido mas não garante entrega. Algumas características:
+
+1. Estabelecimento de conexão: Dados enviados sem processo de handshake.
+2. Menor confiabilidade: Não há garantia que os dados cheguem ao destino.
+3. Se sequenciamento: Os pacotes pode chegar fora de ordem.
+4. Menor sobrecarga: Menos controle e, portanto, menor latência.
