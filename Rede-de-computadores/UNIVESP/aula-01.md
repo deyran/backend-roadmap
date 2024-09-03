@@ -74,3 +74,9 @@ Serviço Sem Conexão não estabele uma conexão dedicada antes de enviar os dad
 2. Menor confiabilidade: Não há garantia que os dados cheguem ao destino.
 3. Se sequenciamento: Os pacotes pode chegar fora de ordem.
 4. Menor sobrecarga: Menos controle e, portanto, menor latência.
+
+#### Aplicações usando UDP
+
+1. Streaming media: Aplicações de streaming ao vivo, como Twitch e YouTube Live,
+2. Jogos Online: Fortnite e League of Legends.
+3. VoIP (Voice over IP): Serviços de chamadas de voz pela internet, como Skype e WhatsApp
