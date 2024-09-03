@@ -65,6 +65,11 @@ A internet é estruturada da seguinte forma: **Borda da rede** e **Núcleo da re
 
 ### Borda da rede: Serviço orientado a conexão
 
-Uma conexão deve ser criada antes de
+Serviço orientado a conexão estabelece uma conexão dedicada antes de transferir dados, exemplo TCP (Transmission Control Protocol), que garante a entrega confiável dos dados na ordem correta. Algunas características:
+
+1. Estabelecimento de conexão: Processo de handshake
+2. Confiabilidade: Dados chegam ao destino corretamente
+3. Sequenciamento: Pacotes recebidos na ordem correta
+3. Controle de fluxo: Gerencia a quantidade de dados enviados evitando assim congestionamento
 
 ### Borda da rede: Sem conexão
