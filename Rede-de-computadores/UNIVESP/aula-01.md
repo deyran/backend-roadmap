@@ -66,7 +66,7 @@ Serviço orientado a conexão estabelece uma conexão dedicada antes de transfer
 3. **Sequenciamento**: Pacotes recebidos na ordem correta
 4. **Controle de fluxo**: Gerencia a quantidade de dados enviados evitando assim congestionamento
 
-**Aplicações usando TCP**
+-*Aplicações usando TCP*
 
 1. HTTP (Hypertext Transfer Protocol).
 2. FTP (File Transfer Protocol)
@@ -81,7 +81,7 @@ Serviço Sem Conexão não estabele uma conexão dedicada antes de enviar os dad
 3. **Sequenciamento**: Os pacotes pode chegar fora de ordem.
 4. **Menor sobrecarga**: Menos controle e, portanto, menor latência.
 
-**Aplicações usando UDP**
+-*Aplicações usando UDP*
 
 1. **Streaming media**: Aplicações de streaming ao vivo, como Twitch e YouTube Live,
 2. **Jogos Online**: Fortnite e League of Legends.
