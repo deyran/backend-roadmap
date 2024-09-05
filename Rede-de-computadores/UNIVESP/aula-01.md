@@ -52,7 +52,7 @@ Protocolos definem regras que:
 A internet é estruturada da seguinte forma:
 
 1. **Borda da rede**: Aplicações e hospedeiros.
-2. **Núcleo da rede**: Roteadores e switches
+2. **Núcleo da rede**: Encaminhamento (Foward), Comutação (Switch) e Roteamento (Routing)
 3. **Redes de acesso, meio físico**: Enlaces de comunicação
 
 ### Borda da rede: 
