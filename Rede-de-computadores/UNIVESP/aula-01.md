@@ -52,10 +52,12 @@ Protocolos definem regras que:
 A internet é estruturada da seguinte forma:
 
 1. **Borda da rede**: Aplicações e hospedeiros.
-2. **Núcleo da rede**: Roteadores e rede de redes
+2. **Núcleo da rede**: Roteadores e switches
 3. **Redes de acesso, meio físico**: Enlaces de comunicação
 
-### Borda da rede: Serviço orientado a conexão
+### Borda da rede: 
+
+#### Serviço orientado a conexão
 
 Serviço orientado a conexão estabelece uma conexão dedicada antes de transferir dados, exemplo TCP (Transmission Control Protocol), que garante a entrega confiável dos dados na ordem correta. Algunas características:
 
@@ -64,13 +66,13 @@ Serviço orientado a conexão estabelece uma conexão dedicada antes de transfer
 3. **Sequenciamento**: Pacotes recebidos na ordem correta
 4. **Controle de fluxo**: Gerencia a quantidade de dados enviados evitando assim congestionamento
 
-#### Aplicações usando TCP
+**Aplicações usando TCP**
 
 1. HTTP (Hypertext Transfer Protocol).
 2. FTP (File Transfer Protocol)
 3. SMTP (Simple Mail Transfer Protocol)
 
-### Borda da rede: Serviço Sem Conexão
+#### Serviço Sem Conexão
 
 Serviço Sem Conexão não estabele uma conexão dedicada antes de enviar os dados, exemplo UDP (User Datagram Protocol), que é rápido mas não garante entrega. Algumas características:
 
@@ -79,7 +81,7 @@ Serviço Sem Conexão não estabele uma conexão dedicada antes de enviar os dad
 3. **Sequenciamento**: Os pacotes pode chegar fora de ordem.
 4. **Menor sobrecarga**: Menos controle e, portanto, menor latência.
 
-#### Aplicações usando UDP
+**Aplicações usando UDP**
 
 1. **Streaming media**: Aplicações de streaming ao vivo, como Twitch e YouTube Live,
 2. **Jogos Online**: Fortnite e League of Legends.
