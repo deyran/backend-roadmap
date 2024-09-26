@@ -54,11 +54,11 @@ Em resumo, todos os computadores são dispositivos de computação, mas nem todo
 
 ### Período 2
 
-> Há pouco tempo, esses dispositivos eram basicamente PCs de mesa, estações de trabalho Linux, e os assim chamados servidores que armazenam e transmitem informações, como páginas da Web e mensagens de e-mail. 
+> Há pouco tempo, esses dispositivos eram basicamente PCs de mesa, estações de trabalho Linux, e os assim chamados servidores que armazenam e transmitem informações, como páginas da Web e mensagens de e-mail. No entanto, cada vez mais sistemas finais modernos da Internet, como TVs, laptops, consoles para jogos, telefones celulares, webcams, automóveis, dispositivos de sensoriamento ambiental, quadros de imagens, e sistemas internos elétricos e de segurança, estão sendo conectados à rede.
 
-### Período 3
+* Houve alguma mudança nos dipositivos de armazenamento e transmição de informação?
 
-> No entanto, cada vez mais sistemas finais modernos da Internet, como TVs, laptops, consoles para jogos, telefones celulares, webcams, automóveis, dispositivos de sensoriamento ambiental, quadros de imagens, e sistemas internos elétricos e de segurança, estão sendo conectados à rede.
+Dispositivos de armazenamento e transmissão de informação ainda são operados por computadores. A mudança ocorreu nos sistemas finais; hoje, não são apenas os computadores que acessam a Internet, mas qualquer dispositivo eletrônico com capacidade de se conectar à Internet, como TVs, consoles de jogos, etc
 
 ### Período 4
 
