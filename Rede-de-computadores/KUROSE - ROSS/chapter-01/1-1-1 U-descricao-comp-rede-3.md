@@ -32,4 +32,12 @@ Originalmente, incluia principalmente PCs de mesa, estações de trabalho linux 
 
 Atualmente, a rede abrange TVs, laptops, consoles de jogos, celulares, webcams, automóveis e dispositivos de sensoriamento ambiental.
 
-4. AAAAAAAAAAA
+4. **Terminologia**
+
+Esses dispositivos são chamados de hospedeiros ou sistemas finais.
+
+5. **Estatística de 2011**
+
+Em julho de 2011, havia cerca de 850 milhões de sistemas finais conectados à internet.
+   
+6. AAAAAAAAA
