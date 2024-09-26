@@ -17,3 +17,15 @@ todo, estima-se que haja 2 bilhões de usuários na Internet [ITU, 2011].
 ## Resumo
 
 > A internet é uma vasta rede que conecta centenas de milhões de dispositivos ao redor do mundo. Inicialmente. esses dispositivos eram principalmente PCs, estações de trabalho linux e servidores. Atualmente, a rede inclui uma variedade de sistemas modernos, como TVs, laptops, console de jogos, celulares, webcams, automóveis e dispositivos de sensoriamento. Esses dispositivos são chamados hospedeiros ou sistemas finais. Em 2011, havia cerca de 850 milhões de sistemas finais conectados à internet, com uma estimativa de 2 bilhões de usuários no total.
+
+## Pontos importantes
+
+1. **Definição**
+
+A internet é uma rede de computadores que conecta centenas de milhões de dispositivos globalmente.
+
+2. **Dispositivos iniciais**
+   
+Originalmente, incluia principalmente PCs de mesa, estações de trabalho linux e servidoress   
+
+3. AAAAAAAAAAAA
