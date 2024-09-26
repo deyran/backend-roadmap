@@ -46,7 +46,11 @@ Estima-se que havia 2 bilhões de usuários na Internet em 2011.
 
 2. Qual a diferença entre "dispositivo de computação" e computadores?
    
-*Dispositivo de computação*: É um termo amplo que inclui qualquer dispositivo com capacidade de processar dados, indo além dos computadores tradicionais, tais como: smartphones, tablets, smart TVs, consoles de jogos, dispositivos IoT, etc.   
+*Dispositivo de computação*: É um termo amplo que inclui qualquer dispositivo com capacidade de processar dados, indo além dos computadores tradicionais, tais como: smartphones, tablets, smart TVs, consoles de jogos, dispositivos IoT, etc.
+
+*Computadores*: PCs de mesa, laptops e servidores
+
+Em resumo, todos os computadores são dispositivos de computação, mas nem todos os dispositivos de computação são computadores no sentido tradicional
 
 ### Período 2
 
