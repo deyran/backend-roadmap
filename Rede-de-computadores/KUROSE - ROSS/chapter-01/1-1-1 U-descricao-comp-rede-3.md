@@ -38,7 +38,13 @@ Estima-se que havia 2 bilhões de usuários na Internet em 2011.
 
 ### Período 1
 
-> A Internet é uma rede de computadores que interconecta centenas de milhões de dispositivos de computação ao redor do mundo. 
+> "A Internet é uma rede de computadores que interconecta centenas de milhões de dispositivos de computação ao redor do mundo."
+
+1. O que você quer dizer com interconecta?
+  
+"Interconexão" implica dizer que a Internet conecta dispositivos entre si, permitindo que se comuniquem e compartilhem informações.
+
+2. Qual a diferença entre "dispositivo de computação" e computadores?
 
 ### Período 2
 
