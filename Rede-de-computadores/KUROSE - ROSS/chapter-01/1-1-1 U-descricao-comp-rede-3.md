@@ -40,4 +40,6 @@ Esses dispositivos são chamados de hospedeiros ou sistemas finais.
 
 Em julho de 2011, havia cerca de 850 milhões de sistemas finais conectados à internet.
    
-6. AAAAAAAAA
+6. **Usuários totais**
+
+Estima-se que havia 2 bilhões de usuários na Internet em 2011.
