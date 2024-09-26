@@ -28,4 +28,8 @@ A internet é uma rede de computadores que conecta centenas de milhões de dispo
    
 Originalmente, incluia principalmente PCs de mesa, estações de trabalho linux e servidoress   
 
-3. AAAAAAAAAAAA
+3. **Dispositivos Modernos** 
+
+Atualmente, a rede abrange TVs, laptops, consoles de jogos, celulares, webcams, automóveis e dispositivos de sensoriamento ambiental.
+
+4. AAAAAAAAAAA
