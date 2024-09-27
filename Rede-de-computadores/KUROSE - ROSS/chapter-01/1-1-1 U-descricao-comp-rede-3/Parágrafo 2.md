@@ -34,6 +34,22 @@ Existem vários tipos de enlaces de comunicação, como cabos coaxiais, fios de 
 
 Diferentes enlaces podem transmitir dados em diferentes taxas, medidas em bits por segundo (bps)
 
+* Porquê diferentes enlaces podem transmitir dados em diferentes taxas?
+
+Existem vários fatores para diferentes taxas de transmissão de dados, entre eles:
+
+1. *Tipo de meio físico:*
+
+Por exemplo, cabos coaxiais têm taxas de transmissão mais baixas comparadas às fibras óticas.
+
+2. *Tecnologia de transmissão:*
+
+Por exemplo, DSL (Digital Subscriber Line) usa fios de cobre.
+
+3. *Interferência e ruído*
+   
+4. *Largura de banda*
+
 ### Envio de dados
 
 O sistem emissor segmenta os dados e adiciona cabeçalhos a cada segmento.
