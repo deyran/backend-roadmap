@@ -68,18 +68,6 @@ Dispositivos de armazenamento e transmissão de informação ainda são operados
 
 Embora não seja oficial, termos como **Internet das Coisas (IoT)** e **Redes de Dispositivos** têm sido utilizados tanto na academia quanto na indústria para refletir a nova realidade de dispositivos conectados.
 
-### Período 5
-
-> No jargão da rede, todos esses equipamentos são denominados hospedeiros ou sistemas finais. 
-
-### Período 6
-
-> Em julho de 2011, havia cerca de 850 milhões de sistemas finais ligados à Internet [ISC, 2012], sem contar os smartphones, laptops e outros dispositivos que são conectados à rede de maneira intermitente.
-
-### Período 7
-
-> No todo, estima-se que haja 2 bilhões de usuários na Internet [ITU, 2011].
-
 # Parágrafo 2
 
 > Sistemas finais são conectados entre si por enlaces (links) de comunicação e comutadores (switches) de pacotes. Na Seção 1.2, veremos que há muitos tipos de enlaces de comunicação, que são constituídos de diferentes tipos de meios físicos, entre eles cabos coaxiais, fios de cobre, fibras óticas e ondas de rádio. Enlaces diferentes podem transmitir dados em taxas diferentes, sendo a taxa de transmissão de um enlace medida em bits por segundo. Quando um sistema final possui dados para enviar a outro sistema final, o sistema emissor segmenta esses dados e adiciona bytes de cabeçalho a cada segmento. Os pacotes de informações resultantes, conhecidos como pacotes no jargão de rede de computadores, são enviados através da rede ao sistema final de destino, onde são remontados para os dados originais.
