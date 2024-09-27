@@ -12,4 +12,8 @@
 
 ### Conexão se Sistemas Finais
 
-Sistemas finais são conectados por enlaces de comunicação e comutadores de pacotes
+Sistemas finais são conectados por enlaces de comunicação e comutadores de pacotes.
+
+### Tipos de Enlaces
+
+Existem vários tipos de enlaces de comunicação, como cabos coaxiais, fios de cobre, fibra ótica e ondas de rádio.
