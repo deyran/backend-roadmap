@@ -12,7 +12,19 @@
 
 ### Conexão se Sistemas Finais
 
-Sistemas finais são conectados por enlaces de comunicação e comutadores de pacotes.
+Sistemas finais são conectados por **enlaces de comunicação** e **comutadores de pacotes**.
+
+1. O que são "enlaces de comunicação"?
+
+Enlaces de comunicação são conexões que permitem a transmissão de dados entre dois ou mais pontos
+
+2. O que são "comutadores de pacotes"?
+
+Comutadores de pacotes (switches) são dispositivos que encaminham pacotes de dados entre dispositivos, isto é, recebem pacotes de dados de sistemas finais de origem e os direcionam para o sistema final de destino.
+
+3. Por quê se diz que Sistemas finais são conectados por enlaces de comunicação e comutadores de pacotes?
+
+Porque os enlaces de comunicação fornecem os meios físicos e lógicos para transmitir os dados entre os sistemas finais. Já os comutadores gerenciam e direcionam os pacotes de dados através da rede, garantindo a chegada dos mesmos de forma correta e eficiente.
 
 ### Tipos de Enlaces
 
