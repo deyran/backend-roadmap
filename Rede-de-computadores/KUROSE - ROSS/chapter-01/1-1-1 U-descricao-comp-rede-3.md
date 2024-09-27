@@ -64,6 +64,10 @@ Dispositivos de armazenamento e transmissão de informação ainda são operados
 
 > Na verdade, o termo rede de computadores está começando a soar um tanto desatualizado, dados os muitos equipamentos não tradicionais que estão sendo ligados à Internet.
 
+* Como o termo "Rede de computadores" já soa desatualizado, alguém já sugeriu um novo termo?
+
+Embora não seja oficial, termos como **Internet das Coisas (IoT)** e **Redes de Dispositivos** têm sido utilizados tanto na academia quanto na indústria para refletir a nova realidade de dispositivos conectados.
+
 ### Período 5
 
 > No jargão da rede, todos esses equipamentos são denominados hospedeiros ou sistemas finais. 
