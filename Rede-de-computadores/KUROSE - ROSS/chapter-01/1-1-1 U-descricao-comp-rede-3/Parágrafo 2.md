@@ -1,0 +1,7 @@
+# Parágrafo 2
+
+> Sistemas finais são conectados entre si por enlaces (links) de comunicação e comutadores (switches) de pacotes. Na Seção 1.2, veremos que há muitos tipos de enlaces de comunicação, que são constituídos de diferentes tipos de meios físicos, entre eles cabos coaxiais, fios de cobre, fibras óticas e ondas de rádio. Enlaces diferentes podem transmitir dados em taxas diferentes, sendo a taxa de transmissão de um enlace medida em bits por segundo. Quando um sistema final possui dados para enviar a outro sistema final, o sistema emissor segmenta esses dados e adiciona bytes de cabeçalho a cada segmento. Os pacotes de informações resultantes, conhecidos como pacotes no jargão de rede de computadores, são enviados através da rede ao sistema final de destino, onde são remontados para os dados originais.
+
+## Resumo
+
+> Os sistemas finais são interconectados por enlaces de comunicação e comutadores de pacotes. Existem diversos tipos de enlaces (cabos coaxiais, fiba óticas, ondas de rádio, etc), cada um com diferentes taxas de transmissão. Quando um sistema final envia dados a outro, ele segmenta os dados e adiciona cabeçalhos, formando pacotes. Esses pacotes são transmitidos pela rede e remontados no destino para recuperar os dados originais.
