@@ -17,3 +17,7 @@ Sistemas finais são conectados por enlaces de comunicação e comutadores de pa
 ### Tipos de Enlaces
 
 Existem vários tipos de enlaces de comunicação, como cabos coaxiais, fios de cobre, fibra ótica e ondas de rádio.
+
+### Taxas de transmissão
+
+Diferentes enlaces podem transmitir dados em diferentes taxas, medidas em bits por segundo (bps)
