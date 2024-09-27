@@ -21,3 +21,15 @@ Existem vários tipos de enlaces de comunicação, como cabos coaxiais, fios de 
 ### Taxas de transmissão
 
 Diferentes enlaces podem transmitir dados em diferentes taxas, medidas em bits por segundo (bps)
+
+### Envio de dados
+
+O sistem emissor segmenta os dados e adiciona cabeçalhos a cada segmento.
+
+### Pacotes de informação
+
+Os segmentos formam pacotes, que são enviados pela rede ao sistema final de destino.
+
+### Remotagem dos dados
+
+No destino, os pacotes são remontados para recuperar os dados originais.
