@@ -16,7 +16,7 @@
 
 > Os principais são roteadores e comutadores de camada de enlace.
 
- *Qual a diferença entre roteadores e comutadores de camada de enlace?*
+ ### Qual a diferença entre roteadores e comutadores de camada de enlace?
 
 **Roteadores**
 
@@ -36,6 +36,20 @@
 Utilizam endereço IP para encaminhar pacotes
 
 **Comutadores de camada de enlace**
+
+- *Função*
+  
+1. Também são conhecidos como Switches
+2. Encaminham pacotes dentre da mesma rede local
+
+- *Uso*
+  
+1. São usados em rede de acesso
+2. Conecta dispositivos dentro da mesma rede local (LAN)
+
+- *Endereçamento*
+
+Utilizam endereços MAC para encaminhar pacotes
 
 ## Uso de comutadores
 
