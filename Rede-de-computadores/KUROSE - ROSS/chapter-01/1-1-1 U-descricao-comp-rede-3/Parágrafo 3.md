@@ -5,3 +5,25 @@
 # Resumo
 
 > Um comutador de pacotes encaminha pacotes de entrada para enlaces de saída. Os dois tipos principais de comutadores na Internet são os roteadores e os comutadores de camada de enlace. Os comutadores de camada de enlace são usados em rede de acesso,  enquanto os roteadores são usados no núcleo da rede. A sequência de enlaces e comutadores que um pacote percorre é chamado de rota. Em 2012, a Cisco estimou que o tráfego global da Internet era de cerca de 40 exabytes por mês.
+
+# Pontos importantes
+
+1. **Encaminhamento de pacotes**
+
+Comutadores de pacotes encaminham pacotes de entrada para enlaces de saída.
+
+2. **Tipos de comutadores**
+
+Os principais são roteadores e comutadores de camada de enlace.
+
+3. **Uso de comutadores**
+
+Comutadores de camada de enlace são usados em redes de acesso; roteadores são usados no núcleo da rede.
+
+4. **Rota ou caminho**
+
+A sequência de enlaces e comutadores que um pacote percorre é chamado de rota.
+
+5. **Tráfego na Internet**
+
+Estimativa da Cisco em 2012 indicava cerca de 40 exabytes por mês de tráfego global na Internet.
