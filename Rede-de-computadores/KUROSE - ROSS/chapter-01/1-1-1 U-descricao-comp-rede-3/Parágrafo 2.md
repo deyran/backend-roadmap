@@ -56,7 +56,11 @@ Enlaces que utilizam ondas de rádio podem ser mais suscetíveis a interferênci
 
 ## Envio de dados
 
-O sistem emissor segmenta os dados e adiciona cabeçalhos a cada segmento.
+O sistema emissor segmenta os dados e adiciona cabeçalhos a cada segmento.
+
+- O que é esse "sistema emissor"?
+- Por que os dados têm que ser segmentados?
+- O que é esse cabeçalho adicionado em cada segmento?
 
 ## Pacotes de informação
 
