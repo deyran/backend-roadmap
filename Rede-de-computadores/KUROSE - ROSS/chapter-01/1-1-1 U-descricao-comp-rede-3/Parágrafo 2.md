@@ -58,9 +58,15 @@ Enlaces que utilizam ondas de rádio podem ser mais suscetíveis a interferênci
 
 O sistema emissor segmenta os dados e adiciona cabeçalhos a cada segmento.
 
-- O que é esse "sistema emissor"?
 - Por que os dados têm que ser segmentados?
-- O que é esse cabeçalho adicionado em cada segmento?
+
+Os dados são segmentados pelas seguintes razões:
+
+1. Facilitar a transmissão pela rede.
+2. Permitir o envio de forma eficiente e confiável.
+3. Evitar congestionamento na rede.
+4. Facilitar a detecção e correção de erros.
+5. Evitar retransmissões desnecessárias em caso de falhas
 
 ## Pacotes de informação
 
