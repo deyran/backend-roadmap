@@ -8,11 +8,11 @@
 
 # Pontos importantes
 
-1. **Encaminhamento de pacotes**
+## Encaminhamento de pacotes
 
 > Comutadores de pacotes encaminham pacotes de entrada para enlaces de saída.
 
-2. **Tipos de comutadores**
+## Tipos de comutadores
 
 > Os principais são roteadores e comutadores de camada de enlace.
 
@@ -37,14 +37,14 @@ Utilizam endereço IP para encaminhar pacotes
 
 **Comutadores de camada de enlace**
 
-1. **Uso de comutadores**
+## Uso de comutadores
 
 Comutadores de camada de enlace são usados em redes de acesso; roteadores são usados no núcleo da rede.
 
-4. **Rota ou caminho**
+## Rota ou caminho
 
 A sequência de enlaces e comutadores que um pacote percorre é chamado de rota.
 
-5. **Tráfego na Internet**
+## Tráfego na Internet
 
 Estimativa da Cisco em 2012 indicava cerca de 40 exabytes por mês de tráfego global na Internet.
