@@ -53,12 +53,12 @@ Utilizam endereços MAC para encaminhar pacotes
 
 ## Uso de comutadores
 
-Comutadores de camada de enlace são usados em redes de acesso; roteadores são usados no núcleo da rede.
+> Comutadores de camada de enlace são usados em *redes de acesso*; roteadores são usados no *núcleo da rede*.
 
 ## Rota ou caminho
 
-A sequência de enlaces e comutadores que um pacote percorre é chamado de rota.
+> A sequência de enlaces e comutadores que um pacote percorre é chamado de rota.
 
 ## Tráfego na Internet
 
-Estimativa da Cisco em 2012 indicava cerca de 40 exabytes por mês de tráfego global na Internet.
+> Estimativa da Cisco em 2012 indicava cerca de 40 exabytes por mês de tráfego global na Internet.
