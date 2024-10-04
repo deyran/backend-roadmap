@@ -10,13 +10,34 @@
 
 1. **Encaminhamento de pacotes**
 
-Comutadores de pacotes encaminham pacotes de entrada para enlaces de saída.
+> Comutadores de pacotes encaminham pacotes de entrada para enlaces de saída.
 
 2. **Tipos de comutadores**
 
-Os principais são roteadores e comutadores de camada de enlace.
+> Os principais são roteadores e comutadores de camada de enlace.
 
-3. **Uso de comutadores**
+ *Qual a diferença entre roteadores e comutadores de camada de enlace?*
+
+**Roteadores**
+
+- *Função*
+  
+1. Encaminham pacotes entre diferentes redes.
+2. Determinam o melhor caminho para os pacotes chegarem ao destino final.
+
+- *Uso*
+
+1. Usados principalmente no núcleo da rede.
+2. Conecta várias redes.
+3. Gerencia o tráfego entre as redes
+
+- *Endereçamento*
+
+Utilizam endereço IP para encaminhar pacotes
+
+**Comutadores de camada de enlace**
+
+1. **Uso de comutadores**
 
 Comutadores de camada de enlace são usados em redes de acesso; roteadores são usados no núcleo da rede.
 
