@@ -6,9 +6,8 @@
 
 > Os sistemas finais são interconectados por enlaces de comunicação e comutadores de pacotes. Existem diversos tipos de enlaces (cabos coaxiais, fiba óticas, ondas de rádio, etc), cada um com diferentes taxas de transmissão. Quando um sistema final envia dados a outro, ele segmenta os dados e adiciona cabeçalhos, formando pacotes. Esses pacotes são transmitidos pela rede e remontados no destino para recuperar os dados originais.
 
-# Pontos importantes
 
-## Conexão se Sistemas Finais
+# Conexão se Sistemas Finais
 
 Sistemas finais são conectados por **enlaces de comunicação** e **comutadores de pacotes**.
 
@@ -24,11 +23,11 @@ Comutadores de pacotes (switches) são dispositivos que encaminham pacotes de da
 
 Porque os enlaces de comunicação fornecem os meios físicos e lógicos para transmitir os dados entre os sistemas finais. Já os comutadores gerenciam e direcionam os pacotes de dados através da rede, garantindo a chegada dos mesmos de forma correta e eficiente.
 
-## Tipos de Enlaces
+# Tipos de Enlaces
 
 Existem vários tipos de enlaces de comunicação, como cabos coaxiais, fios de cobre, fibra ótica e ondas de rádio.
 
-## Taxas de transmissão
+# Taxas de transmissão
 
 "Diferentes enlaces podem transmitir dados em diferentes taxas, medidas em bits por segundo (bps)"
 
@@ -54,7 +53,7 @@ Enlaces que utilizam ondas de rádio podem ser mais suscetíveis a interferênci
 - A largura de banda é medida em bits por sengundo (bps).
 - A taxa de largura de banda pode variar dependendo do tipo de meio físico, por exemplo, fibras óticas geralmente têm largura de banda maio do que cabos de cobre.   
 
-## Envio de dados
+# Envio de dados
 
 O sistema emissor segmenta os dados e adiciona cabeçalhos a cada segmento.
 
@@ -68,10 +67,10 @@ Os dados são segmentados pelas seguintes razões:
 4. Facilitar a detecção e correção de erros.
 5. Evitar retransmissões desnecessárias em caso de falhas
 
-## Pacotes de informação
+# Pacotes de informação
 
 Os segmentos formam pacotes, que são enviados pela rede ao sistema final de destino.
 
-## Remotagem dos dados
+# Remotagem dos dados
 
 No destino, os pacotes são remontados para recuperar os dados originais.
