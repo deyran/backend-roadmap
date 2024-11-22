@@ -17,3 +17,7 @@ Todos esses dispositivos são chamados de Hospedeiros ou Sistemas finais, com ce
 # Enlaces de comunicação
 
 Sistemas finais são conectados por enlaces de comunicação, que podem ser cabos coaxiais, fios de cobres, fibras óticas ou ondas de rádio, transmitindo dados em diferentes taxas.
+
+# Pacotes de dados
+
+Dados são segmentados e encapsulados em pacotes com cabeçalhos, enviados através de rede e remontados no destino.
