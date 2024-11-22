@@ -21,3 +21,7 @@ Sistemas finais são conectados por enlaces de comunicação, que podem ser cabo
 # Pacotes de dados
 
 Dados são segmentados e encapsulados em pacotes com cabeçalhos, enviados através de rede e remontados no destino.
+
+# Comutadores de pacotes
+
+Roteadores e comutadores de camada de enlace encaminham pacotes a seus destinos finais, com roteadores no núcleo da rede e comutadores em redes de acesso.
