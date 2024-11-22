@@ -12,4 +12,8 @@ A Internet conecta centenas de milhões de dispositivos, incluindo PCs, servidor
 
 # Hospedeiros ou Sistemas finais
 
-Todos esses dispositivos são chamados de Hospedeiros ou Sistemas finais, com cerca de 850 milhões conectados à internet em 2011 e estimados 2 bilhões de usuários
+Todos esses dispositivos são chamados de Hospedeiros ou Sistemas finais, com cerca de 850 milhões conectados à internet em 2011 e estimados 2 bilhões de usuários.
+
+# Enlaces de comunicação
+
+Sistemas finais são conectados por enlaces de comunicação, que podem ser cabos coaxiais, fios de cobres, fibras óticas ou ondas de rádio, transmitindo dados em diferentes taxas.
