@@ -25,3 +25,7 @@ Dados são segmentados e encapsulados em pacotes com cabeçalhos, enviados atrav
 # Comutadores de pacotes
 
 Roteadores e comutadores de camada de enlace encaminham pacotes a seus destinos finais, com roteadores no núcleo da rede e comutadores em redes de acesso.
+
+# Rota ou caminho
+
+A sequência de enlaces e comutadores que um pacote percorre é chamada de rota ou caminho. O tráfego global da Internet foi estimada em 40 exabytes por mês em 2012.
