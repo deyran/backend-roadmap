@@ -10,3 +10,6 @@ Um comutador de pacotes encaminha o pacote que está chegando em um de seus enla
 
 A Internet conecta centenas de milhões de dispositivos, incluindo PCs, servidores, TVs, laptops, consoles de jogos, celulares, webcams e sistemas diversos.
 
+# Hospedeiros ou Sistemas finais
+
+Todos esses dispositivos são chamados de Hospedeiros ou Sistemas finais, com cerca de 850 milhões conectados à internet em 2011 e estimados 2 bilhões de usuários
