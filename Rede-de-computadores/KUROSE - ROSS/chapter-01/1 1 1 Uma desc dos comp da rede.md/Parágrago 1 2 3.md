@@ -20,7 +20,7 @@ Exemplos de meios físicos de transmissão: cabos coaxiais, fios de cobres, fibr
 
 # Pacotes de dados
 
-Dados são segmentados e encapsulados em pacotes com cabeçalhos, enviados através de rede e remontados no destino.
+Quando um hospedeiro ou sistema finais possui dados para enviar outro sistema final, esses dados são segmentados e encapsulados em *pacotes* com cabeçalhos, enviados através de rede e remontados no destino.
 
 # Comutadores de pacotes
 
