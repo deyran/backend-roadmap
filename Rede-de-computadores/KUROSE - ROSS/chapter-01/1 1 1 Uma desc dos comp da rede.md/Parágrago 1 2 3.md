@@ -10,9 +10,7 @@ Um comutador de pacotes encaminha o pacote que está chegando em um de seus enla
 
 A Internet é uma rede de computadores que interconecta dispositivos de computação ao redor do mundo. Exemplos de dispositivos que estão internectados por meio da Internet: Servidores, Tvs, laptops, consoles de jogos, celulares, webcams e sistemas diversos.
 
-# Hospedeiros ou Sistemas finais
-
-Todos esses dispositivos são chamados de Hospedeiros ou Sistemas finais, com cerca de 850 milhões conectados à internet em 2011 e estimados 2 bilhões de usuários.
+Esses dispositivos são chamados Hospedeiros ou Sistemas finais.
 
 # Enlaces de comunicação
 
