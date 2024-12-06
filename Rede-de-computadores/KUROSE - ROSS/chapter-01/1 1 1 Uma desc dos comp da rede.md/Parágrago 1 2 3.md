@@ -8,7 +8,7 @@ Um comutador de pacotes encaminha o pacote que está chegando em um de seus enla
 
 # Dispositivos conectados
 
-A Internet conecta centenas de milhões de dispositivos, incluindo PCs, servidores, TVs, laptops, consoles de jogos, celulares, webcams e sistemas diversos.
+A Internet é uma rede de computadores que interconecta dispositivos de computação ao redor do mundo. Exemplos de dispositivos que estão internectados por meio da Internet: Servidores, Tvs, laptops, consoles de jogos, celulares, webcams e sistemas diversos.
 
 # Hospedeiros ou Sistemas finais
 
