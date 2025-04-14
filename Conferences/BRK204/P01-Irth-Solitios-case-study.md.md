@@ -1,6 +1,15 @@
 # Irth Solutions case study
 
--Irth-Solitios-case-study.md
+# Tools tech
+
+- ArcGIS
+- Telerik
+- BrowserStack
+- Azure
+- Blazor hybrid
+
+# Script
+
 
 MADDY MONTAQUILA: Hello everybody. Happy final Build session. Are we wake? My goodness, thank you. I was worried. I know day 3 is always the day that everyone's like, "I could stay in bed a little bit longer." Thank you all for coming out and hanging out with us. We have an amazing session today,
 
