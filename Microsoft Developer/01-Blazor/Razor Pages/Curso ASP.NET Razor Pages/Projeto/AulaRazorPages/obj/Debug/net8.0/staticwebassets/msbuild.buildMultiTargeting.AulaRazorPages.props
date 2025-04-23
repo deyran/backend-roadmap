@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AulaRazorPages.props" />
+</Project>

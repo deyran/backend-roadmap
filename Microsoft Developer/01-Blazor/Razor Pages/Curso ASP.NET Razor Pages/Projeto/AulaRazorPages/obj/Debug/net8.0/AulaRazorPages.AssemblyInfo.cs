@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AulaRazorPages")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad6ea547bc97dec9c4f02ada4690c95de9320676")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f75c4f741b38e5be8f195a0159dde0751c2bff68")]
 [assembly: System.Reflection.AssemblyProductAttribute("AulaRazorPages")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AulaRazorPages")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
