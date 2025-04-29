@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PROGRAMACAO\\.nuget\\packages\\": {},
-    "G:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\DEYVIDRANNYERE\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\git-projects\\backend-roadmap\\Microsoft Developer\\01-Blazor\\Razor Pages\\Curso ASP.NET Razor Pages\\Projeto\\AulaRazorPages\\AulaRazorPages.csproj",
+      "projectUniqueName": "C:\\git-projects\\backend-roadmap\\Microsoft Developer\\01-Blazor\\Razor Pages\\Curso ASP.NET Razor Pages\\Projeto\\AulaRazorPages\\AulaRazorPages.csproj",
       "projectName": "AulaRazorPages",
-      "projectPath": "G:\\git-projects\\backend-roadmap\\Microsoft Developer\\01-Blazor\\Razor Pages\\Curso ASP.NET Razor Pages\\Projeto\\AulaRazorPages\\AulaRazorPages.csproj",
-      "packagesPath": "C:\\Users\\PROGRAMACAO\\.nuget\\packages\\",
-      "outputPath": "G:\\git-projects\\backend-roadmap\\Microsoft Developer\\01-Blazor\\Razor Pages\\Curso ASP.NET Razor Pages\\Projeto\\AulaRazorPages\\obj\\",
+      "projectPath": "C:\\git-projects\\backend-roadmap\\Microsoft Developer\\01-Blazor\\Razor Pages\\Curso ASP.NET Razor Pages\\Projeto\\AulaRazorPages\\AulaRazorPages.csproj",
+      "packagesPath": "C:\\Users\\DEYVIDRANNYERE\\.nuget\\packages\\",
+      "outputPath": "C:\\git-projects\\backend-roadmap\\Microsoft Developer\\01-Blazor\\Razor Pages\\Curso ASP.NET Razor Pages\\Projeto\\AulaRazorPages\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "G:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\PROGRAMACAO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DEYVIDRANNYERE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -76,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,49 @@
+# Arquivos e pastas específicos do Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.vtsettings
+*.vcxproj.user
+*.csproj.user
+*.vbproj.user
+*.dbmdl
+*.jfm
+
+# Pastas de build e output
+bin/
+obj/
+publish/
+_PublishedWebsites/
+
+# Pacotes NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+Report.html
+
+# Arquivos de cache e logs
+*.log
+*.vspscc
+*.vssscc
+_ReSharper*/
+*.pid
+
+# Arquivos específicos do SO
+Thumbs.db
+.DS_Store
+
+# Arquivos de configuração local (podem conter informações sensíveis)
+appsettings.Development.json
+usersecrets.json
+
+# Outros (adicione conforme necessário)
+# Exemplos:
+# mycustomlog.txt
+# temp/

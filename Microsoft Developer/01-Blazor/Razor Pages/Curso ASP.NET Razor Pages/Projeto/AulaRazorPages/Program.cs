@@ -1,6 +1,14 @@
 var builder = WebApplication.CreateBuilder(args);
+
+// Registro do serviço Razor Pages
+builder.Services.AddRazorPages();
+// -------------------------------
+
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+// Definindo Rotas
+app.UseRouting();
+app.MapRazorPages();
+// ---------------
 
 app.Run();

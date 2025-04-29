@@ -17,3 +17,25 @@
 2. Properties
 3. appsettings.json
 4. Program.cs
+
+## [Configurar para usar Razor pages](https://youtu.be/uEc4DRQyPYY?t=3658)
+
+No arquivo **Program.cs**, adicione o serviço Razor Pages e definir rotas.
+
+```
+var builder = WebApplication.CreateBuilder(args);
+
+// Registro do serviço Razor Pages
+builder.Services.AddRazorPages();
+// -------------------------------
+
+var app = builder.Build();
+
+// Definindo Rotas
+app.UseRouting();
+app.MapRazorPages();
+// ---------------
+
+app.Run();
+```
+
