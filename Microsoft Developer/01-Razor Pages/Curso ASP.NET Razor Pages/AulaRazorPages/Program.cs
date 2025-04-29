@@ -7,6 +7,7 @@ builder.Services.AddRazorPages();
 var app = builder.Build();
 
 // Definindo Rotas
+app.UseHttpsRedirection();
 app.UseRouting();
 app.MapRazorPages();
 // ---------------

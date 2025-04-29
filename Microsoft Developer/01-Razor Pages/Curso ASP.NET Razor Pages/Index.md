@@ -43,3 +43,7 @@ app.Run();
 ## [Razor Pages e MVC](https://youtu.be/uEc4DRQyPYY?t=3799)
 
 Para as páginas do Razor Pages funcionarem, é necessário criar a pasta **Pages** no diretório raiz e coloca-las dentro desta pasta
+
+## [Primeira página Razor Pages](https://youtu.be/uEc4DRQyPYY?t=3891)
+
+Na pasta Pages, crie o arquivo **Index.cshtml**
