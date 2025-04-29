@@ -32,6 +32,7 @@ builder.Services.AddRazorPages();
 var app = builder.Build();
 
 // Definindo Rotas
+app.UseHttpsRedirection();
 app.UseRouting();
 app.MapRazorPages();
 // ---------------
@@ -39,3 +40,6 @@ app.MapRazorPages();
 app.Run();
 ```
 
+## [Razor Pages e MVC](https://youtu.be/uEc4DRQyPYY?t=3799)
+
+Para as páginas do Razor Pages funcionarem, é necessário criar a pasta **Pages** no diretório raiz e coloca-las dentro desta pasta
