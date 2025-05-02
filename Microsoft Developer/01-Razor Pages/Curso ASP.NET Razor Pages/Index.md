@@ -108,3 +108,7 @@ namespace AulaRazorPages.Pages
 </body>
 </html>
 ```
+
+## [Directiva @page](https://youtu.be/uEc4DRQyPYY?t=4572)
+
+A directiva @page serve para facilitar o roteamento da página.
