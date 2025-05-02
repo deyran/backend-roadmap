@@ -44,6 +44,24 @@ app.Run();
 
 Para as páginas do Razor Pages funcionarem, é necessário criar a pasta **Pages** no diretório raiz e coloca-las dentro desta pasta
 
-## [Primeira página Razor Pages](https://youtu.be/uEc4DRQyPYY?t=3891)
+## [Index.cshtml | Snippets | Bloco de código](https://youtu.be/uEc4DRQyPYY?t=3891)
 
-Na pasta Pages, crie o arquivo **Index.cshtml**
+- Na pasta Pages, crie o arquivo **Index.cshtml**. 
+- Index por padrão é a primeira página, caso queira outra é necessário o roteamento.
+- Usando o Visual Studio, para criar estrutura padrão de página é só digitar **html5**.
+
+## [C# | Bloco de código | Acesso as varáveis](https://youtu.be/uEc4DRQyPYY?t=4069)
+
+- Para acessar o C# na página basta usar o **@**
+- Para criar um se faz assim **@{}**
+- Código abaixo mostra o exemplo
+
+```
+@{
+    var MyFullName = "Deyvid Rannyere de Moraes Costa";
+}
+
+...
+ <h1>@MyFullName</h1>
+...
+```
