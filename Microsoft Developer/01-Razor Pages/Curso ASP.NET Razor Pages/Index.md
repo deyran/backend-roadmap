@@ -65,3 +65,46 @@ Para as páginas do Razor Pages funcionarem, é necessário criar a pasta **Page
  <h1>@MyFullName</h1>
 ...
 ```
+
+## [Acessando o Index.cshtml.cs](https://youtu.be/uEc4DRQyPYY?t=4413)
+
+- In the Index.cshtml.cs file
+
+```
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace AulaRazorPages.Pages
+{
+    public class IndexModel : PageModel
+    {
+        public string MyFullName { get; set; }
+
+        public void OnGet()
+        {
+            MyFullName = "Deyvid Rannyere de Moraes Costa - it comes from code behind";
+        }
+    }
+}
+```
+
+- - In the Index.cshtml file
+
+```
+@page
+@model AulaRazorPages.Pages.IndexModel
+
+@{
+    var mTitle = Model.MyFullName;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@mTitle</title>
+</head>
+<body>
+    <h1>@mTitle</h1>
+</body>
+</html>
+```

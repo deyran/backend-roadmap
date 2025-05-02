@@ -2,7 +2,7 @@
 @model AulaRazorPages.Pages.IndexModel
 
 @{
-    var mTitle = "My first App";
+    var mTitle = Model.MyFullName;
 }
 
 <!DOCTYPE html>
@@ -11,6 +11,6 @@
     <title>@mTitle</title>
 </head>
 <body>
-    <h1>@mTitle - Deyvid Rannyere de Moraes Costa</h1>
+    <h1>@mTitle</h1>
 </body>
 </html>
