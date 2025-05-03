@@ -1,0 +1,23 @@
+﻿@page "/movies"
+@model AulaRazorPages.Pages.MoviesModel
+
+@{
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List of the 10 best movies in 2024</title>
+</head>
+<body>
+    <ul>
+        @foreach (var filme in Model.MelhoresFilmes2024)
+        {
+        <li>@filme</li>
+        }
+    </ul>
+
+    <a href="\">BACK</a>
+</body>
+</html>

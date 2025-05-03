@@ -2,7 +2,7 @@
 @model AulaRazorPages.Pages.IndexModel
 
 @{
-    var mTitle = Model.MyFullName;
+    var mTitle = Model.MyTitleTest;
 }
 
 <!DOCTYPE html>
@@ -12,5 +12,7 @@
 </head>
 <body>
     <h1>@mTitle</h1>
+
+    <a href="/movies">The best 10 movies in 2024</a>
 </body>
 </html>
