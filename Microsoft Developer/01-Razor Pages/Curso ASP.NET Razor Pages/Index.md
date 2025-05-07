@@ -114,3 +114,18 @@ namespace AulaRazorPages.Pages
 A directiva @page serve para facilitar o roteamento da página.
 
 ## [Conteúdo dinâmico](https://youtu.be/uEc4DRQyPYY?t=4931)
+
+1. Bibliotecas
+
+- Entity Framework Core
+- Entity Framework Core InMemory
+- Slugify
+
+2. Criar a pasta Data
+
+- Movie.cs
+- MoviesContent.cs
+
+3. AAAA
+4. 
+https://youtu.be/uEc4DRQyPYY?t=6010
