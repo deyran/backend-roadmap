@@ -3,16 +3,8 @@
 
 @{
     var mTitle = Model.MyTitleTest;
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>@mTitle</title>
-</head>
-<body>
-    <h1>@mTitle</h1>
-
-    <a href="/movies">The best 10 movies in 2024</a>
-</body>
-</html>
+<h1>@mTitle</h1>
+<a href="/movies">The best 10 movies in 2024</a>

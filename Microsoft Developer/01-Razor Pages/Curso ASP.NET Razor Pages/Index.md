@@ -128,7 +128,43 @@ A directiva @page serve para facilitar o roteamento da página.
 
 3. Esse código está rodando em SSR. Razor Page não é SPA
    
-- SPA (Sinlge Pages Application) não tem a necessidade de carregar tudo
-4. 
+- SPA (Sinlge Pages Application) não tem a necessidade de carregar tudo 
 
-https://youtu.be/uEc4DRQyPYY?t=6080
+## [Layout](https://youtu.be/uEc4DRQyPYY?t=6225)
+
+O Layout define a estrutura padrão das páginas do site
+
+1. Na pasta **Pages**, crie uma pasta chamada **Shared**
+2. Adicione uma view vazia (Razor View - Empty), chamada _Layout.cshtml, gere o seguinte código:
+
+```
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>
+```
+
+4. Atualize a página Index.cshtml da seguinte forma:
+   
+```
+@page
+@model AulaRazorPages.Pages.IndexModel
+
+@{
+    var mTitle = Model.MyTitleTest;
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>@mTitle</h1>
+<a href="/movies">The best 10 movies in 2024</a>
+```
+
+5. https://youtu.be/uEc4DRQyPYY?t=6511

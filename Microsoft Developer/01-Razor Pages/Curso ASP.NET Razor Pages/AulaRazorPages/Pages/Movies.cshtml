@@ -2,22 +2,14 @@
 @model AulaRazorPages.Pages.MoviesModel
 
 @{
-
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>List of the 10 best movies in 2024</title>
-</head>
-<body>
-    <ul>
-        @foreach (var filme in Model.MelhoresFilmes2024)
-        {
+<ul>
+    @foreach (var filme in Model.MelhoresFilmes2024)
+    {
         <li>@filme</li>
-        }
-    </ul>
+    }
+</ul>
 
-    <a href="\">BACK</a>
-</body>
-</html>
+<a href="\">BACK</a>
