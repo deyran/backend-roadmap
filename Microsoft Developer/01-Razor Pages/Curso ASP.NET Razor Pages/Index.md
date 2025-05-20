@@ -126,6 +126,9 @@ A directiva @page serve para facilitar o roteamento da página.
 - Movie.cs
 - MoviesContent.cs
 
-3. AAAA
+3. Esse código está rodando em SSR. Razor Page não é SPA
+   
+- SPA (Sinlge Pages Application) não tem a necessidade de carregar tudo
 4. 
-https://youtu.be/uEc4DRQyPYY?t=6010
+
+https://youtu.be/uEc4DRQyPYY?t=6080
