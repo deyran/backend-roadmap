@@ -2,8 +2,10 @@
 @model AulaRazorPages.Pages.MoviesModel
 
 @{
-    
+    ViewData["Title"] = "Melhores Filmes de 2024";
 }
+
+<h2>@ViewData["Title"]</h2>
 
 <ul>
     @foreach (var filme in Model.MelhoresFilmes2024)

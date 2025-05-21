@@ -2,7 +2,10 @@
 @model AulaRazorPages.Pages.IndexModel
 
 @{
-    var mTitle = Model.MyTitleTest;    
+    var mTitle = Model.MyTitleTest;
+
+    ViewData["Title"] = mTitle;
+
 }
 
 <h1>@mTitle</h1>
