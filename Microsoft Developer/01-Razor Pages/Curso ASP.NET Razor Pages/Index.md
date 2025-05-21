@@ -167,4 +167,8 @@ O Layout define a estrutura padrão das páginas do site
 <a href="/movies">The best 10 movies in 2024</a>
 ```
 
-5. https://youtu.be/uEc4DRQyPYY?t=6511
+## [_ViewStart](https://youtu.be/uEc4DRQyPYY?t=6511)
+
+O arquivo *_ViewStart.cshtml* tem como principal objetivo definir o layout padrão que será utilizados em todas as páginas Razor do mesmo diretório (e seus subdiretórios) onde o arquivo *_ViewStart.cshtml* está localizado.
+
+O arquivo *_ViewStart.cshtml* na pasta raiz *Pages* geralmente define o layout principal da aplicação.
