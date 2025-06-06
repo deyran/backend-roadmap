@@ -169,9 +169,19 @@ O Layout define a estrutura padrão das páginas do site
 
 ## [_ViewStart](https://youtu.be/uEc4DRQyPYY?t=6511)
 
-O arquivo *_ViewStart.cshtml* tem como principal objetivo definir o layout padrão que será utilizados em todas as páginas Razor do mesmo diretório (e seus subdiretórios) onde o arquivo *_ViewStart.cshtml* está localizado.
+- O arquivo *_ViewStart.cshtml* tem como principal objetivo definir o layout padrão que será utilizados em todas as páginas Razor do mesmo diretório (e seus subdiretórios) onde o arquivo *_ViewStart.cshtml* está localizado.
 
-O arquivo *_ViewStart.cshtml* na pasta raiz *Pages* geralmente define o layout principal da aplicação.
+- Essa abordagem centraliza a configuração do Layout para várias páginas, evitando que você precise defini-lo individualmente em cada uma. Dessa forma, se o Layout mudar, a alteração é feita em apenas um local, no _ViewStart.cshtml, e se aplica automaticamente a todas as páginas
 
+- Na prática, funciona da seguinte forma:
 
-https://youtu.be/uEc4DRQyPYY?t=6694
+1. No diretório *Pages*, crie o arquivo *_Layout.cshtml*.
+2. Para centralizar a configuração do Layout escreva o seguinte código no arquivo *_Layout.cshtml*:
+
+```
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+```
+
+3. Feito isso, basta eliminar qualquer referência de Layout nas demais páginas.
