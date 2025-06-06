@@ -185,3 +185,38 @@ O Layout define a estrutura padrão das páginas do site
 ```
 
 3. Feito isso, basta eliminar qualquer referência de Layout nas demais páginas.
+
+## [ViewData](https://youtu.be/uEc4DRQyPYY?t=6617)
+
+Resumidamente é usado para transporte de dados.
+
+1. No arquivo *_Layout.cshtml*
+
+```
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>
+```
+
+2. No arquivo *Index.cshtml*
+
+```
+@page
+@model AulaRazorPages.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Novo título";
+
+}
+
+<h1>Teste do ViewData</h1>
+```
