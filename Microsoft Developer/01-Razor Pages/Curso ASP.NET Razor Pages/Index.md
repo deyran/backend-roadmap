@@ -220,3 +220,46 @@ Resumidamente é usado para transporte de dados.
 
 <h1>Teste do ViewData</h1>
 ```
+
+## [Modarização das páginas](https://youtu.be/uEc4DRQyPYY?t=6853)
+
+1. **Estrutura de páginas**
+   
+- Razor pages é baseado em pastas. Por padrão, todas as páginas estão na pasta **Pages**
+- É possível criar subpastas para agrupar páginas relacionadas por funcionalidades
+
+```
+/Pages
+    /Produtos
+        Index.cshtml
+        Create.cshtml
+        Edit.cshtml
+    /Clientes
+        Index.cshtml
+        Details.cshtml
+    /Pedidos
+        Index.cshtml
+```
+
+2. **Áreas (Areas)**
+
+**Areas** permite que a aplicação seja divida em seções funcionais indepententes, como pode ser visto no exemplo abaixo:
+
+```
+/Areas
+    /Admin
+        /Pages
+            _ViewImports.cshtml
+            _ViewStart.cshtml
+            Index.cshtml
+            Users.cshtml
+    /Marketing
+        /Pages
+            _ViewImports.cshtml
+            _ViewStart.cshtml
+            Campaigns.cshtml
+            Leads.cshtml
+/Pages (páginas globais, não pertencentes a uma área específica)
+    Index.cshtml
+    Privacy.cshtml
+```
