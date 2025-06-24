@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace AulaRazorPages.Pages
+namespace AulaRazorPages.Pages.Movies
 {
-    public class MoviesModel : PageModel
+    public class IndexModel : PageModel
     {
-
         public string[] MelhoresFilmes2024 = new string[]
         {
             "Robot Dreams",
@@ -19,6 +18,7 @@ namespace AulaRazorPages.Pages
             "Still Here",
             "Dune: Part Two"
         };
+
 
         public void OnGet()
         {

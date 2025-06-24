@@ -88,7 +88,7 @@ namespace AulaRazorPages.Pages
 }
 ```
 
-- - In the Index.cshtml file
+- In the Index.cshtml file
 
 ```
 @page
@@ -135,7 +135,7 @@ A directiva @page serve para facilitar o roteamento da página.
 O Layout define a estrutura padrão das páginas do site
 
 1. Na pasta **Pages**, crie uma pasta chamada **Shared**
-2. Adicione uma view vazia (Razor View - Empty), chamada _Layout.cshtml, gere o seguinte código:
+2. Adicione uma view vazia (Razor View - Empty), chamada **_Layout.cshtml**, gere o seguinte código:
 
 ```
 <!DOCTYPE html>
@@ -171,12 +171,12 @@ O Layout define a estrutura padrão das páginas do site
 
 - O arquivo *_ViewStart.cshtml* tem como principal objetivo definir o layout padrão que será utilizados em todas as páginas Razor do mesmo diretório (e seus subdiretórios) onde o arquivo *_ViewStart.cshtml* está localizado.
 
-- Essa abordagem centraliza a configuração do Layout para várias páginas, evitando que você precise defini-lo individualmente em cada uma. Dessa forma, se o Layout mudar, a alteração é feita em apenas um local, no _ViewStart.cshtml, e se aplica automaticamente a todas as páginas
+- Essa abordagem centraliza a configuração do Layout para várias páginas, evitando que você precise defini-lo individualmente em cada uma. Dessa forma, se o Layout mudar, a alteração é feita em apenas um local, no **_ViewStart.cshtml**, e se aplica automaticamente a todas as páginas
 
 - Na prática, funciona da seguinte forma:
 
-1. No diretório *Pages*, crie o arquivo *_Layout.cshtml*.
-2. Para centralizar a configuração do Layout escreva o seguinte código no arquivo *_Layout.cshtml*:
+1. No diretório *Pages*, crie o arquivo *_ViewStart.cshtml*.
+2. Para centralizar a configuração do Layout escreva o seguinte código no arquivo *_ViewStart.cshtml*:
 
 ```
 @{
@@ -263,3 +263,5 @@ Resumidamente é usado para transporte de dados.
     Index.cshtml
     Privacy.cshtml
 ```
+
+https://youtu.be/uEc4DRQyPYY?t=6856
