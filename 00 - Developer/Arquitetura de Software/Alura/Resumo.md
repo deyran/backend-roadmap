@@ -18,7 +18,7 @@
     - Quais partes de um sistem podem acesso a determinada base de dados.
     - Etc.
 
-- *Trade-offs (Compromissos)*: É uma equilibrio dos itens abaixo
+- *Trade-offs (Compromissos)*: É uma equilibrio entre **Benefícios** e **Pontos negativos**
 
     - Benefícios de uma tecnologia para o que precisa ser feito
     - Pontos negativos da tecnologia
@@ -27,7 +27,6 @@
         - Tempo de desenvolvimento.
         - A equipe está madura para implementar e manter essa tecnologia?
         - O Domínio de negocio precisa dessa tecnologia?
+        - Existem questões legais?
 
-https://youtu.be/4svHZWR-_OE?t=183
-
-Fatores de Decisão: Inclui o tempo de desenvolvimento, maturidade do time e questões legais.
+- *Fatores de Decisão*: Inclui o tempo de desenvolvimento, maturidade do time e questões legais.
