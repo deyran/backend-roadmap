@@ -51,5 +51,8 @@
     - Tempo, time, custos, etc.
     - A ferramenta que resolve é cara.
     - A ferramenta que aumenta a eficiência é difícil de implementar. 
+    - Toda arquitetura que parece não ter trade-off é porque não foi identificado.
 
 Garantia de Padrões: Assegura que o time siga as diretrizes estabelecidas para evitar problemas de performance ou manutenção no futuro.
+
+https://youtu.be/4svHZWR-_OE?t=329
