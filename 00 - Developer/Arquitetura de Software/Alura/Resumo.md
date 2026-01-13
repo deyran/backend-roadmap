@@ -6,10 +6,7 @@
 - Solução estruturada para as necessidades técnicas ou operacionais baseado no domício do negócio.
 - Alinha o desenvolvimento ao roadmap da empresa já prevendo eventuais mudanças.
 
-# BackEnd-Roadmap
-## Developer
-### Arquitetura de Software
-#### Fatores de Decisões Arquiteturais
+## Fatores de Decisões Arquiteturais
 
 - *Características do Sistema*: Escalabilidade, Manutenabilidade e Confiabilidade.
 - *Restrições (Constraints)*: O que pode ou não ser feito num sistema e de que forma
