@@ -27,3 +27,29 @@
         - Existem questões legais?
 
 - *Fatores de Decisão*: Inclui o tempo de desenvolvimento, maturidade do time e questões legais.
+
+# BackEnd-Roadmap
+## Developer
+### Arquitetura de Software
+#### O Papel do Arquiteto de Software
+
+- *Decisões de arquitetura*: Para uma equipe ou várias equipes; Produto; Empresa.
+
+- *Visão Macro*: Como os dados são armazenados; Como o sistema se comunica; Estrutura do sistema.
+
+- *Bala de Prata*: 
+    
+    - Não existe solução para todos os problemas. 
+    - Cada produto, negócio, sistema e momento são únicos.
+    - Portanto decisões são únicas.
+
+- *Análise de Impacto*: Um mudança em uma camada pode afetar o ecossistema do software.
+
+- *trade-off*: 
+
+    - Tudo em arquitetura é um trade-off.
+    - Tempo, time, custos, etc.
+    - A ferramenta que resolve é cara.
+    - A ferramenta que aumenta a eficiência é difícil de implementar. 
+
+Garantia de Padrões: Assegura que o time siga as diretrizes estabelecidas para evitar problemas de performance ou manutenção no futuro.
