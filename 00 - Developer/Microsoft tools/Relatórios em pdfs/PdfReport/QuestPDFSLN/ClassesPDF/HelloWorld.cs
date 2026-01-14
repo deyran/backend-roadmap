@@ -1,6 +1,9 @@
 ﻿using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
+using System;
+using System.Diagnostics;
+using System.IO;
 
 namespace QuestPDFSLN.ClassesPDF
 {
@@ -24,8 +27,22 @@ namespace QuestPDFSLN.ClassesPDF
                         .Text("Hello, World!");
                 });
             });
-            document.GeneratePdf("HelloWorld.pdf");
-        }
 
+            // 1. Define um caminho temporário seguro
+            string fileName = $"Relatorio_{Guid.NewGuid()}.pdf";
+            string filePath = Path.Combine(Path.GetTempPath(), fileName);
+            
+
+            // 2. Gera o arquivo
+            document.GeneratePdf(filePath);
+
+            // 3. Comando para abrir o arquivo no leitor padrão (Windows)
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = filePath,
+                UseShellExecute = true // Importante para abrir via shell do Windows
+            });
+
+        }
     }
 }
