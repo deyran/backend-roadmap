@@ -54,3 +54,15 @@
 
     - É necessário assegurar que a equipe esteja seguindo as decisões de arquitetura e design.
     - Qualquer solução improvisada pode comprometer toda a estrutura do sistema.
+
+# BackEnd-Roadmap
+## Developer
+### Arquitetura de Software
+#### Habilidades Essenciais Além do Técnico
+
+- *Domínio de Negócio*: Conhecimento do negócio é a base para implementação de uma solução sólida.
+- *Comunicação e negociação*: Parte técnica, Stakeholders, Usuários, Clientes, etc.
+
+Negociação: Habilidade essencial para explicar e validar decisões técnicas para áreas não técnicas, como financeiro e marketing.
+
+https://youtu.be/4svHZWR-_OE?t=438
