@@ -28,10 +28,7 @@
 
 - *Fatores de Decisão*: Inclui o tempo de desenvolvimento, maturidade do time e questões legais.
 
-# BackEnd-Roadmap
-## Developer
-### Arquitetura de Software
-#### O Papel do Arquiteto de Software
+## O Papel do Arquiteto de Software
 
 - *Decisões de arquitetura*: Para uma equipe ou várias equipes; Produto; Empresa.
 
@@ -53,6 +50,7 @@
     - A ferramenta que aumenta a eficiência é difícil de implementar. 
     - Toda arquitetura que parece não ter trade-off é porque não foi identificado.
 
-Garantia de Padrões: Assegura que o time siga as diretrizes estabelecidas para evitar problemas de performance ou manutenção no futuro.
+- *Arquitetura estabelecida*: 
 
-https://youtu.be/4svHZWR-_OE?t=329
+    - É necessário assegurar que a equipe esteja seguindo as decisões de arquitetura e design.
+    - Qualquer solução improvisada pode comprometer toda a estrutura do sistema.
