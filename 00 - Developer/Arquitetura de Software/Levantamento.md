@@ -4,6 +4,10 @@
 
     https://youtu.be/pbUS-1-cjqk?si=ajCt8FKAA5Tnh_sJ
 
+
+
+
+
 - Arquitetura De Software #1 - Arquitetura Em Camadas
 
     https://www.youtube.com/watch?v=wEUwn-WFhKM
