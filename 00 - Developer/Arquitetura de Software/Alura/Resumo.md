@@ -81,3 +81,20 @@
     - **Manutenabilidade**: Modularidade; Reutilização desses módulos; Testabilidade.
     - **Escalabilidade**: Crescimento de forma sustentável.
     - Etc.
+
+## Trilha de Estudos para Iniciantes
+
+- Paradigmas de programação.
+- Padrões de qualidade de código.
+- Princípios de design de código.
+- Algoritmos e Estrutura de dados.
+- Bancos de dados.
+- APIs.
+- Cloud.
+- Conteinerização.
+- Princípios de Devops.
+
+- Padrões de design.
+- Refatoração.
+- Padrões de arquitetura de Software.
+- Domínio de Negócio e Produto.
