@@ -59,3 +59,25 @@
 
 - *Domínio de Negócio*: Conhecimento do negócio é a base para implementação de uma solução sólida.
 - *Comunicação e negociação*: Explicação e validação para parte técnica, Stakeholders, Usuários, Clientes, etc.
+
+## Padrões e Características Técnicas
+
+- **Modelos de Arquitetura**: 
+
+    - Arquitetura em camadas.
+    - Arquitetura baseada em eventos.
+    - Monolito e Monolito distribuído.
+    - Arquitetura Servless.
+    - Arquitetura Baseada em Nuvem.
+    - Arquitetura de Microsserviço.
+    - Etc.
+
+- **Escolha do melhor padrão de arquitetura**:
+
+    - **Performance**: Como o sistema utiliza os recursos que tem.
+    - **Usabilidade**: Facilidade com que seus usuários podem alcançar seus objetivos.
+    - **Confiabilidade**: Disponibilidade; Tolerância a falhas; Como se recupera após uma falha.
+    - **Segurança**: Integridade; Confidencialidade dos dados.
+    - **Manutenabilidade**: Modularidade; Reutilização desses módulos; Testabilidade.
+    - **Escalabilidade**: Crescimento de forma sustentável.
+    - Etc.
