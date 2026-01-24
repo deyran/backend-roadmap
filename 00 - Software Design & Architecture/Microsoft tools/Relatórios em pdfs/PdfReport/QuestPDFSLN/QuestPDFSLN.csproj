@@ -63,6 +63,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Documentos\contrato-estudo-dirigido.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Img\IntellectusVitaLogo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
