@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="ClassesPDF\HeaderFooterImg.cs" />
     <Compile Include="ClassesPDF\HelloWorld.cs" />
+    <Compile Include="Entities\Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

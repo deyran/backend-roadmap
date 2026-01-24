@@ -11,6 +11,21 @@ namespace QuestPDFSLN.ClassesPDF
 {
     public class HeaderFooterImg
     {
+        
+        private string TextoConteudo01 = @"CONTRATANTE: _NOME_, _CPF_ CONTRATADO: Espaço Cultural Intellectus Vita LTDA, CNPJ Nº 27.219.858/0001-06. OBJETO DO CONTRATO: Prestação de serviços educacionais sob o título ""Estudo Dirigido"". VALOR: R$ 200.00 por disciplina. DURAÇÃO: 2 meses.";
+
+        private string TextoConteudo02 = @"CLÁUSULAS: Objeto do Contrato: O CONTRATANTE contrata o CONTRATADO para a prestação de serviços educacionais denominados ""Estudo Dirigido"", conforme especificado no presente contrato.";
+
+        private string TextoConteudo03 = @"1. Valor: O valor total deste contrato é de R$ 100.00 por disciplina, devidamente pago pelo CONTRATANTE ao CONTRATADO.";
+
+        private string TextoConteudo04 = @"2. Duração: O contrato tem duração de 2 meses, a partir da data estipulada pelo CONTRATADO.";
+
+        private string TextoConteudo05 = @"3. Obrigações do CONTRATADO: O CONTRATADO se compromete a ministrar as aulas conforme o cronograma estipulado pelo CONTRATADO, com a qualidade esperada e dentro dos termos deste contrato.";
+
+        private string TextoConteudo06 = @"4. Obrigações do CONTRATANTE: O CONTRATANTE se compromete a pagar o valor acordado e a cumprir com todas as obrigações estabelecidas neste contrato.";
+
+        private string TextoConteudo07 = @"5. A disciplina(s) a ser ministrada pelo CONTRATADO: Ciências, Físicas e Biológicas (C.F.B), totalizando R$ 100.00.";
+        
         public void gerarDocumento()
         {
             QuestPDF.Settings.License = LicenseType.Community;
@@ -87,13 +102,11 @@ namespace QuestPDFSLN.ClassesPDF
         {
             page.Content().PaddingVertical(20).PaddingLeft(20).PaddingRight(20).Column(column =>
             {
-                string TextBasePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Documentos", "contrato-estudo-dirigido.txt");
-                string TextoBase = File.ReadAllText(TextBasePath, Encoding.UTF8);
 
                 foreach (var nome in nomes)
                 {
                     // Substitui o marcador pelo nome da iteração atual
-                    string TextoContrato = TextoBase.Replace("_NOME_", nome);
+                    string TextoContrato = TextoConteudo01.Replace("_NOME_", nome);
 
                     column.Item().Column(itemColumn =>
                     {
