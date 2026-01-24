@@ -14,7 +14,7 @@ namespace QuestPDFSLN.ClassesPDF
     public class HeaderFooterImg
     {
 
-        private string TextoConteudo01 = @"CONTRATANTE: _NOME_, _CPF_ CONTRATADO: Espaço Cultural Intellectus Vita LTDA, CNPJ Nº 27.219.858/0001-06. OBJETO DO CONTRATO: Prestação de serviços educacionais sob o título ""Estudo Dirigido"". VALOR: R$ 200.00 por disciplina. DURAÇÃO: 2 meses.";
+        private string TextoConteudo01 = @"CONTRATANTE: _NOME_, _CPF_ CONTRATADO: Espaço Cultural Intellectus Vita LTDA, CNPJ Nº 27.219.858/0001-06. OBJETO DO CONTRATO: Prestação de serviços educacionais sob o título ""Estudo Dirigido"".";
 
         private string TextoConteudo02 = @"CLÁUSULAS: Objeto do Contrato: O CONTRATANTE contrata o CONTRATADO para a prestação de serviços educacionais denominados ""Estudo Dirigido"", conforme especificado no presente contrato.";
 
@@ -29,14 +29,14 @@ namespace QuestPDFSLN.ClassesPDF
         private string TextoConteudo07 = @"5. A disciplina(s) a ser ministrada pelo CONTRATADO: Ciências, Físicas e Biológicas (C.F.B), totalizando R$ 100.00.";
 
         private string Assinaturas = @"
-        -------------------------------------
+        ───────────────────────────────────────
         CONTRATANTE
 
 
 
 
 
-        -------------------------------------
+        ───────────────────────────────────────
         CONTRATADO";
 
         private string DataContrato = $"Belém, {DateTime.Now:dd} de {DateTime.Now.ToString("MMMM", new CultureInfo("pt-BR"))} de {DateTime.Now:yyyy}";
@@ -50,7 +50,6 @@ namespace QuestPDFSLN.ClassesPDF
             string filePath = SalvarEObterCaminho(documento);
             AbrirDocumento(filePath);
         }
-
 
         // --- DADOS ---
         private List<Pessoa> ObterPessoas() => new List<Pessoa>
@@ -77,6 +76,7 @@ namespace QuestPDFSLN.ClassesPDF
             }
         };
 
+
         // --- ESTRUTURA DO LAYOUT ---
         private IDocument MontarLayout()
         {
@@ -98,7 +98,6 @@ namespace QuestPDFSLN.ClassesPDF
             });
         }
 
-
         // --- HEADER ---
         private void criarHeader(PageDescriptor page, string caminhoLogo)
         {
@@ -115,7 +114,6 @@ namespace QuestPDFSLN.ClassesPDF
                     .SemiBold();
             });
         }
-
 
         // --- CONTENT ---
         private void criarContent(PageDescriptor page)
@@ -240,7 +238,6 @@ namespace QuestPDFSLN.ClassesPDF
             });
 
         }
-
 
         // --- FOOTER ---
         private void CriarFooter(PageDescriptor page)
