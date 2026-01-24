@@ -7,17 +7,7 @@ namespace QuestPDFSLN.Entities
         public string Nome { get; set; }
         public string CPF { get; set; }
                 
-        private List<string> Disciplinas = new List<string>();
-
-
-        public List<string> Disciplina(string disciplina)
-        {
-            if (!string.IsNullOrWhiteSpace(disciplina))
-            {
-                Disciplinas.Add(disciplina);
-            }
-
-            return Disciplinas;
-        }
+        public List<string> Disciplinas = new List<string>();
+       
     }
 }

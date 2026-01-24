@@ -1,17 +1,19 @@
-﻿using QuestPDF.Fluent;
-using QuestPDF.Helpers;
-using QuestPDF.Infrastructure;
-using System;
-using System.Diagnostics;
+﻿using System;
 using System.IO;
 using System.Linq;
-using System.Text;
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using System.Diagnostics;
+using QuestPDFSLN.Entities;
+using System.Globalization;
+using QuestPDF.Infrastructure;
+using System.Collections.Generic;
 
 namespace QuestPDFSLN.ClassesPDF
 {
     public class HeaderFooterImg
     {
-        
+
         private string TextoConteudo01 = @"CONTRATANTE: _NOME_, _CPF_ CONTRATADO: Espaço Cultural Intellectus Vita LTDA, CNPJ Nº 27.219.858/0001-06. OBJETO DO CONTRATO: Prestação de serviços educacionais sob o título ""Estudo Dirigido"". VALOR: R$ 200.00 por disciplina. DURAÇÃO: 2 meses.";
 
         private string TextoConteudo02 = @"CLÁUSULAS: Objeto do Contrato: O CONTRATANTE contrata o CONTRATADO para a prestação de serviços educacionais denominados ""Estudo Dirigido"", conforme especificado no presente contrato.";
@@ -25,40 +27,58 @@ namespace QuestPDFSLN.ClassesPDF
         private string TextoConteudo06 = @"4. Obrigações do CONTRATANTE: O CONTRATANTE se compromete a pagar o valor acordado e a cumprir com todas as obrigações estabelecidas neste contrato.";
 
         private string TextoConteudo07 = @"5. A disciplina(s) a ser ministrada pelo CONTRATADO: Ciências, Físicas e Biológicas (C.F.B), totalizando R$ 100.00.";
-        
+
+        private string Assinaturas = @"
+        -------------------------------------
+        CONTRATANTE
+
+
+
+
+
+        -------------------------------------
+        CONTRATADO";
+
+        private string DataContrato = $"Belém, {DateTime.Now:dd} de {DateTime.Now.ToString("MMMM", new CultureInfo("pt-BR"))} de {DateTime.Now:yyyy}";
+
         public void gerarDocumento()
         {
             QuestPDF.Settings.License = LicenseType.Community;
 
-            var nomes = ObterDados();
-            var documento = MontarLayout(nomes);
-            
+            var documento = MontarLayout();
+
             string filePath = SalvarEObterCaminho(documento);
             AbrirDocumento(filePath);
         }
 
 
         // --- DADOS ---
-        private string[] ObterDados()
+        private List<Pessoa> ObterPessoas() => new List<Pessoa>
         {
-            return new[]
+            new Pessoa
             {
-                "Deyvid Rannyere de Moraes Costa",
-                "Márcia Costa da Silva de Moraes",
-                "Lara Hellena Costa de Moraes",
-                "XXX XXX XXX XXX",
-                "YYY YYY YYY YYY",
-                "ZZZ ZZZ ZZZ ZZZ",
-                "AAA AAA AAA AAA",
-                "BBB BBB BBB BBB",
-                "CCC CCC CCC CCC",
-                "DDD DDD DDD DDD"
-            };
-        }
+                Nome = "Deyvid Rannyere de Moraes Costa",
+                CPF = "AAA.AAA.AAA-AA",
+                Disciplinas = new List<string>{ "Ciências", "Físicas", "Biológicas" }
+            },
 
+            new Pessoa
+            {
+                Nome = "Lara Hellena Costa de Moraes",
+                CPF = "BBB.BBB.BBB-BB",
+                Disciplinas = new List<string>{ "Português", "Inglês", "Matemática" }
+            },
+
+            new Pessoa
+            {
+                Nome = "Márcia Costa Silva de Moraes",
+                CPF = "CCC.CCC.CCC-CC",
+                Disciplinas = new List<string>{ "Português", "Inglês", "Matemática" }
+            }
+        };
 
         // --- ESTRUTURA DO LAYOUT ---
-        private IDocument MontarLayout(string[] nomes)
+        private IDocument MontarLayout()
         {
             string caminhoLogo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Img", "IntellectusVitaLogo.png");
 
@@ -72,7 +92,7 @@ namespace QuestPDFSLN.ClassesPDF
                     page.DefaultTextStyle(x => x.FontSize(12));
 
                     criarHeader(page, caminhoLogo);
-                    criarContent(page, nomes);
+                    criarContent(page);
                     CriarFooter(page);
                 });
             });
@@ -98,31 +118,125 @@ namespace QuestPDFSLN.ClassesPDF
 
 
         // --- CONTENT ---
-        private void criarContent(PageDescriptor page, string[] nomes)
+        private void criarContent(PageDescriptor page)
         {
             page.Content().PaddingVertical(20).PaddingLeft(20).PaddingRight(20).Column(column =>
             {
 
-                foreach (var nome in nomes)
+                int contarPessoa = 0;
+
+                foreach (var pessoa in ObterPessoas())
                 {
-                    // Substitui o marcador pelo nome da iteração atual
-                    string TextoContrato = TextoConteudo01.Replace("_NOME_", nome);
+                    var TextoContrato = TextoConteudo01
+                                        .Replace("_NOME_", pessoa.Nome)
+                                        .Replace("_CPF_", pessoa.CPF);
 
                     column.Item().Column(itemColumn =>
                     {
                         itemColumn.Item()
+                            .PaddingTop(15)
                             .Text(TextoContrato)
                             .FontFamily("Courier New")
-                            .FontSize(12)                            
+                            .FontSize(12)
                             .Justify();
                     });
 
-                    if (nome != nomes.Last())
+                    column.Item().Column(itemColumn =>
+                    {
+                        itemColumn.Item()
+                            .PaddingTop(15)
+                            .Text(TextoConteudo02)
+                            .FontFamily("Courier New")
+                            .FontSize(12)
+                            .Justify();
+                    });
+
+                    column.Item().Column(itemColumn =>
+                    {
+                        itemColumn.Item()
+                            .PaddingTop(10)
+                            .PaddingLeft(20)
+                            .Text(TextoConteudo03)
+                            .FontFamily("Courier New")
+                            .FontSize(12)
+                            .Justify();
+                    });
+
+
+                    column.Item().Column(itemColumn =>
+                    {
+                        itemColumn.Item()
+                            .PaddingTop(10)
+                            .PaddingLeft(20)
+                            .Text(TextoConteudo04)
+                            .FontFamily("Courier New")
+                            .FontSize(12)
+                            .Justify();
+                    });
+
+                    column.Item().Column(itemColumn =>
+                    {
+                        itemColumn.Item()
+                            .PaddingTop(10)
+                            .PaddingLeft(20)
+                            .Text(TextoConteudo05)
+                            .FontFamily("Courier New")
+                            .FontSize(12)
+                            .Justify();
+                    });
+
+                    column.Item().Column(itemColumn =>
+                    {
+                        itemColumn.Item()
+                            .PaddingTop(10)
+                            .PaddingLeft(20)
+                            .Text(TextoConteudo06)
+                            .FontFamily("Courier New")
+                            .FontSize(12)
+                            .Justify();
+                    });
+
+
+                    column.Item().Column(itemColumn =>
+                    {
+                        itemColumn.Item()
+                            .PaddingTop(10)
+                            .PaddingLeft(20)
+                            .Text(TextoConteudo07)
+                            .FontFamily("Courier New")
+                            .FontSize(12)
+                            .Justify();
+                    });
+
+
+                    column.Item().Column(itemColumn =>
+                    {
+                        itemColumn.Item()
+                            .PaddingTop(35)
+                            .Text(DataContrato)
+                            .FontFamily("Courier New")
+                            .FontSize(12)
+                            .AlignRight();
+                    });
+
+
+                    column.Item().Column(itemColumn =>
+                    {
+                        itemColumn.Item()
+                            .PaddingTop(45)
+                            .Text(Assinaturas)
+                            .FontFamily("Courier New")
+                            .FontSize(12)
+                            .AlignCenter();
+
+                    });
+
+                    contarPessoa += 1;
+                    if (contarPessoa < ObterPessoas().ToList().Count)
                     {
                         column.Item().PageBreak();
                     }
                 }
-                
             });
 
         }
@@ -131,12 +245,12 @@ namespace QuestPDFSLN.ClassesPDF
         // --- FOOTER ---
         private void CriarFooter(PageDescriptor page)
         {
-            page.Footer().AlignCenter().Text(x =>
+            page.Footer().AlignCenter().Text(footer =>
             {
-                x.Span("Página ");
-                x.CurrentPageNumber();
-                x.Span(" - ");
-                x.TotalPages();
+                footer
+                    .Span("Espaço Cultural Intellectus Vita LTDA Rua Anchieta, 335, Marambaia Belém – Pará – Brasil.")
+                    .FontFamily("Courier New")
+                    .FontSize(10);
             });
         }
 
