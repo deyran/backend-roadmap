@@ -1,16 +1,12 @@
 # ARQUITETURA DE SOFTWARE
 
-- Arquitetura de Software: PARADIGMAS de Programação Ep #01
-
-    https://youtu.be/pbUS-1-cjqk?si=ajCt8FKAA5Tnh_sJ
-
-
-
-
-
 - Arquitetura De Software #1 - Arquitetura Em Camadas
 
     https://www.youtube.com/watch?v=wEUwn-WFhKM
+
+
+
+    
 
 - ARQUITETURA MULTI CAMADA
 
