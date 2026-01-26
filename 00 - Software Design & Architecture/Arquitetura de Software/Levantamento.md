@@ -1,8 +1,5 @@
 # ARQUITETURA DE SOFTWARE
 
-CÓDIGO FONTE TV. **Arquitetura de Software (Não é coisa de outro mundo) // Dicionário do Programador**. YouTube, 24 nov. 2020. Disponível em: https://youtu.be/kYx1QC1XZSo?si=7sVGGdVVQ_ZsM0IO. Acesso em: 26 jan. 2026.
-
-
 CÓDIGO FONTE TV. **O que faz um arquiteto de software? Gabriel Fróes; Vanessa Weber**. YouTube, 29 abr. 2024. Disponível em: https://youtu.be/DgqZa2jwRe8?si=9FbN_vv4A-aa2LcS. Acesso em: 26 jan. 2026
 
 
@@ -25,3 +22,8 @@ NETO, João Batista. **Introdução à arquitetura de software: fundamentos para
 
 
 WALDEMAR NETO - DEV LAB. **DVC 13 - Arquitetura de Software com Rodrigo Branas e Elton Minetto**. YouTube, 25 jun. 2024. Disponível em: https://youtu.be/t4o1tOV3q78. Acesso em: 24 maio 2024.
+
+
+https://www.youtube.com/watch?v=FfigYiI2fKc
+https://www.youtube.com/watch?v=7rRp9H3ynBY
+https://www.youtube.com/watch?v=iWX5-LDbRNs
