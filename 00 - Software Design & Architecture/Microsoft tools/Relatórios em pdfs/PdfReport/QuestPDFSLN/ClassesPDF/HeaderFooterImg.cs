@@ -73,13 +73,30 @@ namespace QuestPDFSLN.ClassesPDF
                 CPF = "CCC.CCC.CCC-CC",
                 Disciplinas = new List<string>
                 { 
-                    "Língua Portuguesa", 
-                    "Inglês",
+                    "Língua Portuguesa",
+                    "Língua Inglesa",
                     "História",
                     "Sociologia",
                     "Matemática" 
                 }
+            },
+
+            new Pessoa
+            {
+                Nome = "XXX XXXX XXX XX XXXXX XXXXX",
+                CPF = "CCC.CCC.CCC-CC",
+                Disciplinas = new List<string>
+                {
+                    "Ciências, Físicas e Biológicas (C.F.B)",
+                    "Língua Portuguesa",
+                    "Língua Inglesa",
+                    "História",
+                    "Sociologia",
+                    "Matemática",
+                    "Empreendedorismo"
+                }
             }
+
         };
 
 
