@@ -1,6 +1,6 @@
 # BackEnd-Roadmap
 ## Software Design & Architecture
-#### Arquitetura em camadas
+### Arquitetura de Software
 
 31 - Ferr Ess p Trabs Acad n Grad
 

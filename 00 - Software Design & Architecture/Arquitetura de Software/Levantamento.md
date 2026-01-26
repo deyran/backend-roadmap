@@ -1,37 +1,27 @@
 # ARQUITETURA DE SOFTWARE
 
-- Arquitetura De Software #1 - Arquitetura Em Camadas
-
-    https://www.youtube.com/watch?v=wEUwn-WFhKM
+CÓDIGO FONTE TV. **Arquitetura de Software (Não é coisa de outro mundo) // Dicionário do Programador**. YouTube, 24 nov. 2020. Disponível em: https://youtu.be/kYx1QC1XZSo?si=7sVGGdVVQ_ZsM0IO. Acesso em: 26 jan. 2026.
 
 
+CÓDIGO FONTE TV. **O que faz um arquiteto de software? Gabriel Fróes; Vanessa Weber**. YouTube, 29 abr. 2024. Disponível em: https://youtu.be/DgqZa2jwRe8?si=9FbN_vv4A-aa2LcS. Acesso em: 26 jan. 2026
 
-    
 
-- ARQUITETURA MULTI CAMADA
+ALURA. **Arquitetura de sistemas com Fabio Akita | #HipstersPontoTube**. YouTube, 27 abr. 2022. Disponível em: https://youtu.be/oedWxgAZc2A. Acesso em: 26 jan. 2026.
 
-    https://www.youtube.com/watch?v=8xZjR0bf3zg
 
-- Arquitetura 3 camadas - Aula 01 - Introdução
+JUNIOR, Elemar. **Arquitetura de Software em 10 Minutos: O Guia Definitivo que Ninguém te Ensinou**. YouTube, 4 out. 2025. Disponível em: https://youtu.be/Sef4nqhmvmU?si=0f1MtBMW91b6QLXM. Acesso em: 26 jan. 2026.
 
-    https://youtu.be/9sPk808Rw7M?si=rclY7PY6sn1QW9zk
 
-- [FCT-UNESP] AULA 08 - Programação Orientada a Objetos: programação em camadas
+OSÓRIO, Victor. **Definindo Arquitetura de Software em 20 minutos**. YouTube, 4 jun. 2025. Disponível em: https://youtu.be/tMj4WxEweZU. Acesso em: 26 jan. 2026.
 
-    https://youtu.be/x3jPU5HSqsY?si=M4gBrynFNz0DTKQt
 
-- Arquitetura em Camadas - Projeto e Arquitetura de Software
+EXIMIACO - EXCELÊNCIA TECNOLÓGICA. **Como Começar a Arquitetura de um Software Sem Dores de Cabeça: Primeiros Passos**. YouTube, 23 ago. 2024. Disponível em: https://youtu.be/twZpVRntVLY. Acesso em: 24 maio 2024.
 
-    https://www.youtube.com/watch?v=Pl3LEmKJDUM
 
-- Programação em Camadas com C# (Aula 1)
+AUGUSTO, Renato. **Como Virar Um ARQUITETO DE SOFTWARE | 5 PASSOS Que Vão Mudar Sua Carreira de PROGRAMADOR**. YouTube, 26 jan. 2025. Disponível em: https://youtu.be/mKIltWid_L0. Acesso em: 26 jan. 2026.
 
-    https://youtu.be/7pCXOE2O4e0?si=JfOJ80RvBRtX7S3b
 
-- INTERFACES EM JAVA: A IMPORTÂNCIA DAS CAMADAS - JAVA DO ZERO AO PRO: INTERFACES EM JAVA!
+NETO, João Batista. **Introdução à arquitetura de software: fundamentos para construir sistemas robustos**. YouTube, 25 ago. 2024. Disponível em: https://www.youtube.com/live/1Ztm37X3sKk. Acesso em: 22 mai. 2024.
 
-    https://youtu.be/yxX9USIFtew?si=yqfaanaWPH7jvKQp
 
-- AULA - Organização do sistema em camadas e o Projeto da disciplina - IF669, CIn-UFPE
-
-    https://youtu.be/rq6evZH9KX0?si=q9Vf7_rdePuuK1m2
+WALDEMAR NETO - DEV LAB. **DVC 13 - Arquitetura de Software com Rodrigo Branas e Elton Minetto**. YouTube, 25 jun. 2024. Disponível em: https://youtu.be/t4o1tOV3q78. Acesso em: 24 maio 2024.
