@@ -11,3 +11,8 @@
 - **Sistemas Finais (Hosts)**: Dispositivos que executam aplicações (Ex: Web, E-mail).
 - **Aplicações de Rede**: Software que interage diretamente com o usuário.
 - **Serviços de Transporte**: Fornecem a comunicação entre as aplicações na periferia.
+
+# Rede de Computadores
+## Kurose - Ross
+### Rede de Computadores e a Internet
+####
