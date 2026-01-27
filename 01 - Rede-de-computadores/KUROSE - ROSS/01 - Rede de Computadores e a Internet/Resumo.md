@@ -15,4 +15,8 @@
 # Rede de Computadores
 ## Kurose - Ross
 ### Rede de Computadores e a Internet
-####
+#### O Núcleo da Rede (Core)
+
+- **Malha de Interconexão**: Comutadores de pacotes (Routers/Switches) e enlaces.
+- **Redes de Acesso**: Meios físicos que ligam a periferia ao núcleo (Cabo, Fibra, Wi-Fi).
+- **Rede de Redes**: A Internet como uma estrutura global de redes interconectadas.
