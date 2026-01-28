@@ -12,10 +12,7 @@
 - **Aplicações de Rede**: Software que interage diretamente com o usuário.
 - **Serviços de Transporte**: Fornecem a comunicação entre as aplicações na periferia.
 
-# Rede de Computadores
-## Kurose - Ross
-### Rede de Computadores e a Internet
-#### O Núcleo da Rede (Core)
+## O Núcleo da Rede (Core)
 
 - **Malha de Interconexão**: Comutadores de pacotes (Routers/Switches) e enlaces.
 - **Redes de Acesso**: Meios físicos que ligam a periferia ao núcleo (Cabo, Fibra, Wi-Fi).
