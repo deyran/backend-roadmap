@@ -1,5 +1,8 @@
 # Rede de Computadores Kurose - Ross
-# Rede de Computadores e a Internet
+## Rede de Computadores e a Internet
+### O que é Internet?
+
+0101 - O que é Internet?
 
 Leia o texto abaixo, divida-o em pontos importantes. Em cada ponto importante, apresente as idéias em formato de lista ideia por ideia, resumindo cada item da lista:
 -------------------------------------------------------------------------------------------------------------------------
