@@ -17,3 +17,10 @@
 - **Malha de Interconexão**: Comutadores de pacotes (Routers/Switches) e enlaces.
 - **Redes de Acesso**: Meios físicos que ligam a periferia ao núcleo (Cabo, Fibra, Wi-Fi).
 - **Rede de Redes**: A Internet como uma estrutura global de redes interconectadas.
+
+
+## Desempenho e Métricas (Visão Abstrata)
+
+- **Atraso (Delay)**: Soma dos atrasos de transmissão, propagação e enfileiramento.
+- **Perda de Dados**: Ocorre quando buffers de rede ficam saturados.
+- **Vazão (Throughput)**: Taxa de transferência de dados fim a fim.
