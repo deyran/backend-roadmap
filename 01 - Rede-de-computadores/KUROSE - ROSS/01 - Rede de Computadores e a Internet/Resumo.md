@@ -24,3 +24,9 @@
 - **Atraso (Delay)**: Soma dos atrasos de transmissão, propagação e enfileiramento.
 - **Perda de Dados**: Ocorre quando buffers de rede ficam saturados.
 - **Vazão (Throughput)**: Taxa de transferência de dados fim a fim.
+
+## Arquitetura e Segurança
+
+- **Modelos de Camadas**: Organização por protocolos e modelos de serviço (OSI e TCP/IP).
+- **Segurança**: Vulnerabilidades e ameaças; Mecanismos para tornar a rede mais segura.
+- **Histórico**: Evolução da computação em rede ao longo do tempo.
