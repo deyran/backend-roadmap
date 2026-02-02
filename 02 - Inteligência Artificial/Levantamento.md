@@ -1,0 +1,1 @@
+G1. **Inteligência artificial e o colapso do que parece real | O ASSUNTO**. YouTube, 2 fev. 2026. Disponível em: https://youtu.be/M00GMFwh-bI?si=Ir0Mp8rxl-ox2U1f. Acesso em: 2 fev. 2026.
