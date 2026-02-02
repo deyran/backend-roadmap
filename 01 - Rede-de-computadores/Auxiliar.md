@@ -1,6 +1,6 @@
 # Rede de Computadores Kurose - Ross
 ## Rede de Computadores e a Internet
-### Uma descrição dos componentens
+### Uma descrição dos componentes
 
 010101 - Uma descrição dos componentens
 
