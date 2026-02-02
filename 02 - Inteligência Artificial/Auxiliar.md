@@ -1,6 +1,5 @@
 # BackEnd-Roadmap
 ## Inteligência Artificial
-### Arquitetura de Software
 
 Leia o texto abaixo, divida-o em pontos importantes. Em cada ponto importante, apresente as idéias em formato de lista ideia por ideia, resumindo cada item da lista:
 -------------------------------------------------------------------------------------------------------------------------
