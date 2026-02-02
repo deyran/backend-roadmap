@@ -1,8 +1,8 @@
 # Rede de Computadores Kurose - Ross
 ## Rede de Computadores e a Internet
-### O que é Internet?
+### Uma descrição dos componentens
 
-0101 - O que é Internet?
+010101 - Uma descrição dos componentens
 
 Leia o texto abaixo, divida-o em pontos importantes. Em cada ponto importante, apresente as idéias em formato de lista ideia por ideia, resumindo cada item da lista:
 -------------------------------------------------------------------------------------------------------------------------
