@@ -29,6 +29,8 @@ namespace QuestPDFSLN.ClassesPDF
         ───────────────────────────────────────
         CONTRATADO";
 
+        private string caminhoLogo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Img", "IntellectusVitaLogo.png");
+
         //private string DataContrato = ;
 
         public void gerarDocumento()
@@ -103,8 +105,6 @@ namespace QuestPDFSLN.ClassesPDF
         // --- ESTRUTURA DO LAYOUT ---
         private IDocument MontarLayout()
         {
-            string caminhoLogo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Img", "IntellectusVitaLogo.png");
-
             return Document.Create(container =>
             {
                 container.Page(page =>
@@ -114,7 +114,7 @@ namespace QuestPDFSLN.ClassesPDF
                     page.PageColor(Colors.White);
                     page.DefaultTextStyle(x => x.FontSize(12));
 
-                    criarHeader(page, caminhoLogo);
+                    criarHeader(page);
                     criarContent(page);
                     CriarFooter(page);
                 });
@@ -122,7 +122,7 @@ namespace QuestPDFSLN.ClassesPDF
         }
 
         // --- HEADER ---
-        private void criarHeader(PageDescriptor page, string caminhoLogo)
+        private void criarHeader(PageDescriptor page)
         {
             page.Header().Column(column =>
             {

@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassesPDF\EstudoDirigido.cs" />
+    <Compile Include="ClassesPDF\GeraTabelaPDF.cs" />
     <Compile Include="ClassesPDF\HelloWorld.cs" />
     <Compile Include="Entities\Pessoa.cs" />
     <Compile Include="Program.cs" />
@@ -79,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ModeloPdf\ModeloBoletim.pdf" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
