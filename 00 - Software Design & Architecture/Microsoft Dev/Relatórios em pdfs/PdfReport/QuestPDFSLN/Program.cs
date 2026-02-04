@@ -10,7 +10,7 @@ namespace QuestPDFSLN
             /*ClassesPDF.HelloWorld helloWorld = new ClassesPDF.HelloWorld();
             helloWorld.CreateDocument();*/
             
-            ClassesPDF.HeaderFooterImg headerFooterImg = new ClassesPDF.HeaderFooterImg();
+            ClassesPDF.EstudoDirigido headerFooterImg = new ClassesPDF.EstudoDirigido();
             headerFooterImg.gerarDocumento();
 
         }

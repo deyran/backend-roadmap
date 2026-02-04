@@ -12,7 +12,7 @@ using System.Collections.Generic;
 
 namespace QuestPDFSLN.ClassesPDF
 {
-    public class HeaderFooterImg
+    public class EstudoDirigido
     {
         decimal ValorContrato = 200.00m;
 
