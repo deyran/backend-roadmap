@@ -7,11 +7,11 @@ namespace QuestPDFSLN
     {
         static void Main(string[] args)
         {
-            /*ClassesPDF.HelloWorld helloWorld = new ClassesPDF.HelloWorld();
-            helloWorld.CreateDocument();*/
+            //ClassesPDF.HelloWorld helloWorld = new ClassesPDF.HelloWorld();
+            //helloWorld.CreateDocument();
             
-            ClassesPDF.EstudoDirigido headerFooterImg = new ClassesPDF.EstudoDirigido();
-            headerFooterImg.gerarDocumento();
+            ClassesPDF.EstudoDirigido estudoDirigide = new ClassesPDF.EstudoDirigido();
+            estudoDirigide.gerarDocumento();
 
         }
     }
