@@ -71,7 +71,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassesPDF\HeaderFooterImg.cs" />
+    <Compile Include="ClassesPDF\EstudoDirigido.cs" />
     <Compile Include="ClassesPDF\HelloWorld.cs" />
     <Compile Include="Entities\Pessoa.cs" />
     <Compile Include="Program.cs" />
