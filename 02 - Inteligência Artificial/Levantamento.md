@@ -8,3 +8,6 @@ FANTÁSTICO: Futuro das inteligências artificiais e os perigos para a humanidad
 
 
 LINHAS CRUZADAS | INTELIGÊNCIA ARTIFICIAL | 21/08/2025. Entrevistadores: Andresa Boni e Luiz Felipe Pondé. São Paulo: Jornalismo TV Cultura, 2025. 1 vídeo (53 min 27 s). Disponível em: https://youtu.be/Y-evYmyY2LM. Acesso em: 2 fev. 2026.
+
+
+BBC NEWS BRASIL. **As 3 etapas da inteligência artificial e por que 3ª pode ser fatal**. [S. l.]: BBC News Brasil, 4 jun. 2023. 1 vídeo (8 min 51 s). Disponível em: https://youtu.be/i6xbl9QzIK0. Acesso em: 3 fev. 2026.
