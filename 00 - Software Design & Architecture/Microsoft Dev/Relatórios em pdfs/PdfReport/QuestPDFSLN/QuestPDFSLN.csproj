@@ -71,6 +71,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassesPDF\DocumentoMatriz.cs" />
     <Compile Include="ClassesPDF\EstudoDirigido.cs" />
     <Compile Include="ClassesPDF\GeraTabelaPDF.cs" />
     <Compile Include="ClassesPDF\HelloWorld.cs" />

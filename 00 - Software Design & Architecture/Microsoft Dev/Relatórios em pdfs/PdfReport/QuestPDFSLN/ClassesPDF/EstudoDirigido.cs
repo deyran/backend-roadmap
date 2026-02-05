@@ -12,7 +12,7 @@ using System.Collections.Generic;
 
 namespace QuestPDFSLN.ClassesPDF
 {
-    public class EstudoDirigido
+    public class EstudoDirigido : DocumentoMatriz
     {
         decimal ValorContrato = 200.00m;
 
@@ -30,17 +30,12 @@ namespace QuestPDFSLN.ClassesPDF
         CONTRATADO";
 
         private string caminhoLogo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Img", "IntellectusVitaLogo.png");
-
-        //private string DataContrato = ;
-
+        
         public void gerarDocumento()
         {
-            QuestPDF.Settings.License = LicenseType.Community;
-
             var documento = MontarLayout();
 
-            string filePath = SalvarEObterCaminho(documento);
-            AbrirDocumento(filePath);
+            GerarAbrirDocumento(documento);
         }
 
         // --- DADOS ---
@@ -51,10 +46,10 @@ namespace QuestPDFSLN.ClassesPDF
                 Nome = "Deyvid Rannyere de Moraes Costa",
                 CPF = "AAA.AAA.AAA-AA",
                 Disciplinas = new List<string>
-                { 
-                    "Ciências, Físicas e Biológicas (C.F.B)", 
-                    "Físicas", 
-                    "História" 
+                {
+                    "Ciências, Físicas e Biológicas (C.F.B)",
+                    "Físicas",
+                    "História"
                 }
             },
 
@@ -63,9 +58,9 @@ namespace QuestPDFSLN.ClassesPDF
                 Nome = "Lara Hellena Costa de Moraes",
                 CPF = "BBB.BBB.BBB-BB",
                 Disciplinas = new List<string>
-                { 
-                    "Língua Portuguesa", 
-                    "Matemática" 
+                {
+                    "Língua Portuguesa",
+                    "Matemática"
                 }
             },
 
@@ -74,12 +69,12 @@ namespace QuestPDFSLN.ClassesPDF
                 Nome = "Márcia Costa Silva de Moraes",
                 CPF = "CCC.CCC.CCC-CC",
                 Disciplinas = new List<string>
-                { 
+                {
                     "Língua Portuguesa",
                     "Língua Inglesa",
                     "História",
                     "Sociologia",
-                    "Matemática" 
+                    "Matemática"
                 }
             },
 
@@ -102,7 +97,7 @@ namespace QuestPDFSLN.ClassesPDF
         };
 
 
-        // --- ESTRUTURA DO LAYOUT ---
+        // --- LAYOUT ---
         private IDocument MontarLayout()
         {
             return Document.Create(container =>
@@ -186,16 +181,16 @@ namespace QuestPDFSLN.ClassesPDF
                         text.Span("Valor: ").Bold();
                         text.Span("O valor total deste contrato é de ");
                         text.Span("R$ " + ValorContrato.ToString("F2")).Bold();
-                        text.Span(" (" + FormatarValorPorExtenso(ValorContrato) + ") ");
+                        text.Span(" (" + ValorPorExtenso(ValorContrato) + ") ");
                         text.Span(" por disciplina, devidamente pago pelo CONTRATANTE ao CONTRATADO.");
-                                                
+
                         text.Span("\n\n2. ");
                         text.Span("Duração: ").Bold();
                         text.Span("O contrato tem duração de 2 meses, a partir da data estipulada pelo CONTRATADO.");
 
                         text.Span("\n\n3. ");
                         text.Span("Obrigações do CONTRATADO: ").Bold();
-                        text.Span("O CONTRATADO se compromete a ministrar as aulas conforme o cronograma "); 
+                        text.Span("O CONTRATADO se compromete a ministrar as aulas conforme o cronograma ");
                         text.Span(" estipulado pelo CONTRATADO, com a qualidade esperada e dentro dos termos deste contrato.");
 
                         text.Span("\n\n4. ");
@@ -211,7 +206,7 @@ namespace QuestPDFSLN.ClassesPDF
                         decimal valorTotal = ValorContrato * pessoa.Disciplinas.Count();
                         text.Span(", totalizando ");
                         text.Span("R$ " + valorTotal.ToString("F2")).Bold();
-                        text.Span(" (" + FormatarValorPorExtenso(valorTotal)  + ")");
+                        text.Span(" (" + ValorPorExtenso(valorTotal) + ")");
                         text.Span(".");
 
                         text.Justify();
@@ -259,68 +254,5 @@ namespace QuestPDFSLN.ClassesPDF
                     .FontSize(10);
             });
         }
-
-
-        // --- INFRAESTRUTURA E LIMPEZA ---
-        private string FormatarValorPorExtenso(decimal valor)
-        {
-            var cultura = new CultureInfo("pt-BR");
-
-            // 1. Separa reais e centavos
-            long reais = (long)Math.Truncate(valor);
-            int centavos = (int)Math.Round((valor - reais) * 100);
-
-            // 2. Converte para extenso usando cast para long/int (para evitar o erro de 'decimal')
-            string textoReais = reais.ToWords(cultura);
-            string resultado = $"{textoReais} {(reais == 1 ? "real" : "reais")}";
-
-            if (centavos > 0)
-            {
-                string textoCentavos = centavos.ToWords(cultura);
-                resultado += $" e {textoCentavos} {(centavos == 1 ? "centavo" : "centavos")}";
-            }
-
-            // 3. Torna a primeira letra maiúscula
-            // Usando Humanizer:
-            return resultado.Transform(To.SentenceCase);
-
-            // OU usando C# Puro (caso não queira usar o .Transform):
-            // return char.ToUpper(resultado[0]) + resultado.Substring(1);
-        }
-
-        private void LimparArquivosTemp()
-        {
-            string tempDir = Path.GetTempPath();
-            string[] arquivosAntigos = Directory.GetFiles(tempDir, "Relatorio_*.pdf");
-
-            foreach (string arquivo in arquivosAntigos)
-            {
-                try
-                {
-                    File.Delete(arquivo);
-                }
-                catch (IOException) { /* Arquivo em uso, ignora */ }
-            }
-        }
-
-        private string SalvarEObterCaminho(IDocument documento)
-        {
-            LimparArquivosTemp();
-
-            string fileName = $"Relatorio_{Guid.NewGuid()}.pdf";
-            string filePath = Path.Combine(Path.GetTempPath(), fileName);
-            documento.GeneratePdf(filePath);
-            return filePath;
-        }
-
-        private void AbrirDocumento(string filePath)
-        {
-            Process.Start(new ProcessStartInfo
-            {
-                FileName = filePath,
-                UseShellExecute = true
-            });
-        }
-
     }
 }
