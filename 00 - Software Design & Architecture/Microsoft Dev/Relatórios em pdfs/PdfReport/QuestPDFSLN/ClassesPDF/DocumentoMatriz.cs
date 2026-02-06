@@ -10,15 +10,19 @@ namespace QuestPDFSLN.ClassesPDF
 {
     public class DocumentoMatriz
     {
-        protected void GerarAbrirDocumento(IDocument documento)
+        private string IntellectusLogo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Img", "IntellectusVitaLogo.png");
+
+        protected string GetIntellectusLogo { get => IntellectusLogo; set => IntellectusLogo = value; }
+
+        protected void GerarAbrirDocumento(IDocument documento, string pFileName)
         {
             QuestPDF.Settings.License = LicenseType.Community;
 
             // Exclui arquivos temporários antigos
-            DeleteFileTemp();
+            DeleteFileTemp(pFileName);
 
             // Gerar PDF em um arquivo temporário
-            string fileName = $"QuestPDF_{Guid.NewGuid()}.pdf";
+            string fileName = $"{pFileName}_{Guid.NewGuid()}.pdf";
             string filePath = Path.Combine(Path.GetTempPath(), fileName);
             documento.GeneratePdf(filePath);
 
@@ -30,10 +34,10 @@ namespace QuestPDFSLN.ClassesPDF
             });
         }
 
-        private void DeleteFileTemp()
+        private void DeleteFileTemp(string pFileName)
         {
             string tempDir = Path.GetTempPath();
-            string[] arquivosAntigos = Directory.GetFiles(tempDir, "QuestPDF_*.pdf");
+            string[] arquivosAntigos = Directory.GetFiles(tempDir, pFileName + "_*.pdf");
 
             foreach (string arquivo in arquivosAntigos)
             {

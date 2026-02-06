@@ -30,13 +30,17 @@ namespace QuestPDFSLN.ClassesPDF
         CONTRATADO";
 
         private string caminhoLogo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Img", "IntellectusVitaLogo.png");
-        
+
+
+
         public void gerarDocumento()
         {
             var documento = MontarLayout();
 
-            GerarAbrirDocumento(documento);
+            GerarAbrirDocumento(documento, "EstudoDirigido");
         }
+
+
 
         // --- DADOS ---
         private List<Pessoa> ObterPessoas() => new List<Pessoa>
