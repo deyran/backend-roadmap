@@ -1,14 +1,12 @@
-﻿using System;
-using Humanizer;
+﻿using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using QuestPDF.Infrastructure;
+using QuestPDFSLN.Entities;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
-using QuestPDF.Fluent;
-using QuestPDF.Helpers;
-using System.Diagnostics;
-using QuestPDFSLN.Entities;
-using System.Globalization;
-using QuestPDF.Infrastructure;
-using System.Collections.Generic;
 
 namespace QuestPDFSLN.ClassesPDF
 {
@@ -246,6 +244,22 @@ namespace QuestPDFSLN.ClassesPDF
             });
 
         }
+
+        /*private void criarContent(PageDescriptor page)
+        {
+            page.Content().Column(column =>
+            {
+                column.Item().PaddingTop(15).Text(text =>
+                {
+                    text.DefaultTextStyle(x => x.FontFamily(_FontFamily).FontSize(_FontSize));
+
+                    text.Span("CONTRATANTE: ").Bold();
+                    text.Span($"{pessoa.Nome}, {pessoa.CPF} ");
+                });
+
+            });
+
+        }*/
 
         // --- FOOTER ---
         private void CriarFooter(PageDescriptor page)
