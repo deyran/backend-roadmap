@@ -37,47 +37,44 @@ namespace QuestPDFSLN.ClassesPDF
 
 
                         // --- CÉLULA 1: IMAGEM REDUZIDA + ALINHAMENTO ESQUERDA ---
-                        table.Cell().Border(1).Padding(5).AlignLeft().Column(col =>
-                        {
-                            // Imagem com largura fixa de 40 pontos
-                            col.Item().Width(40).Image(caminhoLogo);
+                        /* table.Cell().Border(1).Padding(5).AlignLeft().Column(col =>
+                         {
+                             // Imagem com largura fixa de 40 pontos
+                             col.Item().Width(40).Image(caminhoLogo);
 
-                            col.Item().Text(t =>
-                            {
-                                t.Span("ID: ").Bold();
-                                t.Span("001").FontColor(Colors.Blue.Medium);
-                            });
-                        });
+                             col.Item().Text(t =>
+                             {
+                                 t.Span("ID: ").Bold();
+                                 t.Span("001").FontColor(Colors.Blue.Medium);
+                             });
+                         });*/
 
                         // --- CÉLULA 2: TEXTO FORMATADO + CENTRALIZADO ---
-                        table.Cell().Border(1).Padding(5).AlignCenter().AlignMiddle().Text(t =>
+                        /* table.Cell().Border(1).Padding(5).AlignCenter().AlignMiddle().Text(t =>
+                         {
+                             t.Span("STATUS: ").FontSize(10);
+                             t.Span("PROCESSANDO").Bold().BackgroundColor(Colors.Yellow.Lighten4).FontColor(Colors.Orange.Medium);
+                         });
+
+
+                         // --- CÉLULA 3: TEXTO FORMATADO + ALINHAMENTO DIREITA ---
+                         table.Cell().Border(1).Padding(5).AlignRight().AlignMiddle().Text(t =>
+                         {
+                             t.Span("Valor Total\n").FontSize(9).Italic();
+                             t.Span("R$ 1.250,00").FontSize(14).Bold().FontColor(Colors.Green.Medium);
+                         });*/
+
+
+
+                        for (int i = 1; i <= 10; i++)
                         {
-                            t.Span("STATUS: ").FontSize(10);
-                            t.Span("PROCESSANDO").Bold().BackgroundColor(Colors.Yellow.Lighten4).FontColor(Colors.Orange.Medium);
-                        });
+                            var backgroundColor = i % 2 == 0 ? Colors.White : Colors.Grey.Lighten2;
 
-
-                        // --- CÉLULA 3: TEXTO FORMATADO + ALINHAMENTO DIREITA ---
-                        table.Cell().Border(1).Padding(5).AlignRight().AlignMiddle().Text(t =>
-                        {
-                            t.Span("Valor Total\n").FontSize(9).Italic();
-                            t.Span("R$ 1.250,00").FontSize(14).Bold().FontColor(Colors.Green.Medium);
-                        });
-
-
-
-
-                        /*for(int i = 1; i <= 5; i++)
-                        {
-                            // Primeira célula
-                            table.Cell().Border(1).Padding(10).AlignMiddle().Text($"Texto na célula {i},1");
-                            // Segunda célula
-                            table.Cell().Border(1).Padding(10).AlignMiddle().Text($"Texto na célula {i},2");
-                        }*/
-
-
-
-
+                            // A ordem importa: primeiro o Background, depois o Padding/Border
+                            table.Cell().Background(backgroundColor).Text($"Texto {i},1");
+                            table.Cell().Background(backgroundColor).Text($"Texto {i},2");
+                            table.Cell().Background(backgroundColor).Text($"Texto {i},3");
+                        }
 
 
 
