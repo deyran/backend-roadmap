@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
@@ -8,8 +7,6 @@ namespace QuestPDFSLN.ClassesPDF
 {
     public class GeraTabelaPDF : DocumentoMatriz
     {
-        private string caminhoLogo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Img", "IntellectusVitaLogo.png");
-
         public void GerarDocumento()
         {
             var documento = CritarTabela();
@@ -35,19 +32,29 @@ namespace QuestPDFSLN.ClassesPDF
                         });
 
 
+                        /*table.ColumnsDefinition(columns =>
+                        {
+                            columns.ConstantColumn(100);  // Coluna 1: Tamanho fixo de 50pt
+                            columns.RelativeColumn(1);   // Coluna 2: Espaço proporcional
+                            columns.RelativeColumn(2);   // Coluna 3: O dobro da largura da Coluna 2
+                                                         // columns.AutoColumn();     // Opcional: Ajusta ao texto
+                        });*/
+
+
+
 
                         // --- CÉLULA 1: IMAGEM REDUZIDA + ALINHAMENTO ESQUERDA ---
-                        /* table.Cell().Border(1).Padding(5).AlignLeft().Column(col =>
+                        table.Cell().Border(1).Padding(5).AlignLeft().Column(col =>
                          {
                              // Imagem com largura fixa de 40 pontos
-                             col.Item().Width(40).Image(caminhoLogo);
+                             col.Item().Width(40).Image(GetIntellectusLogo);
 
                              col.Item().Text(t =>
                              {
                                  t.Span("ID: ").Bold();
                                  t.Span("001").FontColor(Colors.Blue.Medium);
                              });
-                         });*/
+                         });
 
                         // --- CÉLULA 2: TEXTO FORMATADO + CENTRALIZADO ---
                         /* table.Cell().Border(1).Padding(5).AlignCenter().AlignMiddle().Text(t =>
@@ -66,7 +73,7 @@ namespace QuestPDFSLN.ClassesPDF
 
 
 
-                        for (int i = 1; i <= 10; i++)
+                       /* for (int i = 1; i <= 10; i++)
                         {
                             var backgroundColor = i % 2 == 0 ? Colors.White : Colors.Grey.Lighten2;
 
@@ -74,17 +81,20 @@ namespace QuestPDFSLN.ClassesPDF
                             table.Cell().Background(backgroundColor).Text($"Texto {i},1");
                             table.Cell().Background(backgroundColor).Text($"Texto {i},2");
                             table.Cell().Background(backgroundColor).Text($"Texto {i},3");
-                        }
+                        }*/
 
 
 
-                        /*
-                        // --- PRIMEIRA CÉLULA (Texto ou qualquer conteúdo) ---
-                        table.Cell().Border(1).Padding(10).AlignMiddle().Text("Aqui está a imagem ao lado:");
+                        
+                        /*// --- PRIMEIRA CÉLULA (Texto ou qualquer conteúdo) ---
+                        table.Cell().Border(1).Padding(10).AlignMiddle().Text("Primeira célula");
 
                         // --- SEGUNDA CÉLULA (A Imagem) ---                        
-                        table.Cell().Border(1).Padding(10).Image(caminhoLogo);*/
+                        table.Cell().Border(1).Padding(10).Image(GetIntellectusLogo);
 
+                        // --- TERCEIRA CÉLULA (Texto ou qualquer conteúdo) ---
+                        table.Cell().Border(1).Padding(10).AlignMiddle().Text("Terceira");*/
+                        
                     });
                 });
 
