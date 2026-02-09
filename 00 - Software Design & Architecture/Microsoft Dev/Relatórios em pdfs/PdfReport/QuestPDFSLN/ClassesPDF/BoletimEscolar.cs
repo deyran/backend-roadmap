@@ -4,9 +4,7 @@ using QuestPDF.Infrastructure;
 using QuestPDFSLN.Entities;
 using System;
 using System.Collections.Generic;
-using System.Data.Common;
 using System.Linq;
-using static QuestPDF.Helpers.Colors;
 
 namespace QuestPDFSLN.ClassesPDF
 {
