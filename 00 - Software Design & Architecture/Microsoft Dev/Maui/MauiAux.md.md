@@ -10,3 +10,6 @@ Resuma sucintamente, reduza de forma minimalista o texto preservando a ideia cen
 
 Leia o texto abaixo e monte um mapa mental:
 -------------------------------------------------------------------------------------------------------------------------
+
+
+https://youtu.be/DuNLR_NJv8U?t=237
