@@ -1,7 +1,6 @@
-# BackEnd-Roadmap
-## Microsoft Dev
-### Relatórios em PDFs
-#### Contato Estudo Dirigido
+# BackEnd-Roadmap - Software Design & Architecture
+## Sgbd - SQLite
+
 
 Leia o texto abaixo, divida-o em pontos importantes. Em cada ponto importante, apresente as idéias em formato de lista ideia por ideia, resumindo cada item da lista:
 -------------------------------------------------------------------------------------------------------------------------
