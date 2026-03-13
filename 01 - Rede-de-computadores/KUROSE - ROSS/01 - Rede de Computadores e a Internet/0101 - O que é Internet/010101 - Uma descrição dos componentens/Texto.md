@@ -1,6 +1,8 @@
 # Uma descrição dos componentes
 
 A **Internet é uma rede de computadores que interconecta** centenas de milhões de **dispositivos de computação ao redor do mundo**. Há pouco tempo, esses dispositivos eram basicamente PCs de mesa, estações de trabalho Linux, e os assim chamados servidores que armazenam e transmitem informações, como páginas da Web e mensagens de e-mail. No entanto, **cada vez mais sistemas finais** modernos da Internet, como TVs, laptops, consoles para jogos, telefones celulares, webcams, automóveis, dispositivos de sensoriamento ambiental, quadros de imagens, e sistemas internos elétricos e de segurança, **estão sendo conectados à rede**. Na verdade, **o termo rede de computadores** está começando a soar um tanto **desatualizado, dados os muitos equipamentos não tradicionais que estão sendo ligados à Internet**. No **jargão da rede**, todos **esses equipamentos são denominados hospedeiros ou sistemas finais**. Em julho de 2011, havia cerca de 850 milhões de sistemas finais ligados à Internet [ISC, 2012], sem contar os smartphones, laptops e outros dispositivos que são conectados à rede de maneira intermitente. No todo, estima-se que haja 2 bilhões de usuários na Internet [ITU, 2011].
+------------------------------------------------
+
 
 **A Internet é uma rede de computadores que interconecta centenas de milhões de dispositivos de computação ao redor do mundo**. Há pouco tempo, esses dispositivos eram basicamente PCs de mesa, estações de trabalho Linux, e os assim chamados servidores que armazenam e transmitem informações, como páginas da Web e mensagens de e-mail. No entanto, cada vez mais sistemas finais modernos da Internet, como TVs, laptops, consoles para jogos, telefones celulares, webcams, automóveis, dispositivos de sensoriamento ambiental, quadros de imagens, e sistemas internos elétricos e de segurança, estão sendo conectados à rede. Na verdade, **o termo rede de computadores está começando a soar um tanto desatualizado, dados os muitos equipamentos não tradicionais que estão sendo ligados à Internet**. No jargão da rede, todos **esses equipamentos são denominados hospedeiros ou sistemas finais**. Em julho de 2011, havia cerca de 850 milhões de sistemas finais ligados à Internet [ISC, 2012], sem contar os smartphones, laptops e outros dispositivos que são conectados à rede de maneira intermitente. No todo, estima-se que haja 2 bilhões de usuários na Internet [ITU, 2011].
 
@@ -14,29 +16,4 @@ As redes comutadas por pacotes (que transportam pacotes) são, de muitas maneira
 
 **Os sistemas finais, os comutadores de pacotes e outras peças da Internet executam protocolos que controlam o envio e o recebimento de informações**. O TCP (Transmission Control Protocol — Protocolo de Controle de Transmissão) e o IP (Internet Protocol — Protocolo da Internet) são dois dos mais importantes da Internet. O protocolo IP especifica o formato dos pacotes que são enviados e recebidos entre roteadores e sistemas finais. **Os principais protocolos da Internet são conhecidos como TCP/IP**. Começaremos a examinar protocolos neste capítulo de introdução. Mas isso é só um começo — grande parte deste livro trata de protocolos de redes de computadores!
 
---------------------------------------------------------------------------
-Dada a importância de protocolos para a Internet, é adequado que todos concordem sobre o que cada um deles faz, de modo que as pessoas possam criar sistemas e produtos que operem entre si. 
-
-
-É aqui que os padrões entram em ação. Padrões da Internet são desenvolvidos pela IETF (Internet Engineering Task Force — Força de Trabalho de Engenharia da Internet) [IETF, 2012]. 
-
-
-Os documentos padronizados da IETF são denominados RFCs (Request For Comments — pedido de comentários). 
-
-
-Os RFCs começaram como solicitações gerais de comentários (daí o nome) para resolver problemas de arquitetura que a precursora da Internet enfrentava [Allman, 2011]. 
-
-
-Os RFCs costumam ser bastante técnicos e detalhados. 
-
-
-Definem protocolos como TCP, IP, HTTP (para a Web) e SMTP (para e-mail). 
-
-
-Hoje, existem mais de 6.000 RFCs. 
-
-Outros órgãos também especificam padrões para componentes de rede, principalmente para enlaces. 
-
-
-O IEEE 802 LAN/MAN Standards Committee [IEEE 802, 2009], por exemplo, especifica os padrões Ethernet e Wi-Fi sem fio.
---------------------------------------------------------------------------
+Dada a **importância de protocolos para a Internet**, é adequado que **todos concordem sobre o que cada um deles faz**, de modo que as pessoas possam **criar sistemas e produtos que operem entre si**.É aqui que os padrões entram em ação. **Padrões da Internet são desenvolvidos pela IETF** (Internet Engineering Task Force — Força de Trabalho de Engenharia da Internet) [IETF, 2012]. **Os documentos padronizados da IETF são denominados RFCs** (Request For Comments — pedido de comentários).**Os RFCs** começaram como solicitações gerais de comentários (daí o nome) **para resolver problemas de arquitetura** que a precursora da Internet enfrentava [Allman, 2011]. Os RFCs costumam ser bastante técnicos e detalhados. **Definem protocolos como TCP, IP, HTTP (para a Web) e SMTP (para e-mail)**. Hoje, existem mais de 6.000 RFCs. Outros órgãos também especificam padrões para componentes de rede, principalmente para enlaces. O IEEE 802 LAN/MAN Standards Committee [IEEE 802, 2009], por exemplo, especifica os padrões Ethernet e Wi-Fi sem fio.

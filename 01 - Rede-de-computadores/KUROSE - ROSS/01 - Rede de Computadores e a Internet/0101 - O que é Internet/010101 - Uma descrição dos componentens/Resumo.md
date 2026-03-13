@@ -1,1 +1,0 @@
-# Uma descrição dos componentes - Resumo
