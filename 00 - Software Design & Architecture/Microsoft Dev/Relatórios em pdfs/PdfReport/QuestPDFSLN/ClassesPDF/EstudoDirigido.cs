@@ -45,54 +45,57 @@ namespace QuestPDFSLN.ClassesPDF
         {
             new Pessoa
             {
-                Nome = "Deyvid Rannyere de Moraes Costa",
-                CPF = "AAA.AAA.AAA-AA",
+                Nome = "Marlos Augusto Silva Araujo",
+                CPF = "647.239.332-04, responsável pelo aluno João Paulo Serejo Araujo",
                 Disciplinas = new List<string>
                 {
-                    "Ciências, Físicas e Biológicas (C.F.B)",
-                    "Físicas",
+                    "Matemática",
+                    "CFB",
+                    "Literatura"
+                }
+            },
+
+            new Pessoa
+            {
+                Nome = "Max Santos Da Silva",
+                CPF = "895.343.442-49, responsável pelo aluno Matheus Tavares Da Silva",
+                Disciplinas = new List<string>
+                {
+                    "Matemática",
+                    "Ciências",
+                    "Geografia"
+                }
+            },
+
+            new Pessoa
+            {
+                Nome = "Heleide Andrade Ribeiro Gemaque",
+                CPF = "597.807.702-91, responsável pelo aluna Larissa Victoria Ribeiro Gemaque",
+                Disciplinas = new List<string>
+                {
+                    "Geografia",
+                    "Matemática"
+                }
+            },
+
+            new Pessoa
+            {
+                Nome = "Jesonias De Lima Lopes",
+                CPF = "900.511.142-91, responsável pelo aluna Jeanne Sophia de Lima Lopes",
+                Disciplinas = new List<string>
+                {                    
                     "História"
                 }
             },
 
             new Pessoa
             {
-                Nome = "Lara Hellena Costa de Moraes",
-                CPF = "BBB.BBB.BBB-BB",
+                Nome = "Vinnicius Di Mattos De Souza Vitorino",
+                CPF = "886.368.102-30, responsável pelo aluno Pedro Lucas Fima Vitorino",
                 Disciplinas = new List<string>
                 {
-                    "Língua Portuguesa",
-                    "Matemática"
-                }
-            },
-
-            new Pessoa
-            {
-                Nome = "Márcia Costa Silva de Moraes",
-                CPF = "CCC.CCC.CCC-CC",
-                Disciplinas = new List<string>
-                {
-                    "Língua Portuguesa",
-                    "Língua Inglesa",
                     "História",
-                    "Sociologia",
                     "Matemática"
-                }
-            },
-
-            new Pessoa
-            {
-                Nome = "XXX XXXX XXX XX XXXXX XXXXX",
-                CPF = "CCC.CCC.CCC-CC",
-                Disciplinas = new List<string>
-                {
-                    "Ciências, Físicas e Biológicas (C.F.B)",
-                    "Língua Portuguesa",
-                    "Língua Inglesa",
-                    "História",
-                    "Sociologia",
-                    "Matemática",
-                    "Empreendedorismo"
                 }
             }
 
@@ -131,7 +134,7 @@ namespace QuestPDFSLN.ClassesPDF
                 {
                     text.DefaultTextStyle(x => x.FontFamily(_FontFamily).FontSize(_FontSize));
 
-                    text.Span("CONTRATO ESTUDO DIRIGIDO")
+                    text.Span("CONTRATO DE DEPENDÊNCIA ESCOLAR")
                         .Bold()
                         .FontSize(15);
 
@@ -163,12 +166,12 @@ namespace QuestPDFSLN.ClassesPDF
                         text.Span("Espaço Cultural Intellectus Vita LTDA, CNPJ Nº 27.219.858/0001-06. ");
 
                         text.Span("OBJETO DO CONTRATO: ").Bold();
-                        text.Span("Prestação de serviços educacionais sob o título \"Estudo Dirigido\".");
+                        text.Span("Prestação de serviços educacionais sob o título \"Dependência Escolar\".");
 
 
                         text.Span("\n\nCLÁUSULAS: ").Bold();
                         text.Span("Objeto do Contrato: O CONTRATANTE contrata o CONTRATADO para a ");
-                        text.Span(" prestação de serviços educacionais denominados \"Estudo Dirigido\", conforme especificado no presente contrato.");
+                        text.Span(" prestação de serviços educacionais denominados \"Dependência Escolar\", conforme especificado no presente contrato.");
 
 
                         text.Justify();
