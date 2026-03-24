@@ -7,37 +7,26 @@
 - Complexidade de Equipe: Necessidade de múltiplos desenvolvedores trabalhando simultaneamente em partes diferentes.
 - Adaptabilidade: Exigência de uma arquitetura que permita modificações sem quebrar o sistema.
 
-# BackEnd-RoadMap - Software Design & Architecture
-## Maui - Enterprise App
-### CH02 - Introduction do .Net Maui
+## O Problema: Apps Monolíticos
 
-2. O Problema: Apps Monolíticos
-Acoplamento Forte: Componentes dependentes entre si, sem separação clara.
-
-Dificuldade de Manutenção: Corrigir um erro pode gerar novos bugs em outras partes.
-
-Escalabilidade Baixa: Difícil adicionar ou substituir funcionalidades.
+- Acoplamento Forte: Componentes dependentes entre si, sem separação clara.
+- Dificuldade de Manutenção: Corrigir um erro pode gerar novos bugs em outras partes.
+- Escalabilidade Baixa: Difícil adicionar ou substituir funcionalidades.
 
 # BackEnd-RoadMap - Software Design & Architecture
 ## Maui - Enterprise App
 ### CH02 - Introduction do .Net Maui
+#### A Solução: Componentes Desacoplados
 
-3. A Solução: Componentes Desacoplados
-Particionamento: Divisão em componentes discretos e independentes.
+- Particionamento: Divisão em componentes discretos e independentes.
+- Separação de Preocupações (SoC):
+- Horizontal: Autenticação, acesso a dados.
+- Vertical: Funcionalidades de negócio específicas.
+- Benefícios:
 
-Separação de Preocupações (SoC):
-
-Horizontal: Autenticação, acesso a dados.
-
-Vertical: Funcionalidades de negócio específicas.
-
-Benefícios:
-
-Testabilidade isolada.
-
-Reuso de código.
-
-Especialização de papéis (UI vs. Lógica de Negócio).
+    - Testabilidade isolada.
+    - Reuso de código.
+    - Especialização de papéis (UI vs. Lógica de Negócio).
 
 
 # BackEnd-RoadMap - Software Design & Architecture
