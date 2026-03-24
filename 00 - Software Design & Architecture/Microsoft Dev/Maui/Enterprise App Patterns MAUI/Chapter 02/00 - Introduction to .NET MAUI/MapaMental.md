@@ -13,10 +13,7 @@
 - Dificuldade de Manutenção: Corrigir um erro pode gerar novos bugs em outras partes.
 - Escalabilidade Baixa: Difícil adicionar ou substituir funcionalidades.
 
-# BackEnd-RoadMap - Software Design & Architecture
-## Maui - Enterprise App
-### CH02 - Introduction do .Net Maui
-#### A Solução: Componentes Desacoplados
+## A Solução: Componentes Desacoplados
 
 - Particionamento: Divisão em componentes discretos e independentes.
 - Separação de Preocupações (SoC):
