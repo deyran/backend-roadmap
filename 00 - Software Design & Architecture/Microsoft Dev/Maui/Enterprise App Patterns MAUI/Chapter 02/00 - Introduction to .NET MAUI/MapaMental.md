@@ -29,20 +29,13 @@
 # BackEnd-RoadMap - Software Design & Architecture
 ## Maui - Enterprise App
 ### CH02 - Introduction do .Net Maui
+#### Pilares de Implementação no .NET MAUI
 
-4. Pilares de Implementação no .NET MAUI
-MVVM (Model-View-ViewModel): Separação essencial entre a interface (UI) e a lógica de apresentação.
-
-Injeção de Dependência (DI): Reduz o acoplamento e gerencia o ciclo de vida dos objetos.
-
-Comunicação: Uso de mensagens entre componentes para evitar referências diretas.
-
-Navegação: Definição de onde reside a lógica de transição entre telas.
-
-Validação: Estratégias para validar inputs e notificar o usuário.
-
-Segurança: Implementação de Autenticação e Autorização.
-
-Dados Remotos: Acesso a Web Services e estratégias de cache.
-
-Testes Unitários: Foco em criar código testável desde o início.
+- MVVM (Model-View-ViewModel): Separação essencial entre a interface (UI) e a lógica de apresentação.
+- Injeção de Dependência (DI): Reduz o acoplamento e gerencia o ciclo de vida dos objetos.
+- Comunicação: Uso de mensagens entre componentes para evitar referências diretas.
+- Navegação: Definição de onde reside a lógica de transição entre telas.
+- Validação: Estratégias para validar inputs e notificar o usuário.
+- Segurança: Implementação de Autenticação e Autorização.
+- Dados Remotos: Acesso a Web Services e estratégias de cache.
+- Testes Unitários: Foco em criar código testável desde o início.
