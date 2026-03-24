@@ -1,17 +1,11 @@
 # CH02 - Introduction do .Net Maui - MM
 
-# BackEnd-RoadMap - Software Design & Architecture
-## Maui - Enterprise App
-### CH02 - Introduction do .Net Maui
+## Desafios do Desenvolvimento Enterprise
 
-Desafios do Desenvolvimento Enterprise
-Mudanças Constantes: Requisitos que evoluem e novos desafios de negócios.
-
-Feedback Contínuo: Alterações de escopo durante o desenvolvimento.
-
-Complexidade de Equipe: Necessidade de múltiplos desenvolvedores trabalhando simultaneamente em partes diferentes.
-
-Adaptabilidade: Exigência de uma arquitetura que permita modificações sem quebrar o sistema.
+- Mudanças Constantes: Requisitos que evoluem e novos desafios de negócios.
+- Feedback Contínuo: Alterações de escopo durante o desenvolvimento.
+- Complexidade de Equipe: Necessidade de múltiplos desenvolvedores trabalhando simultaneamente em partes diferentes.
+- Adaptabilidade: Exigência de uma arquitetura que permita modificações sem quebrar o sistema.
 
 # BackEnd-RoadMap - Software Design & Architecture
 ## Maui - Enterprise App
