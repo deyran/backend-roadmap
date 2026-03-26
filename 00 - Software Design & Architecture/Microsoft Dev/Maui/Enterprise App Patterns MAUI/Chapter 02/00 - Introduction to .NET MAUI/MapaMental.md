@@ -26,10 +26,7 @@
     - Especialização de papéis (UI vs. Lógica de Negócio).
 
 
-# BackEnd-RoadMap - Software Design & Architecture
-## Maui - Enterprise App
-### CH02 - Introduction do .Net Maui
-#### Pilares de Implementação no .NET MAUI
+## Pilares de Implementação no .NET MAUI
 
 - MVVM (Model-View-ViewModel): Separação essencial entre a interface (UI) e a lógica de apresentação.
 - Injeção de Dependência (DI): Reduz o acoplamento e gerencia o ciclo de vida dos objetos.
