@@ -20,10 +20,7 @@
   - Monitoramento: Webcams, Sensores ambientais.
   - Automação residencial (Domótica): Sistemas elétricos e de segurança.
 
-# Rede de Computadores Kurose - Ross
-## Rede de Computadores e a Internet
-### Uma descrição dos componentes
-#### Nomenclatura Técnica
+## Nomenclatura Técnica
 
 - **Hospedeiros (Hosts) ou Sistemas Finais**: Equipamentos ligados a Internet, tradicionais ou não.
 - Obs: O termo "rede de computadores" é considerado desatualizado pela diversidade de equipamentos.
