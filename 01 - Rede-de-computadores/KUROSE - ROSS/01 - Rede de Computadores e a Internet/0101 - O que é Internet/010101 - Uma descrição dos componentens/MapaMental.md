@@ -11,23 +11,23 @@
     
   - PCs de mesa.
   - Estações de trabalho Linux.
-  - Servidores (armazenam/transmitem Web e e-mail).
+  - Servidores: Armazenam e Transmitem informações (Página web e mensagens web).
 
-- Presente (Sistemas Modernos/Não Tradicionais):
+- Presente -> Sistemas finais modernos (Equipamentos não tradicionais)
   
   - Entretenimento: TVs, Consoles de jogos.
   - Mobilidade: Laptops, Smartphones, Automóveis.
   - Monitoramento: Webcams, Sensores ambientais.
-  - Domótica: Sistemas elétricos e de segurança.
+  - Automação residencial (Domótica): Sistemas elétricos e de segurança.
 
 # Rede de Computadores Kurose - Ross
 ## Rede de Computadores e a Internet
 ### Uma descrição dos componentes
+#### Nomenclatura Técnica
 
-1. Nomenclatura Técnica
-Hospedeiros (Hosts): Termo oficial para equipamentos na rede.
-Sistemas Finais: Dispositivos que ocupam a "ponta" da conexão.
-Obs: O termo "rede de computadores" é considerado desatualizado pela diversidade de aparelhos.
+- **Hospedeiros (Hosts)**: Termo oficial para equipamentos na rede.
+- **Sistemas Finais**: Dispositivos que ocupam a "ponta" da conexão.
+- Obs: O termo "rede de computadores" é considerado desatualizado pela diversidade de aparelhos.
 
 # Rede de Computadores Kurose - Ross
 ## Rede de Computadores e a Internet
