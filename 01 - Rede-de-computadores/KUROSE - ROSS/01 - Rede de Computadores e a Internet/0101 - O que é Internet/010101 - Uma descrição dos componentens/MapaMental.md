@@ -1,18 +1,16 @@
 # Uma descrição dos componentes - MP
 
+## Definição de Internet
+
+- Rede global de computadores.
+- Interconecta centenas de milhões de dispositivos.
+
 # Rede de Computadores Kurose - Ross
 ## Rede de Computadores e a Internet
 ### Uma descrição dos componentes
 
 
-1. Definição de Internet
-Rede global de computadores.
-Interconecta centenas de milhões de dispositivos.
 2. Evolução dos Dispositivos
-
-# Rede de Computadores Kurose - Ross
-## Rede de Computadores e a Internet
-### Uma descrição dos componentes
 
 Passado (Tradicionais):
 PCs de mesa.
