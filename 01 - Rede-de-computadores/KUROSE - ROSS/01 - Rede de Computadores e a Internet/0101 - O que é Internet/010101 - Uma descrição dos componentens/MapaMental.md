@@ -25,18 +25,6 @@
 - **Hospedeiros (Hosts) ou Sistemas Finais**: Equipamentos ligados a Internet, tradicionais ou não.
 - Obs: O termo "rede de computadores" é considerado desatualizado pela diversidade de equipamentos.
 
-# Rede de Computadores Kurose - Ross
-## Rede de Computadores e a Internet
-### Uma descrição dos componentes
-
-1. Dados e Estatísticas (Referência 2011/2012)
-
-Sistemas Fixos: ~850 milhões (ligados permanentemente).
-Dispositivos Intermitentes: Smartphones e laptops (conexão não contínua).
-Usuários Totais: Estimados em 2 bilhões.
-
-
-
 
 
 ## Importância dos protocolos
