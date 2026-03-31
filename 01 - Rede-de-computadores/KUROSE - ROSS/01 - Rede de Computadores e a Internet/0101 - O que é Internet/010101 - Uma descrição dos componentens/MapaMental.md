@@ -1,5 +1,52 @@
 # Uma descrição dos componentes - MP
 
+# Rede de Computadores Kurose - Ross
+## Rede de Computadores e a Internet
+### Uma descrição dos componentes
+
+
+1. Definição de Internet
+Rede global de computadores.
+Interconecta centenas de milhões de dispositivos.
+2. Evolução dos Dispositivos
+
+# Rede de Computadores Kurose - Ross
+## Rede de Computadores e a Internet
+### Uma descrição dos componentes
+
+Passado (Tradicionais):
+PCs de mesa.
+Estações de trabalho Linux.
+Servidores (armazenam/transmitem Web e e-mail).
+Presente (Sistemas Modernos/Não Tradicionais):
+Entretenimento: TVs, Consoles de jogos.
+Mobilidade: Laptops, Smartphones, Automóveis.
+Monitoramento: Webcams, Sensores ambientais.
+Domótica: Sistemas elétricos e de segurança.
+
+# Rede de Computadores Kurose - Ross
+## Rede de Computadores e a Internet
+### Uma descrição dos componentes
+
+1. Nomenclatura Técnica
+Hospedeiros (Hosts): Termo oficial para equipamentos na rede.
+Sistemas Finais: Dispositivos que ocupam a "ponta" da conexão.
+Obs: O termo "rede de computadores" é considerado desatualizado pela diversidade de aparelhos.
+
+# Rede de Computadores Kurose - Ross
+## Rede de Computadores e a Internet
+### Uma descrição dos componentes
+
+1. Dados e Estatísticas (Referência 2011/2012)
+
+Sistemas Fixos: ~850 milhões (ligados permanentemente).
+Dispositivos Intermitentes: Smartphones e laptops (conexão não contínua).
+Usuários Totais: Estimados em 2 bilhões.
+
+
+
+
+
 ## Importância dos protocolos
 
 - Protocolos padronizados e aprovados todos concordam com que ele faz.
