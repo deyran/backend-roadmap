@@ -25,9 +25,8 @@
 ### Uma descrição dos componentes
 #### Nomenclatura Técnica
 
-- **Hospedeiros (Hosts)**: Termo oficial para equipamentos na rede.
-- **Sistemas Finais**: Dispositivos que ocupam a "ponta" da conexão.
-- Obs: O termo "rede de computadores" é considerado desatualizado pela diversidade de aparelhos.
+- **Hospedeiros (Hosts) ou Sistemas Finais**: Equipamentos ligados a Internet, tradicionais ou não.
+- Obs: O termo "rede de computadores" é considerado desatualizado pela diversidade de equipamentos.
 
 # Rede de Computadores Kurose - Ross
 ## Rede de Computadores e a Internet
