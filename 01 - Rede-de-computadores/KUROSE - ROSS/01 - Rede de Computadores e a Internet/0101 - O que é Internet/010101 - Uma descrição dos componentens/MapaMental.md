@@ -5,22 +5,20 @@
 - Rede global de computadores.
 - Interconecta centenas de milhões de dispositivos.
 
-# Rede de Computadores Kurose - Ross
-## Rede de Computadores e a Internet
-### Uma descrição dos componentes
+## Evolução dos Dispositivos
 
+- Passado (Tradicionais):
+    
+  - PCs de mesa.
+  - Estações de trabalho Linux.
+  - Servidores (armazenam/transmitem Web e e-mail).
 
-2. Evolução dos Dispositivos
-
-Passado (Tradicionais):
-PCs de mesa.
-Estações de trabalho Linux.
-Servidores (armazenam/transmitem Web e e-mail).
-Presente (Sistemas Modernos/Não Tradicionais):
-Entretenimento: TVs, Consoles de jogos.
-Mobilidade: Laptops, Smartphones, Automóveis.
-Monitoramento: Webcams, Sensores ambientais.
-Domótica: Sistemas elétricos e de segurança.
+- Presente (Sistemas Modernos/Não Tradicionais):
+  
+  - Entretenimento: TVs, Consoles de jogos.
+  - Mobilidade: Laptops, Smartphones, Automóveis.
+  - Monitoramento: Webcams, Sensores ambientais.
+  - Domótica: Sistemas elétricos e de segurança.
 
 # Rede de Computadores Kurose - Ross
 ## Rede de Computadores e a Internet
