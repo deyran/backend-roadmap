@@ -26,6 +26,18 @@
 - Obs: O termo "rede de computadores" é considerado desatualizado pela diversidade de equipamentos.
 
 
+## Infraestrutura de Conexão
+
+- Sistemas finais são conectados entre si por *enlaces (links) de comunicação* e *comutadores (switches) de pacotes*.
+- Os enlaces podem ser constituído de diversos materiais:
+  
+  - **Cabeanento**: Cabos Coaxiais, Fios de Cobre e Fibras óticas.
+  - **Sem fio (Wireless)**: Ondas de rádio.
+
+- Taxa de transmissão medida em bits por segundo (bps).
+
+
+
 
 ## Importância dos protocolos
 
