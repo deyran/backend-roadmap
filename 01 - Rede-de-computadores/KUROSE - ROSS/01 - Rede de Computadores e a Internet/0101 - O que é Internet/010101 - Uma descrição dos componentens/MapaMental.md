@@ -36,9 +36,18 @@
 
 - Taxa de transmissão medida em bits por segundo (bps).
 
+## Processo de Transmissão de Dados
 
+- Sistema Final Emissor
 
+  1. **Segmentação**: O dado original é divido em partes menores.
+  2. **Encapsulamento**: *Bytes de Cabeçalho* são adicionados a cada segmento.
+  3. **Pacote**: O resultado final (Segmento + Cabeçalho) é chamado de pacote.
 
+- Rede: Os pacotes são enviados através da rede.
+- Sistema Final de Destino: Os pacotes recebidos são agrupados para restaurar os dados originais.
+
+-----------------------------
 ## Importância dos protocolos
 
 - Protocolos padronizados e aprovados todos concordam com que ele faz.
