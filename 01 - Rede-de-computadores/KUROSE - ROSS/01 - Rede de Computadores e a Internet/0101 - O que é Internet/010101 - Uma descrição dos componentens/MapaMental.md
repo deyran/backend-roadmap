@@ -52,10 +52,7 @@
 - O comutador encaminha pacotes de um enlace de entrada para um de saída.
 - Tem por objetivo levar os dados até o destino final.
 
-# Rede de Computadores Kurose - Ross
-## Rede de Computadores e a Internet
-### Uma descrição dos componentes
-#### Principais Tipos de Comutadores
+## Principais Tipos de Comutadores
 
 - Roteadores: São utilizados no Núcleo da Rede.
 - Comutadores de camada de enlace: Utilizados em Redes de Acesso.
