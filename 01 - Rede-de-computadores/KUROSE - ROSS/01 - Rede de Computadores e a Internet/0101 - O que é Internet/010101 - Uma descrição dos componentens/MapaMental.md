@@ -36,13 +36,6 @@
 
 - Taxa de transmissão medida em bits por segundo (bps).
 
-## Comutação de Pacotes na Internet
-
-- O comutador encaminha pacotes de um enlace de entrada para um de saída.
-- Tem por objetivo levar os dados até o destino final.
-
-
-
 ## Processo de Transmissão de Dados
 
 - Sistema Final Emissor
@@ -54,7 +47,26 @@
 - Rede: Os pacotes são enviados através da rede.
 - Sistema Final de Destino: Os pacotes recebidos são agrupados para restaurar os dados originais.
 
------------------------------
+## Comutação de Pacotes na Internet
+
+- O comutador encaminha pacotes de um enlace de entrada para um de saída.
+- Tem por objetivo levar os dados até o destino final.
+
+# Rede de Computadores Kurose - Ross
+## Rede de Computadores e a Internet
+### Uma descrição dos componentes
+#### Principais Tipos de Comutadores
+
+- Roteadores: São utilizados no Núcleo da Rede.
+- Comutadores de camada de enlace: Utilizados em Redes de Acesso.
+
+
+
+
+
+
+
+----------------------------------------------------------------------------
 ## Importância dos protocolos
 
 - Protocolos padronizados e aprovados todos concordam com que ele faz.
