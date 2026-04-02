@@ -57,7 +57,10 @@
 - Roteadores: São utilizados no Núcleo da Rede.
 - Comutadores de camada de enlace: Utilizados em Redes de Acesso.
 
+## O Percurso dos Dados
 
+- Rota ou Caminho: É a sequência completa de enlaces e comutadores entre o remetente (origem) e o receptor (destino).
+- Extensão: Vai do sistema final de quem envia até o sistema final de quem recebe.
 
 
 
