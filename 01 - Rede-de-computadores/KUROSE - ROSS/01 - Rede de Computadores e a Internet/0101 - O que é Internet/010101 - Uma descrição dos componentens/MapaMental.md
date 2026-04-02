@@ -36,10 +36,7 @@
 
 - Taxa de transmissão medida em bits por segundo (bps).
 
-# Rede de Computadores Kurose - Ross
-## Rede de Computadores e a Internet
-### Uma descrição dos componentes
-### Comutação de Pacotes na Internet
+## Comutação de Pacotes na Internet
 
 - O comutador encaminha pacotes de um enlace de entrada para um de saída.
 - Tem por objetivo levar os dados até o destino final.
