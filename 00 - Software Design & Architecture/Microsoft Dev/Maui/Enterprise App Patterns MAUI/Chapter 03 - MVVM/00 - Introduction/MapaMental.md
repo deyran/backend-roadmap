@@ -1,19 +1,14 @@
 # Introduction - MP
 
-# BackEnd-RoadMap - Software Design & Architecture
-## Maui - Enterprise App - CH03 MVVM
-### Introduction
+## O Problema
 
-
-## 🧠 Mapa Mental: .NET MAUI & MVVM
-
-### 1. O Problema (Experiência Típica)
-* **Abordagem Comum:** UI em XAML + Lógica no *Code-behind*.
-* **Consequências Negativas:**
-    * **Acoplamento Forte:** UI e lógica de negócios excessivamente ligadas.
-    * **Manutenção Complexa:** Dificuldade em expandir o app ou modificar a interface.
-    * **Dificuldade de Testes:** Impedimentos para realizar testes unitários eficazes.
-    * **Custo Elevado:** Mudanças na UI tornam-se caras e demoradas.
+- **Problema central**: Programar a Interface do Usuário (XAML) funto a Lógica de negócio no code-behind.
+- **Consequências Negativa**:
+  
+  - Forte acoplamento
+  - Maior complexidade na manutenção.
+  - Dificultade nos testes unitários
+  - Mudanças tornam-se caras e demoradas.
 
 # BackEnd-RoadMap - Software Design & Architecture
 ## Maui - Enterprise App - CH03 MVVM
