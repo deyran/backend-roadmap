@@ -16,23 +16,13 @@
 - Model: Dados e lógica de negócio.
 - View: Interface do usuário.
 - ViewModel: Coletas dos dados do Model, prepara, gerencia e os converte e entrega para view.
-  
-* **Componentes Principais:**
-    * **Model:** Dados e lógica de negócios.
-    * **View:** Interface do usuário (XAML).
-    * **ViewModel:** O intermediário que gerencia a lógica de apresentação.
 
+## Benefícios da Separação
 
-
-# BackEnd-RoadMap -> Software Design & Architecture
-## Maui - Enterprise App -> CH03 MVVM
-### Introduction ->
-
-### 3. Benefícios da Separação
-* **Manutenibilidade:** Facilita a evolução do código e correções.
-* **Testabilidade:** Permite a criação de testes unitários de forma isolada.
-* **Reuso de Código:** Melhora significativamente as oportunidades de reaproveitar a lógica em diferentes partes ou projetos.
-* **Colaboração Otimizada:** Permite que desenvolvedores (lógica) e designers (UI) trabalhem simultaneamente sem interferências.
+- **Manutenibilidade**: Facilita a evolução do código e correções.
+- **Testabilidade**: Permite a criação de Testes Unitários de forma isolada.
+- **Reuso de Código**: Reaproveitamento de código em diferentes partes ou projetos.
+- **Colaboração Otimizada**: Permite que desenvolvedores (lógica) e designers (UI) trabalhem simultaneamente sem interferências.
 
 # BackEnd-RoadMap -> Software Design & Architecture
 ## Maui - Enterprise App -> CH03 MVVM
