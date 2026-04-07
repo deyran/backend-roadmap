@@ -10,12 +10,13 @@
   - Dificultade nos testes unitários
   - Mudanças tornam-se caras e demoradas.
 
-# BackEnd-RoadMap - Software Design & Architecture
-## Maui - Enterprise App - CH03 MVVM
-### Introduction
+## Padrão MVVM
 
-### 2. A Solução: Padrão MVVM
-* **Definição:** Separação limpa entre a lógica (negócios/apresentação) e a interface (UI).
+- MVVM (Model-View-ViewModel) é um padrão de arquitetura de software que separa a lógica de negócio da internface do usuário (UI) em três camadas distintas.
+- Model: Dados e lógica de negócio.
+- View: Interface do usuário.
+- ViewModel: Coletas dos dados do Model, prepara, gerencia e os converte e entrega para view.
+  
 * **Componentes Principais:**
     * **Model:** Dados e lógica de negócios.
     * **View:** Interface do usuário (XAML).
@@ -23,10 +24,9 @@
 
 
 
-# BackEnd-RoadMap - Software Design & Architecture
-## Maui - Enterprise App - CH03 MVVM
-### Introduction
-
+# BackEnd-RoadMap -> Software Design & Architecture
+## Maui - Enterprise App -> CH03 MVVM
+### Introduction ->
 
 ### 3. Benefícios da Separação
 * **Manutenibilidade:** Facilita a evolução do código e correções.
@@ -34,10 +34,9 @@
 * **Reuso de Código:** Melhora significativamente as oportunidades de reaproveitar a lógica em diferentes partes ou projetos.
 * **Colaboração Otimizada:** Permite que desenvolvedores (lógica) e designers (UI) trabalhem simultaneamente sem interferências.
 
-# BackEnd-RoadMap - Software Design & Architecture
-## Maui - Enterprise App - CH03 MVVM
-### Introduction
-
+# BackEnd-RoadMap -> Software Design & Architecture
+## Maui - Enterprise App -> CH03 MVVM
+### Introduction ->
 
 ### 4. Objetivo Final
 * **Escalabilidade:** Criar aplicações que podem crescer em tamanho e escopo de forma sustentável.
