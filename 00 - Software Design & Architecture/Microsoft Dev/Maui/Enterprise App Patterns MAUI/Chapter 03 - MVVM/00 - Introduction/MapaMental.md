@@ -24,10 +24,7 @@
 - **Reuso de Código**: Reaproveitamento de código em diferentes partes ou projetos.
 - **Colaboração Otimizada**: Permite que desenvolvedores (lógica) e designers (UI) trabalhem simultaneamente sem interferências.
 
-# BackEnd-RoadMap -> Software Design & Architecture
-## Maui - Enterprise App -> CH03 MVVM
-### Introduction ->
+## Objetivo Final
 
-### 4. Objetivo Final
-* **Escalabilidade:** Criar aplicações que podem crescer em tamanho e escopo de forma sustentável.
-* **Eficiência:** Reduzir o custo de modificações e melhorar o ciclo de vida do software.
+- **Escalabilidade**: Crescimento em tamanho e escopo de forma sutentável.
+- **Eficiência**: Redução de custos de modificação e melhora.
