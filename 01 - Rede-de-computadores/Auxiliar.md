@@ -16,10 +16,7 @@ Leia o texto abaixo e monte um mapa mental:
 -------------------------------------------------------------------------------------------------------------------------
 
 Leia a seguinte texto e crie uma imagem representativa: 
-
-Um comutador de pacotes encaminha o pacote que está chegando em um de seus enlaces de comunicação de entrada para um de seus enlaces de comunicação de saída
 -------------------------------------------------------------------------------------------------------------------------
 
 Leia o seguinte texto e explique de forma simples e resumida:
-ISPs também fornecem acesso a provedores de conteúdo, conectando sites diretamente à Internet. 
 -------------------------------------------------------------------------------------------------------------------------
