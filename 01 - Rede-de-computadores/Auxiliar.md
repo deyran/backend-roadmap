@@ -13,5 +13,13 @@ Organização Doutrinária: Os direitos são divididos em "dimensões" ou "gera�
 -------------------------------------------------------------------------------------------------------------------------
 
 Leia o texto abaixo e monte um mapa mental:
+-------------------------------------------------------------------------------------------------------------------------
 
-Um comutador de pacotes encaminha o pacote que está chegando em um de seus enlaces de comunicação de entrada para um de seus enlaces de comunicação de saída. Há comutadores de pacotes de todos os tipos e formas, mas os dois mais proeminentes na Internet de hoje são roteadores e comutadores de camada de enlace. Esses dois tipos de comutadores encaminham pacotes a seus destinos finais. Os comutadores de camada de enlace geralmente são utilizados em redes de acesso, enquanto os roteadores são utilizados principalmente no núcleo da rede. A sequência de enlaces de comunicação e comutadores de pacotes que um pacote percorre desde o sistema final remetente até o sistema final receptor é conhecida como rota ou caminho através da rede. É difícil de estimar a exata quantidade de tráfego na Internet, mas a Cisco [Cisco VNI, 2011] estima que o tráfego global da Internet esteve perto do 40 exabytes por mês em 2012.-------------------------------------------------------------------------------------------------------------------------
+Leia a seguinte texto e crie uma imagem representativa: 
+
+Um comutador de pacotes encaminha o pacote que está chegando em um de seus enlaces de comunicação de entrada para um de seus enlaces de comunicação de saída
+-------------------------------------------------------------------------------------------------------------------------
+
+Leia o seguinte texto e explique de forma simples e resumida:
+
+A sequência de enlaces de comunicação e comutadores de pacotes que um pacote percorre desde o sistema final remetente até o sistema final receptor é conhecida como rota ou caminho através da rede.-------------------------------------------------------------------------------------------------------------------------
