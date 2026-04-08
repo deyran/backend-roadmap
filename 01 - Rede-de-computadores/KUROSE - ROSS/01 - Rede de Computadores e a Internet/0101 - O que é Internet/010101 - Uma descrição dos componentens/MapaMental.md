@@ -65,10 +65,7 @@
 
 *************************
 
-# Rede de Computadores Kurose - Ross
-## Rede de Computadores e a Internet
-### Uma descrição dos componentes
-#### Internet Service Provider - ISP
+## Internet Service Provider - ISP
 
 - Sistemas finais acessam a Internet por meio de ISPs.
 - Casa ISP é uma rede de comutadores de pacotes e enlaces de comunicação.
