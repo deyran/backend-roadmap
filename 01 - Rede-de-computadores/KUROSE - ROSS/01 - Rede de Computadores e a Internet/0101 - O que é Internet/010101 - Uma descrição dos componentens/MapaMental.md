@@ -63,6 +63,46 @@
 - Extensão: Vai do sistema final de quem envia até o sistema final de quem recebe.
 
 
+*************************
+
+# Rede de Computadores Kurose - Ross
+## Rede de Computadores e a Internet
+### Uma descrição dos componentes
+
+1. O que é um ISP?
+Definição: Uma rede própria composta por comutadores de pacotes e enlaces de comunicação.
+Papel Principal: Atuar como o ponto de acesso para sistemas finais (usuários) e provedores de conteúdo (sites) chegarem à Internet.
+Gerenciamento: Cada ISP é independente, mas todos falam a "mesma língua" (Protocolo IP) e seguem regras globais de nomes e endereços.
+
+# Rede de Computadores Kurose - Ross
+## Rede de Computadores e a Internet
+### Uma descrição dos componentes
+
+2. Tipos de Provedores (Exemplos)
+Residenciais: Empresas de telefonia (DSL) ou TV a Cabo.
+Corporativos/Acadêmicos: Universidades e empresas.
+Acesso Móvel/Público: Wi-Fi em hotéis, cafés e aeroportos.
+
+# Rede de Computadores Kurose - Ross
+## Rede de Computadores e a Internet
+### Uma descrição dos componentes
+
+3. Tecnologias de Acesso (Como você se conecta)
+Banda Larga: Modem a cabo ou DSL.
+Redes Locais: LAN de alta velocidade.
+Sem Fio: Wi-Fi e redes móveis.
+Legado: Modem discado (56 kbits/s).
+
+# Rede de Computadores Kurose - Ross
+## Rede de Computadores e a Internet
+### Uma descrição dos componentes
+
+4. Hierarquia e Interconexão (A "Rede de Redes")
+Nível Inferior (Acesso): São os ISPs locais que você contrata.
+Nível Superior (Espinha Dorsal/Backbone): ISPs nacionais e internacionais (ex: AT&T, Sprint, NTT).
+Infraestrutura: Roteadores de altíssima velocidade e fibra ótica.
+Necessidade: Como a Internet é sobre conectar todos os sistemas finais, os ISPs precisam se interconectar entre si para que um dado saia de uma rede e chegue em outra.
+************************
 
 
 
