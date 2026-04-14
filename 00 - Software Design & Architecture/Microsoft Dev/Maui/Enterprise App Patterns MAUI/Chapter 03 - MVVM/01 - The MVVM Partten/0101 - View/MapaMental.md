@@ -6,7 +6,7 @@
 - Estrutura, layout e aparência.
 - Visualização do usuário
 - View não deve conter lógica de negócio
-- Code-behind: Deve ser usado o mínimo possível, como auxílio para animações mais complexas.
+- Code-behind (.xaml.cs): Deve ser usado o mínimo possível, como auxílio para animações mais complexas.
 
 ### Implementação Técnica
 
@@ -20,20 +20,8 @@
 
 # Maui - Enterprise App - CH03 MVVM
 ## The MVVM Partten -> View
+### Estado e Comportamento (Interação com a ViewModel)
 
-### 3. O Papel do Code-Behind (`.xaml.cs`)
-* **Uso Limitado:** Não deve conter lógica de negócios.
-* **Casos Específicos:** Apenas para lógica de UI complexa (ex: animações difíceis de expressar em XAML).
-
-
-# Maui - Enterprise App - CH03 MVVM
-## The MVVM Partten -> View
-
-### 4. Estado e Comportamento (Interação com a ViewModel)
-* **Estado Lógico:** Definido pela View Model (ex: se uma operação está pendente).
-* **Controle de Elementos:**
-    * Habilitar/Desabilitar botões via **Data Binding**.
-    * Evitar manipulação direta no code-behind.
-* **Execução de Código:**
-    * **Commands (`ICommand`):** Vinculação direta de propriedades do controle (ex: `Button.Command`) à ViewModel.
-    * **Behaviors:** Escutam eventos ou comandos e disparam métodos/comandos na ViewModel.
+- Mudanças de estado de exibição do View é realizado no View Model.
+- Manipulação no code-behinde deve ser evitado.
+- Dois tipos de execução de código: 1. Commands (ICommand); 2. Behaviors.
