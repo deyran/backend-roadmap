@@ -3,12 +3,12 @@
 
 # Maui - Enterprise App - CH03 MVVM
 ## The MVVM Partten -> View
+### Responsabilidade Principal
 
-### 1. Responsabilidade Principal
-* **Definição Visual:** Estrutura, layout e aparência.
-* **Interface do Usuário (UI):** O que o usuário vê na tela.
-* **Princípio:** Deve ser "burra" (sem lógica de negócios).
-
+- Estrutura, layout e aparência.
+- Visualização do usuário
+- View não deve conter lógica de negócio
+- Code-behind: Deve ser usado o mínimo possível, como auxílio para animações mais complexas.
 
 # Maui - Enterprise App - CH03 MVVM
 ## The MVVM Partten -> View
