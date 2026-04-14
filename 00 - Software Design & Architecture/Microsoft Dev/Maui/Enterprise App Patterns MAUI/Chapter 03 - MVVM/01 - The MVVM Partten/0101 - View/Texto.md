@@ -1,4 +1,5 @@
-# The MVVM Partten -> View
+# Maui - Enterprise App - CH03 MVVM
+## The MVVM Partten -> View
 
 The view is responsible for defining the structure, layout, and appearance of what the user sees on screen. Ideally, each view is defined in XAML, with a limited code-behind that does not contain business logic. However, in some cases, the code-behind might contain UI logic that implements visual behavior that is difficult to express in XAML, such as animations.
 
