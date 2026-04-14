@@ -1,9 +1,9 @@
 # Maui - Enterprise App - CH03 MVVM
-## The MVVM Partten -> View
+## The MVVM Partten -> ViewModel
+
 
 * **The MVVM pattern**
-  * **View**
-  * ViewModel
+  * **ViewModel**
   * Model
 * Connecting view models to views
 * Creating a view model declaratively
