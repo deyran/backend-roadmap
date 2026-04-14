@@ -18,8 +18,6 @@
   - Sem code-behind.
   - Vinculado a View Model. 
 
-# Maui - Enterprise App - CH03 MVVM
-## The MVVM Partten -> View
 ### Estado e Comportamento (Interação com a ViewModel)
 
 - Mudanças de estado de exibição do View é realizado no View Model.
