@@ -1,8 +1,6 @@
 # Maui - Enterprise App - CH03 MVVM
 ## The MVVM Partten -> View - MP
 
-# Maui - Enterprise App - CH03 MVVM
-## The MVVM Partten -> View
 ### Responsabilidade Principal
 
 - Estrutura, layout e aparência.
@@ -10,19 +8,15 @@
 - View não deve conter lógica de negócio
 - Code-behind: Deve ser usado o mínimo possível, como auxílio para animações mais complexas.
 
-# Maui - Enterprise App - CH03 MVVM
-## The MVVM Partten -> View
+### Implementação Técnica
 
-### 2. Implementação Técnica
-* **Linguagem:** Preferencialmente definida em **XAML**.
-* **Tipos de Classes:**
-    * `ContentPage` (Páginas completas).
-    * `ContentView` (Componentes reutilizáveis).
-* **Data Templates:**
-    * Usados para representar objetos visualmente.
-    * **Sem code-behind.**
-    * Vinculados a tipos específicos de View Model.
-
+- Projeção de Interface do Usuário (UI) é feita pela linguagem de marcação XAML.
+- Páginas View tem dois tipos: 1. ContentPage (Páginas completas); 2. ContentView (Componentes reutilizáveis).
+- Views também podem ser representadas por Data Templates:
+  
+  - Representa objetos visualmente.
+  - Sem code-behind.
+  - Vinculado a View Model. 
 
 # Maui - Enterprise App - CH03 MVVM
 ## The MVVM Partten -> View
