@@ -83,20 +83,15 @@
 
 - ISPs (baixo ou alto) são gerenciados de forma independente e executa o protocolo IP.
 
-# Rede de Computadores e a Internet
-## O que é Internet
-### Uma descrição dos componentens
-#### Protocolos
+## Protocolos
 
 - Protocolos são regras que controlam o envio e recebimento de informações.
-- 
-* **Sistemas Finais:** Dispositivos nas bordas da rede que enviam/recebem dados.
-* **Comutadores de Pacotes:** Equipamentos (como roteadores) que encaminham a informação.
-* **Protocolos:** Regras que controlam o envio e recebimento de informações.
+- Sistemas finais, Comutadores de pacotes, e outras peças da Internet executam protocolos para envio e recebimento de informações.
+
 
 # Rede de Computadores e a Internet
-## O que é Internet
-### Uma descrição dos componentens
+## O que é Internet - Uma descrição dos componentens
+
 
 ### 2. Protocolos Principais (TCP/IP)
 * **IP (Internet Protocol):**
@@ -109,8 +104,7 @@
     * **SMTP:** Utilizado para correio eletrônico (e-mail).
 
 # Rede de Computadores e a Internet
-## O que é Internet
-### Uma descrição dos componentens
+## O que é Internet - Uma descrição dos componentens
 
 ### 3. Padronização (O papel das Normas)
 * **Objetivo:** Garantir que diferentes sistemas e produtos operem entre si (interoperabilidade).
@@ -121,8 +115,7 @@
     * Existem mais de 6.000 documentos atualmente.
 
 # Rede de Computadores e a Internet
-## O que é Internet
-### Uma descrição dos componentens
+## O que é Internet - Uma descrição dos componentens
 
 ### 4. Outros Órgãos Normatizadores
 * **IEEE (802 LAN/MAN Standards Committee):**

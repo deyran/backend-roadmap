@@ -1,6 +1,5 @@
 # Rede de Computadores e a Internet
-## O que é Internet
-### Uma descrição dos componentens
+## O que é Internet - Uma descrição dos componentens
 
 *010101 - Uma descrição dos componentens*
 010102 - Uma descrição do serviço
