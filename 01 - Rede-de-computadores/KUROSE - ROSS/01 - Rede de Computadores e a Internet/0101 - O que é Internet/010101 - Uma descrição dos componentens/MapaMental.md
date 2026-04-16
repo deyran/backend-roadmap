@@ -88,9 +88,7 @@
 - Protocolos são regras que controlam o envio e recebimento de informações.
 - Sistemas finais, Comutadores de pacotes, e outras peças da Internet executam protocolos para envio e recebimento de informações.
 
-# Rede de Computadores e a Internet
-## O que é Internet - Uma descrição dos componentens
-### Principais protocolos
+## Principais protocolos
 
 - IP (Internet Protocol)
 
