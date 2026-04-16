@@ -99,21 +99,9 @@
 - HTTP (Hypertext Transfer Protocol): Utilizado para Web.
 - SMTP (Simple Mail Transfer Protocol): Utilizado para correio eletrônico (e-mail).
 
-# Rede de Computadores e a Internet
-## O que é Internet - Uma descrição dos componentens
+## Padronização (O papel das Normas)
 
-### 3. Padronização (O papel das Normas)
-* **Objetivo:** Garantir que diferentes sistemas e produtos operem entre si (interoperabilidade).
-* **IETF (Internet Engineering Task Force):**
-    * Principal órgão de desenvolvimento de padrões da Internet.
-* **RFCs (Request For Comments):**
-    * Documentos técnicos e detalhados.
-    * Existem mais de 6.000 documentos atualmente.
-
-# Rede de Computadores e a Internet
-## O que é Internet - Uma descrição dos componentens
-
-### 4. Outros Órgãos Normatizadores
-* **IEEE (802 LAN/MAN Standards Committee):**
-    * Focado em padrões para enlaces (conexões físicas/locais).
-    * **Exemplos:** Ethernet e Wi-Fi.
+- A padronização garante que diferentes sistemas e produtos operem entre si (interoperabilidade).
+- IETF (Internet Engineering Task Force): Orgão internacional que desenvolve padrões da Internet.
+- RFCs (Request For Comments): Documentos técnicos padronizados da IETF; definem protocolos.
+- Além da IETF, existem outros orgãos que também especificam padrões para componentes de rede.
