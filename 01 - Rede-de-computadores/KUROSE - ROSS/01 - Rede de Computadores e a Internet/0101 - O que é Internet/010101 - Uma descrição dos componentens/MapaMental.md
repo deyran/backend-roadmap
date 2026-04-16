@@ -88,20 +88,18 @@
 - Protocolos são regras que controlam o envio e recebimento de informações.
 - Sistemas finais, Comutadores de pacotes, e outras peças da Internet executam protocolos para envio e recebimento de informações.
 
-
 # Rede de Computadores e a Internet
 ## O que é Internet - Uma descrição dos componentens
+### Principais protocolos
 
+- IP (Internet Protocol)
 
-### 2. Protocolos Principais (TCP/IP)
-* **IP (Internet Protocol):**
-    * Especifica o formato dos pacotes.
-    * Atua entre roteadores e sistemas finais.
-* **TCP (Transmission Control Protocol):**
-    * Protocolo de controle de transmissão (garante a entrega).
-* **Outros Exemplos Citados:**
-    * **HTTP:** Utilizado para a Web.
-    * **SMTP:** Utilizado para correio eletrônico (e-mail).
+  - Especifica o formato dos pacotes.
+  - Atua entre roteadores e sistemas finais.
+
+- TCP (Transmission Control Protocol): Controle de transmissão com garantia de entrega.
+- HTTP (Hypertext Transfer Protocol): Utilizado para Web.
+- SMTP (Simple Mail Transfer Protocol): Utilizado para correio eletrônico (e-mail).
 
 # Rede de Computadores e a Internet
 ## O que é Internet - Uma descrição dos componentens
