@@ -83,11 +83,48 @@
 
 - ISPs (baixo ou alto) são gerenciados de forma independente e executa o protocolo IP.
 
-# Rede de Computadores Kurose - Ross
-## Rede de Computadores e a Internet
-### Uma descrição dos componentes
+# Rede de Computadores e a Internet
+## O que é Internet
+### Uma descrição dos componentens
 #### Protocolos
 
-- Protocolo é um conjunto forma de regras, normas e convenções.
-- Padroniza como os dados são formatados, transmitidos, recebidos e processado entre sistemas finais e roteadores.
-- O TCP/IP são os protocolos mais importates da Internet.
+- Protocolos são regras que controlam o envio e recebimento de informações.
+- 
+* **Sistemas Finais:** Dispositivos nas bordas da rede que enviam/recebem dados.
+* **Comutadores de Pacotes:** Equipamentos (como roteadores) que encaminham a informação.
+* **Protocolos:** Regras que controlam o envio e recebimento de informações.
+
+# Rede de Computadores e a Internet
+## O que é Internet
+### Uma descrição dos componentens
+
+### 2. Protocolos Principais (TCP/IP)
+* **IP (Internet Protocol):**
+    * Especifica o formato dos pacotes.
+    * Atua entre roteadores e sistemas finais.
+* **TCP (Transmission Control Protocol):**
+    * Protocolo de controle de transmissão (garante a entrega).
+* **Outros Exemplos Citados:**
+    * **HTTP:** Utilizado para a Web.
+    * **SMTP:** Utilizado para correio eletrônico (e-mail).
+
+# Rede de Computadores e a Internet
+## O que é Internet
+### Uma descrição dos componentens
+
+### 3. Padronização (O papel das Normas)
+* **Objetivo:** Garantir que diferentes sistemas e produtos operem entre si (interoperabilidade).
+* **IETF (Internet Engineering Task Force):**
+    * Principal órgão de desenvolvimento de padrões da Internet.
+* **RFCs (Request For Comments):**
+    * Documentos técnicos e detalhados.
+    * Existem mais de 6.000 documentos atualmente.
+
+# Rede de Computadores e a Internet
+## O que é Internet
+### Uma descrição dos componentens
+
+### 4. Outros Órgãos Normatizadores
+* **IEEE (802 LAN/MAN Standards Committee):**
+    * Focado em padrões para enlaces (conexões físicas/locais).
+    * **Exemplos:** Ethernet e Wi-Fi.

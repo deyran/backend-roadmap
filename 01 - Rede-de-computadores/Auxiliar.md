@@ -1,8 +1,10 @@
-# Rede de Computadores Kurose - Ross
-## Rede de Computadores e a Internet
-### Uma descrição dos componentes
+# Rede de Computadores e a Internet
+## O que é Internet
+### Uma descrição dos componentens
 
-010101 - Uma descrição dos componentens
+*010101 - Uma descrição dos componentens*
+010102 - Uma descrição do serviço
+010103 - O que é um protocolo?
 
 Leia o texto abaixo, divida-o em pontos importantes. Em cada ponto importante, apresente as idéias em formato de lista ideia por ideia, resumindo cada item da lista:
 -------------------------------------------------------------------------------------------------------------------------
