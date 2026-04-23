@@ -1,7 +1,7 @@
 # Maui - Enterprise App - CH03 MVVM
 ## The MVVM Partten -> ViewModel
 
-The view model implements properties and commands to which the view can data bind to, and notifies the view of any state changes through change notification events. The properties and commands that the view model provides define the functionality to be offered by the UI, but the view determines how that functionality is to be displayed.
+The View Model implements properties and commands to which the view can data bind to, and notifies the view of any state changes through change notification events. The properties and commands that the View Model provides define the functionality to be offered by the UI, but the View determines how that functionality is to be displayed.
 
 *Tip: Keep the UI responsive with asynchronous operations.*
 

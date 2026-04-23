@@ -1,7 +1,6 @@
 # Maui - Enterprise App - CH03 MVVM
 ## The MVVM Partten -> ViewModel
 
-
 * **The MVVM pattern**
   * **ViewModel**
   * Model
@@ -15,14 +14,15 @@
 * Invoking commands from a view
 * Implementing behaviors
 * Invoking behaviors from a view
-
-Leia o texto abaixo, divida-o em pontos importantes. Em cada ponto importante, apresente as idéias em formato de lista ideia por ideia, resumindo cada item da lista:
--------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 Resuma sucintamente, reduza de forma minimalista o texto preservando a ideia central a seguinte sentença:
--------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 Leia o texto abaixo e monte um mapa mental:
--------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
-Leia o texto abaixo e explique de forma simples:
+Leia o texto abaixo e explique de forma simples, resumida e suscinta:
+
+The View Model implements properties and commands to which the view can data bind to, and notifies the view of any state changes through change notification events. The properties and commands that the View Model provides define the functionality to be offered by the UI, but the View determines how that functionality is to be displayed.
+-----------------------------------------------------------------------------------------------------------
