@@ -1,11 +1,10 @@
 # Capítulo 1 Redes de computadores e a Internet
 ## O que é a Internet?
-### Uma descrição dos componentes da rede
+### Uma descrição do serviço
 
 *CP01 - Redes de computadores e a Internet*
-*0101 - O que é a Internet?**
-*010101 - Uma descrição dos componentes da rede*
-010102 - Uma descrição do serviço
+*0101 - O que é a Internet?*
+*010102 - Uma descrição do serviço*
 010103 - O que é um protocolo?
 -----------------------------------------------------------------------------------------------------------
 
