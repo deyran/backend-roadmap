@@ -1,11 +1,13 @@
-# Uma descrição dos componentes - MP
+# O que é a Internet?
+## Uma descrição dos componentes da rede - MP
 
-## Definição de Internet
+
+### Definição de Internet
 
 - Rede global de computadores.
 - Interconecta centenas de milhões de dispositivos.
 
-## Evolução dos Dispositivos
+### Evolução dos Dispositivos
 
 - Passado (Tradicionais):
     
@@ -25,7 +27,7 @@
 - **Hospedeiros (Hosts) ou Sistemas Finais**: Equipamentos ligados a Internet, tradicionais ou não.
 - Obs: O termo "rede de computadores" é considerado desatualizado pela diversidade de equipamentos.
 
-## Infraestrutura de Conexão
+### Infraestrutura de Conexão
 
 - Sistemas finais são conectados entre si por *enlaces (links) de comunicação* e *comutadores (switches) de pacotes*.
 - Os enlaces podem ser constituído de diversos materiais:
@@ -35,7 +37,7 @@
 
 - Taxa de transmissão medida em bits por segundo (bps).
 
-## Processo de Transmissão de Dados
+### Processo de Transmissão de Dados
 
 - Sistema Final Emissor
 
@@ -46,25 +48,22 @@
 - Rede: Os pacotes são enviados através da rede.
 - Sistema Final de Destino: Os pacotes recebidos são agrupados para restaurar os dados originais.
 
-## Comutação de Pacotes na Internet
+### Comutação de Pacotes na Internet
 
 - O comutador encaminha pacotes de um enlace de entrada para um de saída.
 - Tem por objetivo levar os dados até o destino final.
 
-## Principais Tipos de Comutadores
+### Principais Tipos de Comutadores
 
 - Roteadores: São utilizados no Núcleo da Rede.
 - Comutadores de camada de enlace: Utilizados em Redes de Acesso.
 
-## O Percurso dos Dados
+### O Percurso dos Dados
 
 - Rota ou Caminho: É a sequência completa de enlaces e comutadores entre o remetente (origem) e o receptor (destino).
 - Extensão: Vai do sistema final de quem envia até o sistema final de quem recebe.
 
-
-*************************
-
-## Internet Service Provider - ISP
+### Internet Service Provider - ISP
 
 - Sistemas finais acessam a Internet por meio de ISPs.
 - Casa ISP é uma rede de comutadores de pacotes e enlaces de comunicação.
