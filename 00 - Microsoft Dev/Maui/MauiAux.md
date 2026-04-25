@@ -24,6 +24,4 @@ Leia o texto abaixo e monte um mapa mental:
 -----------------------------------------------------------------------------------------------------------
 
 Leia o texto abaixo traduza e explique de forma simples, resumida e suscinta:
-
-In order for the ViewModel to participate in two-way data binding with the View, its properties must raise the PropertyChanged event. ViewModels satisfy this requirement by implementing the INotifyPropertyChanged interface, and raising the PropertyChanged event when a property is changed.
 -----------------------------------------------------------------------------------------------------------
