@@ -1,18 +1,15 @@
 # The MVVM Partten
 ## ViewModel - MP
 
-
 # CH03 Model-View-ViewModel MVVM
 ## The MVVM Partten
 ### ViewModel
+#### Responsabilidades Principais
 
-
-### 1. Responsabilidades Principais
-* **Coordenação:** Atua como mediadora entre a View e o Model.
-* **Preparação de Dados:** Converte dados do Model em formatos que a View consome facilmente.
-* **Definição de Funcionalidade:** Provê as propriedades e comandos (Commands) que definem o que a UI pode fazer.
-* **Exposição de Modelos:** Pode expor classes do Model diretamente para a View (se o Model suportar data binding).
-
+- Coordenação: Atua como mediadora entre a View e o Model.
+- Preparação de Dados: Converte dados do Model em formatos que a View consome facilmente.
+- Define funcionalidade: Implementa propriedades e comandos (Commands) que definem o que a UI pode fazer.
+- Pode expor classes Model para o View se model suportar Data Binding.
 
 
 
