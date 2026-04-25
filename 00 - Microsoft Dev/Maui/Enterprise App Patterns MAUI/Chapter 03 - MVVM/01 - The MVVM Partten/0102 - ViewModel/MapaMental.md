@@ -8,18 +8,18 @@
 - Define funcionalidade: Implementa propriedades e comandos (Commands) que definem o que a UI pode fazer.
 - Pode expor classes Model para o View se model suportar Data Binding.
 
-
-
-
 # CH03 Model-View-ViewModel MVVM
 ## The MVVM Partten
 ### ViewModel
+#### Comunicação e Data Binding
 
-### 2. Comunicação e Data Binding
-* **Propriedades e Comandos:** Elementos fundamentais aos quais a View se conecta.
-* **Notificação de Mudanças:**
-    * Implementa a interface `INotifyPropertyChanged`.
-    * Dispara o evento `PropertyChanged` para atualizar a View em tempo real (Two-way binding).
+- Propriedades e Comandos: Elementos fundamentais aos quais a View se conecta.
+- Notificação de Mudanças
+
+	- INotifyPropertyChanged
+	- PropertyChanged: Atualiza View em tempo real.
+	- ObservableCollection<T>: Mudanças em lista.
+
 * **Coleções:** Uso de `ObservableCollection<T>` para notificar mudanças em listas sem esforço manual.
 
 
