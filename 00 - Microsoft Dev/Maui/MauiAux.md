@@ -1,5 +1,6 @@
-# Maui - Enterprise App - CH03 MVVM
-## The MVVM Partten -> ViewModel
+# CH03 Model-View-ViewModel MVVM
+## The MVVM Partten
+### ViewModel
 
 * **The MVVM pattern**
   * **ViewModel**
