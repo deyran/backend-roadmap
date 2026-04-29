@@ -17,17 +17,10 @@
 	- PropertyChanged: Atualiza View em tempo real.
 	- ObservableCollection<T>: Mudanças em lista sem esforço manual.
 
+## Performance
 
-
-
-
-# CH03 Model-View-ViewModel MVVM
-## The MVVM Partten
-### ViewModel
-
-### 3. Performance e UX
-* **Operações Assíncronas:** Uso de métodos assíncronos para operações de I/O para manter a UI responsiva.
-* **Notificações Assíncronas:** Disparo de eventos para notificar a View sobre mudanças de estado sem travar a thread principal.
+- Uso de métodos assíncronos para operações de I/O para manter a UI responsiva.
+- Disparo de eventos para notificar a View sobre mudanças de estado sem travar a Thread principal.
 
 
 
