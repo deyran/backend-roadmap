@@ -8,10 +8,7 @@
 - Define funcionalidade: Implementa propriedades e comandos (Commands) que definem o que a UI pode fazer.
 - Pode expor classes Model para o View se model suportar Data Binding.
 
-# CH03 Model-View-ViewModel MVVM
-## The MVVM Partten
-### ViewModel
-#### Comunicação e Data Binding
+### Comunicação e Data Binding
 
 - Propriedades e Comandos: Elementos fundamentais aos quais a View se conecta.
 - Notificação de Mudanças
