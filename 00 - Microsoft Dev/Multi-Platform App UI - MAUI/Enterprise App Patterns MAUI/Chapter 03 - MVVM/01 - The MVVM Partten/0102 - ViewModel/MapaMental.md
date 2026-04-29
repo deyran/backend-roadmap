@@ -18,9 +18,7 @@
 
 	- INotifyPropertyChanged
 	- PropertyChanged: Atualiza View em tempo real.
-	- ObservableCollection<T>: Mudanças em lista.
-
-* **Coleções:** Uso de `ObservableCollection<T>` para notificar mudanças em listas sem esforço manual.
+	- ObservableCollection<T>: Mudanças em lista sem esforço manual.
 
 
 

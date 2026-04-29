@@ -24,4 +24,6 @@ Leia o texto abaixo e monte um mapa mental:
 -----------------------------------------------------------------------------------------------------------
 
 Leia o texto abaixo traduza e explique de forma simples, resumida e suscinta:
+
+For collections, the view-friendly ObservableCollection<T> is provided. This collection implements collection changed notification, relieving the developer from having to implement the INotifyCollectionChanged interface on collections.
 -----------------------------------------------------------------------------------------------------------
