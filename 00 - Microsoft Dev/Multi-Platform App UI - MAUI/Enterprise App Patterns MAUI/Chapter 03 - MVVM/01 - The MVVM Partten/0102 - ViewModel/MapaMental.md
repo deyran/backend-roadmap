@@ -17,20 +17,12 @@
 	- PropertyChanged: Atualiza View em tempo real.
 	- ObservableCollection<T>: Mudanças em lista sem esforço manual.
 
-## Performance
+### Performance
 
 - Uso de métodos assíncronos para operações de I/O para manter a UI responsiva.
 - Disparo de eventos para notificar a View sobre mudanças de estado sem travar a Thread principal.
 
+### Camada de Conversão
 
-
-
-
-
-# CH03 Model-View-ViewModel MVVM
-## The MVVM Partten
-### ViewModel
-
-### 4. Camada de Conversão
-* **Conversão Interna:** Realizada na própria ViewModel (ex: combinar dois campos de texto).
-* **Conversores Externos (Value Converters):** Camada separada entre View e ViewModel para formatações específicas que não pertencem à lógica de negócio da ViewModel.
+- Conversão Interna: Realizada na própria ViewModel.
+- Conversão Externa: Camada separada entre View e ViewModel, formatações que não pertencem à lógica de negócio da ViewModel.específicas que não pertencem à lógica de negócio da ViewModel.
