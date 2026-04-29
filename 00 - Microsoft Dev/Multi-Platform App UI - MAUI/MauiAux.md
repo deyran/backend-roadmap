@@ -1,10 +1,9 @@
 # CH03 Model-View-ViewModel MVVM
 ## The MVVM Partten
-### ViewModel
+### Model
 
 * **The MVVM pattern**
-  * **ViewModel**
-  * Model
+  -> Model
 * Connecting view models to views
 * Creating a view model declaratively
 * Creating a view model programmatically
