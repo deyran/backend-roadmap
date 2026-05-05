@@ -11,13 +11,9 @@
 Leia o texto abaixo, divida-o em pontos importantes. Em cada ponto importante, apresente as idéias em formato de lista ideia por ideia, resumindo cada item da lista:
 -----------------------------------------------------------------------------------------------------------
 
-Resuma sucintamente, reduza de forma minimalista o texto preservando a ideia central a seguinte sentença:
+Leia o texto abaixo e monte um mapa mental estruturado, no final faça um Resumo Visual (Estrutura de Tópicos): 
 -----------------------------------------------------------------------------------------------------------
 
-Leia o texto abaixo e monte um mapa mental:
------------------------------------------------------------------------------------------------------------
+- Leia o texto abaixo e explique de forma simples, resumida e suscinta, divida-o em pontos importantes. Em cada ponto importante, apresente as idéias em formato de lista ideia por ideia, resumindo cada item da lista:
 
-Leia a seguinte texto e crie uma imagem representativa: 
------------------------------------------------------------------------------------------------------------
-
-Leia o seguinte texto e explique de forma simples e resumida:
+- Crie uma imagem que materialize o resumo.
