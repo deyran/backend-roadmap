@@ -19,5 +19,5 @@ Resuma sucintamente, reduza de forma minimalista o texto preservando a ideia cen
 Leia o texto abaixo e monte um mapa mental:
 -----------------------------------------------------------------------------------------------------------
 
-Leia o texto abaixo traduza e explique de forma simples, resumida e uscinta:
+Leia o texto abaixo traduza e explique de forma simples, suscinta e resumida cada paragráfo individualmente:
 -----------------------------------------------------------------------------------------------------------
