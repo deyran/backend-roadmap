@@ -11,14 +11,11 @@ class Program
         var servicoEmail = new ServicoEmail();
 
         // Coleta dos dados dinamicamente via Console
-        Console.Write("\nDigite o e-mail do destinatário: ");
-        string destinatario = Console.ReadLine();
-
-        Console.Write("Digite o assunto do e-mail: ");
-        string assunto = Console.ReadLine();
-
-        Console.Write("Digite o conteúdo da mensagem: ");
-        string conteudo = Console.ReadLine();
+        string destinatario = "deyran@gmail.com";
+        string assunto = "Assunto teste";
+        string conteudo = @"
+The Beatles foi uma banda de rock britânica formada na cidade de Liverpool em 1960. A formação mais conhecida da banda contava com John Lennon, Paul McCartney, George Harrison e Ringo Starr. Amplamente reconhecida como a maior e mais influente banda da história da música popular, foi essencial para o desenvolvimento da contracultura da década de 1960 e para o reconhecimento da música popular como forma de arte. Enraizados no skiffle, beat e o rock and roll dos anos 1950, os Beatles mais tarde experimentaram com diversos gêneros, desde baladas pop e a música indiana até a música psicodélica e o hard rock, e incorporaram elementos clássicos de maneiras inovadoras. Em meados da década de 1960, a imensa popularidade da banda tornou-se conhecida como ""Beatlemania"", mas conforme a música do grupo crescia em sofisticação, liderada pelos principais compositores Lennon e McCartney, seus membros começaram a ser percebidos como uma incorporação dos ideais compartilhados pelas revoluções socioculturais da era.
+        ";
 
         Console.WriteLine("\nProcessando envio, aguarde...");
 
