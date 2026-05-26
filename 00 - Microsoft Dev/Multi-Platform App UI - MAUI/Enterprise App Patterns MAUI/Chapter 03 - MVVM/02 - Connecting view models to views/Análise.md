@@ -1,6 +1,8 @@
 # Connecting ViewModels to Views - Análise
 
-## "ViewModels can be connected to Views by using the data-binding capabilities of .NET MAUI."
+## P1
+
+### "ViewModels can be connected to Views by using the data-binding capabilities of .NET MAUI."
 
 - O que é data-binding capabilities of .NET MAUI?
 
@@ -14,12 +16,12 @@
 
     - Padrão MVVM: Mantém o projeto organizado, separando estritamente a interface da lógica de código.
 
-## There are many approaches that can be used to construct views and view models and associate them at runtime. 
+### There are many approaches that can be used to construct views and view models and associate them at runtime. 
 
 Então View e ViewModel tem duas etapas, a primeira a de construção e a segunda a associação entre elas?
 
 
-## AAAAAAAA
+### AAAAAAAA
 These approaches fall into two categories, known as view first composition, and view model first composition. 
 
 Choosing between view first composition and view model first composition is an issue of preference and complexity. 
