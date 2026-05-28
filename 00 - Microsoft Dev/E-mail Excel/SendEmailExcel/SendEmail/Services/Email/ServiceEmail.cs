@@ -14,14 +14,14 @@ using Google.Apis.Util.Store;
 
 using Microsoft.Extensions.Configuration;
 
-public class ServicoEmail
+public class ServiceEmail
 {
     private readonly string _clientId;
     private readonly string _clientSecret;
     private readonly string _emailAutenticado;
     private readonly string[] _scopes = new[] { "https://mail.google.com/" };
 
-    public ServicoEmail()
+    public ServiceEmail()
     {
         // Lê as configurações de segurança do appsettings.json (Longe do GitHub!)
         var config = new ConfigurationBuilder()
