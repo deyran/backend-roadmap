@@ -59,12 +59,23 @@ Por que escolher entre View First Composition e ViewModel First Composition é u
 
 ## Parágrafo 2
 
-### With View First composition the app is conceptually composed of Views that connect to the ViewModels they depend on. 
+ **With View First composition the app is conceptually composed of Views that connect to the ViewModels they depend on. The primary benefit of this approach is that it makes it easy to construct loosely coupled, unit testable apps because the ViewModels have no dependence on the Views themselves.  It’s also easy to understand the structure of the app by following its visual structure, rather than having to track code execution to understand how classes are created and associated. In addition, view first construction aligns with the Microsoft Maui’s navigation system that’s responsible for constructing pages when navigation occurs, which makes a ViewModel first composition complex and misaligned with the platform.**
 
-### The primary benefit of this approach is that it makes it easy to construct loosely coupled, unit testable apps because the ViewModels have no dependence on the Views themselves. 
+Na abordagem **View-First**, o app é focado nas Views. Cada View toma a iniciativa de se conectar à sua respectiva ViewModel para obter os dados de que precisa. Os benefícios dessa abordagem são:
 
-### It’s also easy to understand the structure of the app by following its visual structure, rather than having to track code execution to understand how classes are created and associated. 
+1. **Baixo acoplamento**: Permite construir aplicativos desacoplados, já que as *ViewModels* não possuem nehuma dependência da *Views*.
+2. **Facilidade em Testes Unitários**: Como as *ViewModels* são independentes das interfaces gráficas, elas se tornam fácil de testar isoladamente.
+3. **Estrutura mais Intuitiva**: É fácil entender a organização do App apenas seguindo sua estrutura visual, eliminando a necessidade de rastrear a execução do código para entender como as classes são criadas e assossiadas ente si.
+4. **Alinhamento nativo com o .NET MAUI**: O modelo se alinha perfeitamente ao sistema de navegação padrão da plataforma, que é responsável por construir as páginas de forma automática no momento que a navegação ocorre.
 
-### In addition, view first construction aligns with the Microsoft Maui’s navigation system that’s responsible for constructing pages when navigation occurs, which makes a view model first composition complex and misaligned with the platform.
+## Parágrafo 3
 
-- Na abordagem **View-First**, o app é focado nas Views. Cada View toma a iniciativa de se conectar à sua respectiva ViewModel para obter os dados de que precisa.
+**With ViewModel first composition, the app is conceptually composed of ViewModels, with a service responsible for locating the View for a ViewModel. ViewModel first composition feels more natural to some developers, since the View creation can be abstracted away, allowing them to focus on the logical non-UI structure of the app. In addition, it allows ViewModels to be created by other ViewModels. However, this approach is often complex, and it can become difficult to understand how the various parts of the app are created and associated.**
+
+Na abordagem **ViewModel-First** , o aplicativo é estruturado a partir de *ViewModels*, utilizando um serviço responsável por localizar a *View* correspondente para cada *ViewModel*
+
+Os principais pontos dessa abordagem são:
+
+- **Foco na lógica**: Para alguns desenvolvedores, esse modelo parece mais natural, pois a criação da interface (UI) é abstrata, permitindo focar exclusivamente na estrutura lógica do app.
+- **Criação em cadeia**: Permite que uma ViewModel seja criada por outra ViewModel.
+- **Complexidade elevada**: Essa abordagem é complexa, dificulta o entendimento de como diversas partes do aplicativo são criadas e associadas entre si.

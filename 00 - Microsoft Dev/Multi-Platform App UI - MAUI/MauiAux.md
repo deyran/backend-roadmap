@@ -18,5 +18,5 @@ Resuma sucintamente, reduza de forma minimalista o texto preservando a ideia cen
 
 Leia o texto abaixo e monte um mapa mental:
 -----------------------------------------------------------------------------------------------------------
-
-Leia o texto traduza, coloque em um PDF com fundo branco letra Courier New, palavra chave em negrito. Depois, explique parágrafo por parágrafo de forma simples, suscinta e resumida.-----------------------------------------------------------------------------------------------------------
+Leia o texto traduza, coloque em um PDF com fundo branco letra Courier New, palavra chave em negrito. Depois, explique parágrafo por parágrafo de forma simples, suscinta e resumida.
+-----------------------------------------------------------------------------------------------------------
