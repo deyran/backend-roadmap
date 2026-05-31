@@ -39,7 +39,7 @@
 
 ### These approaches fall into two categories, known as view first composition, and view model first composition.
 
-* Independentemente da abordagem escolhida, o processo de construção e associação sempre se encaixará em uma destas duas categorias:
+Independentemente da abordagem escolhida, o processo de construção e associação sempre se encaixará em uma destas duas categorias:
 
   1. *View First Composition*
 
@@ -49,6 +49,22 @@
   
     A lógica de negócios determina qual ViewModel deve entrar em cena e, em seguida, o framework (ou um serviço de navegação) localiza e constrói a View correspondente para ela.
 
-### AAAAAAA
+###  Choosing between View first composition and ViewModel first composition is an issue of preference and complexity. 
 
- Choosing between view first composition and view model first composition is an issue of preference and complexity. However, all approaches share the same aim, which is for the view to have a view model assigned to its BindingContext property.
+Por que escolher entre View First Composition e ViewModel First Composition é uma questão de preferencia e complexidade?
+
+- *Preferência* - Depende do estilo de trabalho da equipe
+- *Complexidade* - Depende do tamanho do projeto
+### However, all approaches share the same aim, which is for the View to have a ViewModel assigned to its BindingContext property.
+
+## Parágrafo 2
+
+### With View First composition the app is conceptually composed of Views that connect to the ViewModels they depend on. 
+
+### The primary benefit of this approach is that it makes it easy to construct loosely coupled, unit testable apps because the ViewModels have no dependence on the Views themselves. 
+
+### It’s also easy to understand the structure of the app by following its visual structure, rather than having to track code execution to understand how classes are created and associated. 
+
+### In addition, view first construction aligns with the Microsoft Maui’s navigation system that’s responsible for constructing pages when navigation occurs, which makes a view model first composition complex and misaligned with the platform.
+
+- Na abordagem **View-First**, o app é focado nas Views. Cada View toma a iniciativa de se conectar à sua respectiva ViewModel para obter os dados de que precisa.
