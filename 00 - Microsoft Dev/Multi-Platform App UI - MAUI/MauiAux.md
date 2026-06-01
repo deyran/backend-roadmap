@@ -1,7 +1,6 @@
 # CH03 Model-View-ViewModel MVVM
-## Connecting view models to views
+## Creating a view model declaratively
 
--> Connecting view models to views
 * Creating a view model declaratively
 * Creating a view model programmatically
 * Updating views in response to changes in the underlying view model or model
