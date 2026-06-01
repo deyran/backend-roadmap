@@ -91,7 +91,7 @@ namespace SendEmail.Services.Email
             Console.ResetColor();
             Console.WriteLine("=============================================");
 
-            Console.WriteLine("\nPressione qualquer tecla para encerrar...");
+            //Console.WriteLine("\nPressione qualquer tecla para encerrar...");
             Console.ReadKey();
         }
     }
