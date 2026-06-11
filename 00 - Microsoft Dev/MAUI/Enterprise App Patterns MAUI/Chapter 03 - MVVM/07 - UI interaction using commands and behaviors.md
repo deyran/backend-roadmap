@@ -5,3 +5,12 @@ In multi-platform apps, **actions are typically invoked in response to a user ac
 Commands provide a convenient way to represent actions that can be bound to controls in the UI. They encapsulate the code that implements the action and help to keep it decoupled from its visual representation in the view. This way, your view models become more portable to new platforms, as they do not have a direct dependency on events provided by the platform’s UI framework. .NET MAUI includes controls that can be declaratively connected to a command, and these controls will invoke the command when the user interacts with the control.
 
 Behaviors also allow controls to be declaratively connected to a command. However, behaviors can be used to invoke an action that’s associated with a range of events raised by a control. Therefore, behaviors address many of the same scenarios as command-enabled controls, while providing a greater degree of flexibility and control. In addition, behaviors can also be used to associate command objects or methods with controls that were not specifically designed to interact with commands.
+
+# Mapa Mental
+
+## Sem MVVM
+
+- **Gatilho**: Invocado em resposta a uma ação do usuário (ex: clique de um botão)
+- **Implementação**: Feita através de um manipulador de eventos (event handler)
+- **Localização**: Código de suporte (Code-behind)
+
