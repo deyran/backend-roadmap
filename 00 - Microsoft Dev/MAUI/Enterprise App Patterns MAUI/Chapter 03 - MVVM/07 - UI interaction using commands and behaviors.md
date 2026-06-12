@@ -14,3 +14,14 @@ Behaviors also allow controls to be declaratively connected to a command. Howeve
 - **Implementação**: Feita através de um manipulador de eventos (event handler)
 - **Localização**: Código de suporte (Code-behind)
 
+# Padrão MVVM
+
+- **Regra de ouro**: Evitar código estrutural no *Code-behind*
+- **Responsabilidade**: A lógica de ação deve residir estritamente na *View Model*
+- **Benefício Principal**: Desacoplamento entre lógica da ação e a representação visual
+- **Portabilidade**: Facilita levar as *View Models* para novas plataformas, pois remove a dependência direta dos eventos de UI específicos do framework
+
+# Elementos de conexão (UI -> View Model)
+
+- 
+

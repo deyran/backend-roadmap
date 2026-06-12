@@ -11,12 +11,10 @@
             "id": "ba894b0aa993e8a0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "The-ONE-Thing - 00  28-T.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "The-ONE-Thing - 00  28-T"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -76,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f5454aaab82d2e88",
