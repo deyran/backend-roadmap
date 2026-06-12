@@ -1,20 +1,22 @@
 {
   "main": {
-    "id": "63b4c0188bec09d6",
+    "id": "cc3be03390a7aae6",
     "type": "split",
     "children": [
       {
-        "id": "536fbb9e5a969055",
+        "id": "dba80f3ff1282957",
         "type": "tabs",
         "children": [
           {
-            "id": "6b475c014cb044ca",
+            "id": "ba894b0aa993e8a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "The-ONE-Thing - 00  28-T.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "The-ONE-Thing - 00  28-T"
             }
           }
         ]
@@ -23,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "088cdb6dfa29bce8",
+    "id": "6b71979e3b1a138e",
     "type": "split",
     "children": [
       {
-        "id": "d9fd88fd278fed44",
+        "id": "3be47590d512a32a",
         "type": "tabs",
         "children": [
           {
-            "id": "56bd80e9645a59f2",
+            "id": "2f391ecb39661e7f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +46,7 @@
             }
           },
           {
-            "id": "cbc0ad5420afe9b6",
+            "id": "35d21042ccccd363",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +63,7 @@
             }
           },
           {
-            "id": "d7e2c4922698ce9b",
+            "id": "a248938d14bcabab",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,23 +76,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "1452b26a72301a97",
+    "id": "f5454aaab82d2e88",
     "type": "split",
     "children": [
       {
-        "id": "d40507710192f28d",
+        "id": "b3d402db96e0a6c6",
         "type": "tabs",
         "children": [
           {
-            "id": "ec7d5fb45573a0fe",
+            "id": "2c76fa1d9dbe9f65",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 - MVVM Frameworks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +102,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 06 - MVVM Frameworks"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "0d89b307753f6742",
+            "id": "a1d49ab9ed83b563",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 - MVVM Frameworks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 06 - MVVM Frameworks"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "03f1579a02d2a6f7",
+            "id": "abcd688a341374a0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,7 +134,7 @@
             }
           },
           {
-            "id": "dfbb19a5538294ea",
+            "id": "f8c5ebb545fea443",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,18 +148,17 @@
             }
           },
           {
-            "id": "8c67f77ad62c7c3d",
+            "id": "df5e1779c6b3b332",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 - MVVM Frameworks.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 06 - MVVM Frameworks"
+              "title": "Outline"
             }
           }
         ]
@@ -179,29 +179,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "6b475c014cb044ca",
-  "lastOpenFiles": [
-    "06 - MVVM Frameworks.md",
-    "07 - UI interaction using commands and behaviors.md",
-    "Welcome.md",
-    "05 - Updating views in response to changes in the underlying view model or model.md",
-    "04 - Creating a view model programmatically.md",
-    "03 - Creating a ViewModel declaratively.md",
-    "02 - Connecting ViewModels to Views.md",
-    "01 - The MVVM Partten/0103 - Model/Texto.MD",
-    "01 - The MVVM Partten/0102 - ViewModel/Texto.md",
-    "01 - The MVVM Partten/0102 - ViewModel/MapaMental.md",
-    "01 - The MVVM Partten/0101 - View/Texto.md",
-    "01 - The MVVM Partten/0101 - View/MapaMental.md",
-    "01 - The MVVM Partten/0100 - Introduction/Texto.md",
-    "01 - The MVVM Partten/0100 - Introduction/MVVM.png",
-    "01 - The MVVM Partten/0103 - Model",
-    "01 - The MVVM Partten/0102 - ViewModel",
-    "01 - The MVVM Partten/0101 - View",
-    "01 - The MVVM Partten/0100 - Introduction",
-    "01 - The MVVM Partten",
-    "00 - Introduction/Texto.md",
-    "00 - Introduction/MapaMental.md",
-    "00 - Introduction"
-  ]
+  "active": "ba894b0aa993e8a0",
+  "lastOpenFiles": []
 }
