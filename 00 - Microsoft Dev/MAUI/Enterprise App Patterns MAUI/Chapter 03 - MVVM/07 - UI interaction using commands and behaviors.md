@@ -1,4 +1,4 @@
-# Texto base
+# *Texto base*
 
 In multi-platform apps, **actions are typically invoked in response to a user action, such as a button click**, that can be implemented by creating an **event handler in the code-behind file**. However, **in the MVVM pattern, the responsibility for implementing the action lies with the view model**, and placing code in the code-behind should be avoided.
 
@@ -6,7 +6,7 @@ Commands provide a convenient way to represent actions that can be bound to cont
 
 Behaviors also allow controls to be declaratively connected to a command. However, behaviors can be used to invoke an action that’s associated with a range of events raised by a control. Therefore, behaviors address many of the same scenarios as command-enabled controls, while providing a greater degree of flexibility and control. In addition, behaviors can also be used to associate command objects or methods with controls that were not specifically designed to interact with commands.
 
-# Mapa Mental
+# *Mapa Mental*
 
 ## Sem MVVM
 
@@ -21,7 +21,23 @@ Behaviors also allow controls to be declaratively connected to a command. Howeve
 - **Benefício Principal**: Desacoplamento entre lógica da ação e a representação visual
 - **Portabilidade**: Facilita levar as *View Models* para novas plataformas, pois remove a dependência direta dos eventos de UI específicos do framework
 
-## Elementos de conexão (UI -> View Model)
+## Elementos de conexão (UI → View Model)
 
-- Para conectar a View à View Model sem quebrar o padrão, utiliza-se duas ferramentas: Commads e Behaviors
+- Para conectar a View à View Model sem quebrar o padrão, utiliza-se duas ferramentas: **Commands** e **Behaviors**
+
+- **Commands**
+
+	1. Representa ações que podem ser vinculadas (bound) a controles UI.
+	2. **Encapsulamento**: Guardam código de ação, mantendo-o isolado da parte visual.
+	3. **Suporte Nativo**: O .Net Maui possui controles que se conectam declarativamente a um comando e o invocam automaticamente na interação do usuário
+
+- **Behaviors**
+
+	1. São extensões que também permitem conectar controles a comandos de forma declarativa
+
+	2. **Vantagem sobre Commands**: Podem invocar ações associadas a uma ampla gama de eventos gerados por controle, não apenas o clique padrão
+
+	3. **Flexibilidade**: Maior controle e flexibilidade que os comandos nativos.
+
+	4. **Compatibilidade**: Permitem associar comandos ou métodos a controles que não foram originalmente projetados para interagir com comandos
 
