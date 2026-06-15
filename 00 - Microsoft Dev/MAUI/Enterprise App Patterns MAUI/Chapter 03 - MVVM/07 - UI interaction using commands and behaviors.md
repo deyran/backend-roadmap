@@ -1,6 +1,6 @@
 # Texto base
 
-In multi-platform apps, **actions are typically invoked in response to a user action, such as a button click**, that can be implemented by creating an event handler in the code-behind file. However, **in the MVVM pattern, the responsibility for implementing the action lies with the view model**, and placing code in the code-behind should be avoided.
+In multi-platform apps, **actions are typically invoked in response to a user action, such as a button click**, that can be implemented by creating an **event handler in the code-behind file**. However, **in the MVVM pattern, the responsibility for implementing the action lies with the view model**, and placing code in the code-behind should be avoided.
 
 Commands provide a convenient way to represent actions that can be bound to controls in the UI. They encapsulate the code that implements the action and help to keep it decoupled from its visual representation in the view. This way, your view models become more portable to new platforms, as they do not have a direct dependency on events provided by the platform’s UI framework. .NET MAUI includes controls that can be declaratively connected to a command, and these controls will invoke the command when the user interacts with the control.
 
@@ -14,14 +14,14 @@ Behaviors also allow controls to be declaratively connected to a command. Howeve
 - **Implementação**: Feita através de um manipulador de eventos (event handler)
 - **Localização**: Código de suporte (Code-behind)
 
-# Padrão MVVM
+## Padrão MVVM
 
 - **Regra de ouro**: Evitar código estrutural no *Code-behind*
 - **Responsabilidade**: A lógica de ação deve residir estritamente na *View Model*
 - **Benefício Principal**: Desacoplamento entre lógica da ação e a representação visual
 - **Portabilidade**: Facilita levar as *View Models* para novas plataformas, pois remove a dependência direta dos eventos de UI específicos do framework
 
-# Elementos de conexão (UI -> View Model)
+## Elementos de conexão (UI -> View Model)
 
-- 
+- Para conectar a View à View Model sem quebrar o padrão, utiliza-se duas ferramentas: Commads e Behaviors
 
