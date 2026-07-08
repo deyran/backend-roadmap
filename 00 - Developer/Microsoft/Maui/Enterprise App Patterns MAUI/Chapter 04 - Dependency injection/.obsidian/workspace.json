@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Resolution.md",
+                "file": "00 - Introdução.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Resolution"
+              "title": "00 - Introdução"
             }
           }
         ],
@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1a6b0dd04b63e1a1",
@@ -225,8 +226,8 @@
   },
   "active": "7eeaa17825788a40",
   "lastOpenFiles": [
-    "02 - Registration.md",
     "03 - Resolution.md",
+    "02 - Registration.md",
     "01 - Introduction to dependency injection.md",
     "00 - Introdução.md"
   ]
