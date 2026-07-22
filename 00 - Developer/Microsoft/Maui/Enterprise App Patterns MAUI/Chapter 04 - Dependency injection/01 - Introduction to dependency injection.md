@@ -5,12 +5,9 @@
 - Tem como objetivo reduzir o acoplamento entre classes
 ## DI Container
 
-- **Função**: 
-
-	1. Reduz o acoplamento
-	2. Gerencia ciclo de vida dos objetos
-	3. Automatiza a criação de instâncias com suas respectivas dependências
-
+- Reduz o acoplamento
+- Gerencia ciclo de vida dos objetos
+- Automatiza a criação de instâncias com suas respectivas dependências
 - `.NET MAUI` utiliza *`Microsoft.Extensions.DependencyInjection`* via *`MauiAppBuilder`*
 ## Benefícios
 
