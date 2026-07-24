@@ -183,9 +183,9 @@
   },
   "active": "ae2148d3fc76cb57",
   "lastOpenFiles": [
-    "00 - Introdução.md",
-    "01 - Introduction to dependency injection.md",
     "02 - Registration.md",
-    "03 - Resolution.md"
+    "03 - Resolution.md",
+    "01 - Introduction to dependency injection.md",
+    "00 - Introdução.md"
   ]
 }
