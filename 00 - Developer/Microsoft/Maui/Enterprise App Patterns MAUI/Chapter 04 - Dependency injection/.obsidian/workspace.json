@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Introduction to dependency injection.md",
+                "file": "02 - Registration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Introduction to dependency injection"
+              "title": "02 - Registration"
             }
           }
         ]
@@ -183,9 +183,9 @@
   },
   "active": "ae2148d3fc76cb57",
   "lastOpenFiles": [
+    "01 - Introduction to dependency injection.md",
     "02 - Registration.md",
     "03 - Resolution.md",
-    "01 - Introduction to dependency injection.md",
     "00 - Introdução.md"
   ]
 }
