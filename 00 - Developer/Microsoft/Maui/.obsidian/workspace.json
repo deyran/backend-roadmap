@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "8609e9089283b5cf",
+    "id": "f3597f3ebec4b484",
     "type": "split",
     "children": [
       {
-        "id": "ef6169ce70f547a8",
+        "id": "f75d013850a8ba14",
         "type": "tabs",
         "children": [
           {
-            "id": "dad8dc9322e78cce",
+            "id": "48ca19d2b3edd530",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapter 04 - Dependency injection/03 - Resolution.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03 - Resolution"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "27fff1e97f6f2213",
+    "id": "26203ea27723a901",
     "type": "split",
     "children": [
       {
-        "id": "440f236d2eeb0ff1",
+        "id": "1decd622bb889581",
         "type": "tabs",
         "children": [
           {
-            "id": "8aea6f32cc19595b",
+            "id": "69ebd0ffe3167b7f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +46,7 @@
             }
           },
           {
-            "id": "e23b2b2fc6b2c29a",
+            "id": "23188f8bf43719ff",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,11 +63,14 @@
             }
           },
           {
-            "id": "2e4c0363fa642b74",
+            "id": "a8aba9831c94853a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -83,15 +82,15 @@
     "width": 300
   },
   "right": {
-    "id": "1fe3c4cd6fd8d680",
+    "id": "444681138cfb1246",
     "type": "split",
     "children": [
       {
-        "id": "257f39ea60a032e6",
+        "id": "81139e10737e39d1",
         "type": "tabs",
         "children": [
           {
-            "id": "418a33ce43cb3b73",
+            "id": "5ad46340a19a4c80",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -109,7 +108,7 @@
             }
           },
           {
-            "id": "5c368548003c5f8e",
+            "id": "5f2c199ae9b986e9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -122,7 +121,7 @@
             }
           },
           {
-            "id": "2b49ba8d22cf2b9f",
+            "id": "2d49841543e525c5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +136,7 @@
             }
           },
           {
-            "id": "e51e99e3c568beba",
+            "id": "721896ba7b87b670",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,7 +150,7 @@
             }
           },
           {
-            "id": "845201ab3c8dcfda",
+            "id": "56997301e49a50b1",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -182,10 +181,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "dad8dc9322e78cce",
-  "lastOpenFiles": [
-    "Enterprise Applicatopm Patterns using Maui.pdf",
-    "Chapter 04 - Dependency injection/00 - Introdução.md",
-    "Chapter 04 - Dependency injection/03 - Resolution.md"
-  ]
+  "active": "48ca19d2b3edd530",
+  "lastOpenFiles": []
 }
