@@ -1,3 +1,3 @@
-# OpenAI revela que ataque de agentes rebeldes em teste de segurança foi maior que se imaginava #g1
+OPENAI revela que ataque de agentes rebeldes em teste de segurança foi maior que se imaginava #g1. Publicado pelo canal g1. [S. l.], 30 jul. 2026. 1 vídeo (2 min 18 s). Disponível em: https://www.youtube.com/watch?v=oQGoiYRWog8. Acesso em: 21 ago. 2026.
 
-https://youtu.be/oQGoiYRWog8?si=RHmWFSLiz8FHSYC-
+A CURIOSA linha do tempo da evolução da Inteligência Artificial. Produção: BBC News Brasil. [S. l.]: YouTube, 23 nov. 2025. 1 vídeo (15 min). Disponível em: https://youtu.be/SkX6MKU9gAQ. Acesso em: 21 ago. 2026.

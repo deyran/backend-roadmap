@@ -11,14 +11,12 @@
             "id": "dad8dc9322e78cce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Chapter 04 - Dependency injection/03 - Resolution.md",
-                "mode": "source",
-                "source": false
+                "file": "Enterprise Applicatopm Patterns using Maui.pdf"
               },
-              "icon": "lucide-file",
-              "title": "03 - Resolution"
+              "icon": "lucide-file-text",
+              "title": "Enterprise Applicatopm Patterns using Maui"
             }
           }
         ]
@@ -184,8 +182,8 @@
   },
   "active": "dad8dc9322e78cce",
   "lastOpenFiles": [
+    "Chapter 04 - Dependency injection/03 - Resolution.md",
     "Enterprise Applicatopm Patterns using Maui.pdf",
-    "Chapter 04 - Dependency injection/00 - Introdução.md",
-    "Chapter 04 - Dependency injection/03 - Resolution.md"
+    "Chapter 04 - Dependency injection/00 - Introdução.md"
   ]
 }
