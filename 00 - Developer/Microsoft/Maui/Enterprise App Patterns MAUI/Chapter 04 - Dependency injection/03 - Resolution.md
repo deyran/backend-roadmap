@@ -1,9 +1,8 @@
-## Registro de Serviços
+### Registro de Serviços
 
 - Registrar tipos e serviços no container para que o framework possa instanciá‑los e gerenciá‑los
-
 - **Exemplo**: ```builder.Services.AddSingleton<IMyService, MyService>();```
-## Resolução de Tipos
+### Resolução de Tipos
 
 - A resolução ocorre após o registro; o container retorna instâncias conforme o escopo configurado: 
 	- **Não registrado** → Tentativa de resolução lança exceção.
@@ -11,7 +10,7 @@
 	- **Transient** → Nova instância a cada resolução; sem referência mantida.
 
 - - **Exemplo**: ```var svc = serviceProvider.GetService<IMyService>();``` 
-## Injeção em Views e ViewModels
+### Injeção em Views e ViewModels
 
 - *Durante a navegação Shell*
 	- O Shell procura registro da View (ex.: `FiltersView`) e cria a View.
@@ -26,14 +25,14 @@
 	}
 	```
 - **Dica**: Registrar ViewModels e dependências em `CreateMauiApp` (`MauiProgram`)	
-## Navegação de Rotas
+### Navegação de Rotas
 
 - **Registro de Rota**
 ```
 Routing.RegisterRouter("Filter", typeof(FiltersView));
 ```
 - **Comportamento**: Ao navegar para rota, Maui cria a View e injeta dependências registradas.
-## Cuidados e Boas Práticas
+### Cuidados e Boas Práticas
 
 - *Handler pode ser null*
 	- Sempre tratar `this.Handler` possivelmente nulo antes de acessar `MauiContext`.

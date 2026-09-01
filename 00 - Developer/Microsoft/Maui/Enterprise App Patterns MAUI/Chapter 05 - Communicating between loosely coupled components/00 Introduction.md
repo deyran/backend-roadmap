@@ -1,0 +1,1 @@
+The publish-subscribe pattern is a messaging pattern in which publishers send messages without knowing any receivers, known as subscribers. Similarly, subscribers listen for specific messages, without knowing any publishers.
