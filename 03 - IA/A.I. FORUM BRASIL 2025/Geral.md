@@ -632,3 +632,4 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 - Neste contexto, a fusão de dados públicos e privados eleva a IA a um novo patamar.
 ## 4 Mudanças Estratégicas na IA para negócios
 
+- [26:48](https://youtu.be/DWJm1mH8z0M?t=1608)
