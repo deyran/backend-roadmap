@@ -1,8 +1,7 @@
-### Referência
+# Referência
 
 EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56m). Disponível em: [https://www.youtube.com/watch?v=DWJm1mH8z0M](https://www.youtube.com/watch?v=DWJm1mH8z0M). Acesso em: 15 set. 2026.
-
-### Transcript
+# Transcript
 
 00:00:02 Ai me the latestolson x. Ai deli quality data and integrate across sources and environments public cloud private cloud or on prem. Unite and prepare your unstructured and structured data alike. Manage the entire data life cycle through a single user interface and it works within your existing watson x.data lets you access integrate and manage all your data for AI that fits your buiness because your AI it with the right data. [Música] This is a defining moment. Generative AI has arrived creating a once in a generation opportunity for business.
 
@@ -615,10 +614,21 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 02:53:53 ser brifada. Vocês viram a energia aí, como eles improvisam. Então acho que também fomos muito felizes em ter esse exemplo do guria, um impacto à sociedade gaúcha como um todo, esse olhar de como traz a tecnologia para também conectar e trazer a vida das pessoas melhores. Obrigado a todos que nos acompanharam online. Obrigado a todos vocês que estão conosco aqui presencialmente. Espero que tenha sido um evento que tenha trazido as provocações, mas também ter dado as alternativas de como a gente inova e como a gente prospera. Obrigado a todos,
 
 02:54:24 pessoal. Boa tarde para vocês. Boa semana. เฮ [Aplausos] [Música] [Música] [Música] [Música] [Música] เฮ [Música] [Música]
-### Mapa Mental
-#### 1. Estratégia e as 4 mudanças
+# Mapa Mental
 
-https://youtu.be/DWJm1mH8z0M?t=1417
-#### 2. Dados e Pilares dos Agentes de IA
-#### 3. Casos Reais de Sucesso
-#### Pessoas, Cultura e Execução
+## Contexto Estratégico: Do dado público ao privado
+
+- [25:23](https://youtu.be/DWJm1mH8z0M?t=1523)
+- O progresso observado na inteligência artificial nos últimos anos resultou do treinamento de modelos com dados públicos.
+- Hoje, menos de 1% dos dados corporativos é utilizado no treinamento de modelos de inteligência artificial.
+	- Com o mesmo prompt, qualquer pessoa obtém o mesmo resultado.
+	- Todos acabam dependendo da mesma base de informações.
+- *Vantagem competitiva*: 
+	- Como modelos públicos e genéricos geram as mesmas respostas para qualquer concorrente, eles não criam vantagem competitiva.
+	- O **valor** real e o diferencial de mercado surgem ao conectar a inteligência artificial aos dados proprietários da empresa.
+		- **A experiência do cliente:** como a empresa se relaciona e atende seu público.
+		- **A operação:** como os serviços são entregues com eficiência.
+		- **O mercado:** como a marca se posiciona e se destaca da concorrência.
+- Neste contexto, a fusão de dados públicos e privados eleva a IA a um novo patamar.
+## 4 Mudanças Estratégicas na IA para negócios
+
