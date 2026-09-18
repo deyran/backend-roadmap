@@ -1,4 +1,4 @@
-### Publish-Subscribe (Padrão de Mensageria)
+### Publisher-Subscribe (Padrão de Mensageria)
 
 - **Messaging pattern**
 	- Troca indireta de dados entre componentes ou sistemas.
@@ -22,24 +22,26 @@
 		- Elimina dependências diretas entre classes, módulos ou serviços.
 		- Facilita a manutenção, a escrita de testes unitários e a evolução do código.
 		- Permite alterar ou substituir um componente sem impactar os demais.
-
-- **Publish (Publicador)**
-	- Envia mensagem
-	- Não conhece quem recebe.
-	- Totalmente independente.
+- **Publisher (Publicador)**
+	- Dispara e envia mensagens para o intermediário.
+	- Desconhece a existência dos assinantes (_Subscribers_).
+	- Totalmente desacoplado do processamento do receptor.
 - **Subscriber (Assinante)**
-	- Escuta mensagens específicas.
-	- Não conhece quem enviou
-	- Reage ao conteúdo da mensagem
+	- Inscreve-se para receber tipos ou tópicos específicos de mensagens.
+	- Desconhece a identidade do emissor (_Publisher_).
+	- Processa e reage ao conteúdo da mensagem recebida.
 ### Eventos no .NET
 
-- Implementação simples do padrão Pub/Sub.
--  Abordagem mais simples para comunicação entre componentes.
-- Indicado quando `loose coupling` não é requerido.
-- Exemplo: Comunicação entre um controle (botão) e sua página que o contém.
-### Problemas e Riscos dos Eventos no .NET
-
-- **Coupling Lifetime**: Risco alto em cenários com objetos de ciclo de vida misto.
-- *Risco no gerenciamento de memória*
-	- Em um cenário crítico, objeto de vida curta assina evento de objeto estático ou de vida longa
-	- Sem remoção do manipulador (`Event Handler`), o publicador impede a ação do Garbage Collector (GC) sobre o assinante.
+- Implementação nativa e direta do padrão Observer / Pub-Sub.
+- Abordagem simples e leve para comunicação entre componentes em memória.
+- Promove o `baixo acoplamento (Loose Coupling) comportamental`, embora ainda exija `referência direta em memória` entre os objetos.
+	- **Baixo Acoplamento Comportamental**
+		- O Button não sabe o que a MainPage vai fazer quando for clicado, apenas avisa "Fui clicado".
+		- O emissor não sabe nem se importa com que trata o evento ou o que será executado.
+		- Múltiplos receptores podem escutar o mesmo evento sem alterar o código do emissor.
+	- **Referência direta em memória**
+		- **Conexão por ponteiro**: A inscrição faz o emissor guardar um `ponteiro direto` para o método do receptor na RAM.
+		- **Vínculo de Ciclo de Vida**: Se o receptor não se desinscrever, o Garbage Collector não consegue limpá-lo da memória (Memory Leak).
+		- **Dependência de Tipo**: O receptor precisa ter acesso à instância do emissor para conseguir assinar o evento.
+- Indicado para cenários intra-aplicação (onde emissor e receptor rodam no mesmo processo).
+- Exemplo: Comunicação entre um controle gráfico (botão) e a página/janela que o contém.
