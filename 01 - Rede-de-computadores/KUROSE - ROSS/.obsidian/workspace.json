@@ -35,8 +35,7 @@
               "title": "TMP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,10 +200,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "5aaf9dcc4da37a3c",
+  "active": "c902be04a9e1b7b7",
   "lastOpenFiles": [
-    "CP 1 - Redes de Computadores e a Internet/1.1.1 Uma descrição dos componentes da rede.md",
     "TMP.md",
+    "CP 1 - Redes de Computadores e a Internet/1.1.1 Uma descrição dos componentes da rede.md",
     "CP 1 - Redes de Computadores e a Internet/1.1 O que é a Internet.md",
     "CP 1 - Redes de Computadores e a Internet/1.1.3 O que é um protocolo.md",
     "CP 1 - Redes de Computadores e a Internet/1.1.2 Uma descrição do serviço.md",
