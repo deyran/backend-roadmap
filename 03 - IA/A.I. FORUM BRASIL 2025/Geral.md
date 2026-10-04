@@ -616,20 +616,31 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 02:54:24 pessoal. Boa tarde para vocês. Boa semana. เฮ [Aplausos] [Música] [Música] [Música] [Música] [Música] เฮ [Música] [Música]
 # Mapa Mental
 
-## Contexto Estratégico: Do dado público ao privado
+## Tendências e Evolução da IA Corporativa - 25:23
 
-- [25:23](https://youtu.be/DWJm1mH8z0M?t=1523)
-- O progresso observado na inteligência artificial nos últimos anos resultou do treinamento de modelos com dados públicos.
-- Hoje, menos de 1% dos dados corporativos é utilizado no treinamento de modelos de inteligência artificial.
-	- Com o mesmo prompt, qualquer pessoa obtém o mesmo resultado.
-	- Todos acabam dependendo da mesma base de informações.
-- *Vantagem competitiva*: 
-	- Como modelos públicos e genéricos geram as mesmas respostas para qualquer concorrente, eles não criam vantagem competitiva.
-	- O **valor** real e o diferencial de mercado surgem ao conectar a inteligência artificial aos dados proprietários da empresa.
-		- **A experiência do cliente:** como a empresa se relaciona e atende seu público.
-		- **A operação:** como os serviços são entregues com eficiência.
-		- **O mercado:** como a marca se posiciona e se destaca da concorrência.
-- Neste contexto, a fusão de dados públicos e privados eleva a IA a um novo patamar.
-## 4 Mudanças Estratégicas na IA para negócios
+-  **Dados Públicos vs. Privados**
+	- O progresso observado na inteligência artificial nos últimos anos resultou do treinamento de modelos com dados públicos.
 
-- [26:48](https://youtu.be/DWJm1mH8z0M?t=1608)
+	- Hoje, menos de 1% dos dados corporativos é utilizado no treinamento de modelos de inteligência artificial.
+		- Com o mesmo prompt, qualquer pessoa obtém o mesmo resultado.
+		- Todos acabam dependendo da mesma base de informações.
+
+	- *Vantagem competitiva*: 
+		- Como modelos públicos e genéricos geram as mesmas respostas para qualquer concorrente, eles não criam vantagem competitiva.
+		- O **valor** real e o diferencial de mercado surgem ao conectar a inteligência artificial aos dados proprietários da empresa.
+			- **A experiência do cliente:** como a empresa se relaciona e atende seu público.
+			- **A operação:** como os serviços são entregues com eficiência.
+			- **O mercado:** como a marca se posiciona e se destaca da concorrência.
+	
+	- Neste contexto, a fusão de dados públicos e privados eleva a IA a um novo patamar.
+---
+- **LLMs vs. SLMs (Modelos Grandes vs. Pequenos)** - [26:48](https://youtu.be/DWJm1mH8z0M?t=1608)
+- **Mudança de Paradigma Tecnológico**
+- **Estratégia Aberta e Híbrida**
+## Agentes de IA (AI Agents & Multi-Agents)
+
+- **Conceito & Função principal**
+- **Criação e Democratização**
+- **Orquestração e Ecossistema (Watsonx Orchestrate)**
+## Arquitetura de Dados e Governança
+## Casos Práticos de Negócios e Fator Humano
