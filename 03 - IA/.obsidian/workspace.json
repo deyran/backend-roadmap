@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "TMP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TMP"
+            }
+          },
+          {
+            "id": "faf3ea4bd756a75d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "A.I. FORUM BRASIL 2025/Geral.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "Geral"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4b1e217d4ab65500",
@@ -185,8 +201,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "38229959d8a46321",
+  "active": "faf3ea4bd756a75d",
   "lastOpenFiles": [
+    "Pasted image 20261004185959.png",
+    "TMP.md",
     "A.I. FORUM BRASIL 2025/Geral.md",
     "Referências.md",
     "A.I. FORUM BRASIL 2025"

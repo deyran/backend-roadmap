@@ -616,9 +616,9 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 02:54:24 pessoal. Boa tarde para vocês. Boa semana. เฮ [Aplausos] [Música] [Música] [Música] [Música] [Música] เฮ [Música] [Música]
 # Mapa Mental
 
-## Tendências e Evolução da IA Corporativa - 25:23
+## Tendências e Evolução da IA Corporativa (Marcelo Braga)
 
--  **Dados Públicos vs. Privados**
+-  **Dados Públicos vs. Privados** - [25:23](https://youtu.be/DWJm1mH8z0M?t=1523)
 	- O progresso observado na inteligência artificial nos últimos anos resultou do treinamento de modelos com dados públicos.
 
 	- Hoje, menos de 1% dos dados corporativos é utilizado no treinamento de modelos de inteligência artificial.
@@ -634,7 +634,27 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 	
 	- Neste contexto, a fusão de dados públicos e privados eleva a IA a um novo patamar.
 ---
-- **LLMs vs. SLMs (Modelos Grandes vs. Pequenos)** - [26:48](https://youtu.be/DWJm1mH8z0M?t=1608)
+- **4 Mudanças Estratégicas na IA para negócios**
+	1. **De modelos genéricos a de IA a modelos especializados por domínio.**
+		- **Large Language Model → LLMs** [27:09](https://youtu.be/DWJm1mH8z0M?t=1629)
+			- No primeiro momento, todos ficaram maravilhados pela habilidade de responder a qualquer tipo de discussão e vincular dados de todas as fontes.
+
+			- Deram um salto inicial para chamar a atenção sobre o grande potencial da IA generativa em qualquer área das empresas.
+
+			- **Custo e Infraestrutura**
+				- Exigem mais recursos financeiros para treinamento.
+				- Maior estrutura de *data centers* para serem consumidos.
+
+			- **Assertividade**: Apresentam maior propensão a alucinações por não serem nativamente especializados em um contexto específico.
+
+			- **Aplicação Estratégica**: Devem ser utilizados quando a necessidade da empresa for amplitude de conhecimento.
+
+		- **Small Language Models → SLMs**
+		- **LLMs vs SLMs**
+	
+	2. **A ascensão dos agentes de IA**
+
+-**LLMs vs. SLMs (Modelos Grandes vs. Pequenos)** - [26:48](https://youtu.be/DWJm1mH8z0M?t=1608)
 - **Mudança de Paradigma Tecnológico**
 - **Estratégia Aberta e Híbrida**
 ## Agentes de IA (AI Agents & Multi-Agents)
