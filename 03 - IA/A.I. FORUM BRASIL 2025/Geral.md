@@ -634,10 +634,10 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 	
 	- Neste contexto, a fusão de dados públicos e privados eleva a IA a um novo patamar.
 ---
-- **4 Mudanças Estratégicas na IA para negócios**
+- **4 Mudanças Estratégicas na IA para negócios** - [26:49](https://youtu.be/DWJm1mH8z0M?t=1606)
 	1. **De modelos genéricos a de IA a modelos especializados por domínio.**
-		- **Large Language Model → LLMs** [27:09](https://youtu.be/DWJm1mH8z0M?t=1629)
-			- No primeiro momento, todos ficaram maravilhados pela habilidade de responder a qualquer tipo de discussão e vincular dados de todas as fontes.
+		- **Large Language Model → LLMs**
+			- *No primeiro momento*, todos ficaram maravilhados pela habilidade de responder a qualquer tipo de discussão e vincular dados de todas as fontes.
 
 			- Deram um salto inicial para chamar a atenção sobre o grande potencial da IA generativa em qualquer área das empresas.
 
@@ -648,15 +648,31 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 			- **Assertividade**: Apresentam maior propensão a alucinações por não serem nativamente especializados em um contexto específico.
 
 			- **Aplicação Estratégica**: Devem ser utilizados quando a necessidade da empresa for amplitude de conhecimento.
-
 		- **Small Language Models → SLMs**
-		- **LLMs vs SLMs**
-	
-	2. **A ascensão dos agentes de IA**
+			1. **Eficiência Econômica e Infraestrutura**
+				- **Redução de Custos**: Menor investimento financeiro tanto no treino inicial quanto na manutenção e operação de infraestrutura de data centers.
+				- **Sustentabilidade Operacional**: Menor consumo energético, viabilizando uma operação de IA mais enxuta e economicamente viável.
 
--**LLMs vs. SLMs (Modelos Grandes vs. Pequenos)** - [26:48](https://youtu.be/DWJm1mH8z0M?t=1608)
-- **Mudança de Paradigma Tecnológico**
-- **Estratégia Aberta e Híbrida**
+			2. **Precisão e Confiabilidade**
+				- **Minimização de alucinações**: Redução expressiva na taxa de resposta incorretas ou fabricadas, garantindo maior confiabilidade técnica.
+				- **Assertividade Contextual**: Foco restrito ao escopo do problema, o que eleva a precisão analítica e operacional.
+
+			3. **Adaptação à Linguagem Corporativa**
+				- **Vocabulário Técnico Setorial**: Domínio profundo de terminologias específicas de diferentes indústrias, tais como meio jurídico, financeiro, comercial e industrial.
+				- **Alinhamento Estratégico**: Capacidade de refletir as diretrizes, normas regulatórias e processos internos da organização.
+
+			4. **Projeções e Tendências de Mercado**
+				- **Crescimento Exponencial**: Projeção de 50% dos modelos de IA em produção serão especializados por domínio até 2027.
+				- **Privacidade e Descentralização (Edge AI)**: Por serem menores, os SLMs facilitam a execução local em servidores próprios ou dispositivos, mitigando riscos de vazamento de dados confidenciais.
+
+			5. **Caso Prático de Sucesso**
+				- **L'Oreal Paris**: Treinamento de um modelo proprietário voltado para as áreas de química e sustentabilidade, direcionamento à inovação e criação de novos produtos biodegradáveis.
+
+		- **LLMs vs SLMs** [28:23](https://youtu.be/DWJm1mH8z0M?t=1733)
+
+	3. **A ascensão dos agentes de IA**
+	4. AAA
+	5. AAA
 ## Agentes de IA (AI Agents & Multi-Agents)
 
 - **Conceito & Função principal**
