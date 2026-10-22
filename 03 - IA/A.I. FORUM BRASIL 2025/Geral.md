@@ -667,7 +667,6 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 
 			5. **Caso Prático de Sucesso**
 				- **L'Oreal Paris**: Treinamento de um modelo proprietário voltado para as áreas de química e sustentabilidade, direcionamento à inovação e criação de novos produtos biodegradáveis.
-
 		- **LLMs vs SLMs** [28:23](https://youtu.be/DWJm1mH8z0M?t=1733)
 
 	3. **A ascensão dos agentes de IA**
