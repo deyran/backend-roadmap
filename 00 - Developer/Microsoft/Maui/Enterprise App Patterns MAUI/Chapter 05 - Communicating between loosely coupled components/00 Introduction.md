@@ -4,9 +4,18 @@
 	- Troca indireta de dados entre componentes ou sistemas.
 
 	- **Uso de um intermediário (Message Broker ou Messenger):**
-		- Centraliza e canaliza o tráfego de mensagens.
-		- Gerencia as inscrições/registros dos assinantes (subscribers).
-		- Isola produtores e consumidores (o emissor não precisa conhecer o receptor).
+		- **Centralização e Roteamento de mensagens**
+			- **Sem Intermediário (Comunicação Direta)**: Alto acoplamento - Cada produtor precisa conhecer o endereço e a interface de cada consumidor.
+			- **Com Intermediário (Padrão Pub/Sub)**: Ponto único de entrega onde os produtores enviam dados sem se preocupar com a entrega final.
+			- **Canalização**: O intermediário filtra e direciona as mensagens ativamente aos destinatários corretos com base em tópicos ou eventos.
+
+		- **Gestão Dinâmica de Assinaturas (Subscribers)**
+			- **Registro de Interesses**: O intermediário mantém o cadastro dos consumidores e os tópicos de seu interesse.
+			- **Roteamento Inteligente**: Permite o intermediário repassar dados somente aos inscritos ativos, eliminando o conhecimento mútuo entre emissor e receptor.
+
+		- **Desacoplamento e Isolamento Temporal**
+			- **Isolamento de Entidades**: O emissor envia sua mensagem e segue sua execução, sem precisar saber se o receptor está online, falhou ou onde está localizado.
+			- **Escalabilidade**: Permite adicionar novos consumidores dinamicamente sem alterar nenhuma linha de código nos produtores.
 
 		- **Messenger (Intermediário In-Memory):**
 			- Roda internamente na memória RAM da própria aplicação.
