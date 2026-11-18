@@ -31,7 +31,6 @@
 		- Elimina dependências diretas entre classes, módulos ou serviços.
 		- Facilita a manutenção, a escrita de testes unitários e a evolução do código.
 		- Permite alterar ou substituir um componente sem impactar os demais.
-
 - **Publisher (Publicador)**
 	- Dispara e envia mensagens para o intermediário.
 	- Desconhece a existência dos assinantes (_Subscribers_).

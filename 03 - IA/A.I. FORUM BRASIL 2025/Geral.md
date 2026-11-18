@@ -3,6 +3,8 @@
 EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56m). Disponível em: [https://www.youtube.com/watch?v=DWJm1mH8z0M](https://www.youtube.com/watch?v=DWJm1mH8z0M). Acesso em: 15 set. 2026.
 # Transcript
 
+## Parte 1
+
 00:00:02 Ai me the latestolson x. Ai deli quality data and integrate across sources and environments public cloud private cloud or on prem. Unite and prepare your unstructured and structured data alike. Manage the entire data life cycle through a single user interface and it works within your existing watson x.data lets you access integrate and manage all your data for AI that fits your buiness because your AI it with the right data. [Música] This is a defining moment. Generative AI has arrived creating a once in a generation opportunity for business.
 
 00:01:03 Meet IBM Watson X an enterprise ready AI and data platform in three parts to help you train, tune and deploy AI models, scale workloads whever your data resides, and design more trustworthy AI workflows. Watson.AaiI is our studio for AI builders to help you create powerful AI applications in a fraction of the time with a fraction of the data. Start with IBM's foundation models or thousands of open source models from the Hugging Face Library and instantly begin working in our prompt lab. And with the ability to
@@ -71,11 +73,19 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 
 00:27:58 exemplos, né, de atendimento a cliente, de operação dentro de banco, de varejo. Trouxe aqui um exemplo da L'Oral. E por que que esse exemplo é tão bacana? Porque eu acho que mostra claramente essa discussão de ag de modelos menores especializados no contexto deles podem ser mais eficientes. Que é muito diferente você tratar numa indústria de cosméticos, que é uma discussão sobre químicos, sobre origem de eh de todos os os componentes que vão fazer um perfume, um creme. E a L'Oral treinou um modelo, ela tem um objetivo de tornar seus
 
-00:28:34 produtos cada vez mais biodegradáveis, mais sustentáveis, de uma economia circular. E a gente ajudou dentro do projeto deles a treinar o modelo que vai ajudar o time deles a construir novos produtos, olhando todas essas informações e cruzando de um jeito diferente. Agora, trazendo aqui pro popular, eu gosto muito de falar que quando a gente fala de L de LLMs versus modelos curtos ou os SLMs, esquece esse tanto de letra, porque isso aqui é super complexo para explicar para quem não tá dentro da parte técnica da IA. Para mim
+00:28:34 produtos cada vez mais biodegradáveis, mais sustentáveis, de uma economia circular. E a gente ajudou dentro do projeto deles a treinar o modelo que vai ajudar o time deles a construir novos produtos, olhando todas essas informações e cruzando de um jeito diferente. 
 
-00:29:08 é muito mais simples. Na hora que a gente fala como um advogado escreve e monta um texto, um juris de case, é completamente diferente de como o time de vendas fala, de como o time de finanças fala, de como o time de RH fala. Então o economis, o jurídic eles precisam ter as suas particularidades para que de fato o resultado da IA generativa saia do jeito que a gente quer então aqui a a vantagem não é não são escolhas exclusivas de usa um ou outro, mas de ter disponível para cada necessidade, para cada aplicação,
+## LLMs vs SLMs
 
-00:29:48 para cada pessoa que vai usar e a generativa ter disponível modelos amplos quando você precisa de amplitude, modelos específicos. quando você precisa de eficiência, assertividade e alucinações de forma muito controlada, porque quando você tá atendendo o cliente, você quer responder e resolver o problema dele. Então aqui a gente vê uma tendência super clara dessas opções surgindo já de uma forma numa escala diferente. E aqui entram, né, o assunto do momento, os agentes de A. os agentes GA de fato tão tomando uma
+Agora, trazendo aqui pro popular, eu gosto muito de falar que quando a gente fala de LLMs versus modelos curtos ou os SLMs, esquece esse tanto de letra, porque isso aqui é super complexo para explicar para quem não tá dentro da parte técnica da IA. Para mim
+
+00:29:08 é muito mais simples. Na hora que a gente fala como um advogado escreve e monta um texto, um "juridiquês", é completamente diferente de como o time de vendas fala, de como o time de finanças fala, de como o time de RH fala. Então o economês, o juridiquês eles precisam ter as suas particularidades para que de fato o resultado da IA generativa saia do jeito que a gente quer então aqui a a vantagem não é não são escolhas exclusivas de usa um ou outro, mas de ter disponível para cada necessidade, para cada aplicação
+
+00:29:48 para cada pessoa que vai usar e a generativa ter disponível modelos amplos quando você precisa de amplitude, modelos específicos. quando você precisa de eficiência, assertividade e alucinações de forma muito controlada, porque quando você tá atendendo o cliente, você quer responder e resolver o problema dele. Então aqui a gente vê uma tendência super clara dessas opções surgindo já de uma forma numa escala diferente. 
+
+## Outros
+
+E aqui entram, né, o assunto do momento, os agentes de A. os agentes GA de fato tão tomando uma
 
 00:30:22 proporção, né, e um palco dentro da discussão de a dentro das empresas, eh, de uma forma muito rápida. E por quê? Porque é diferente quando a gente falava de IA como um todo, que tinha que ter uma curadoria complexa, que tinha que ter uma estrutura muito sofisticada para essa discussão e ela foi fundamental para chegarmos até agora. Agora, quando você chega num agente GA, a gente tá dizendo que você qualquer pessoa consiga montar um agente com nenhum código ou pouco código, low code, no code, integrando diversos sistemas
 
@@ -620,58 +630,49 @@ EXAME. **A.I. Fórum Brasil 2025**. [S. l.]: Exame, 5 jun. 2025. 1 vídeo (2h 56
 
 -  **Dados Públicos vs. Privados** - [25:23](https://youtu.be/DWJm1mH8z0M?t=1523)
 	- O progresso observado na inteligência artificial nos últimos anos resultou do treinamento de modelos com dados públicos.
-
-	- Hoje, menos de 1% dos dados corporativos é utilizado no treinamento de modelos de inteligência artificial.
+	- Hoje, *menos de 1% dos dados corporativos* é utilizado no treinamento de modelos de inteligência artificial.
 		- Com o mesmo prompt, qualquer pessoa obtém o mesmo resultado.
 		- Todos acabam dependendo da mesma base de informações.
-
 	- *Vantagem competitiva*: 
 		- Como modelos públicos e genéricos geram as mesmas respostas para qualquer concorrente, eles não criam vantagem competitiva.
 		- O **valor** real e o diferencial de mercado surgem ao conectar a inteligência artificial aos dados proprietários da empresa.
 			- **A experiência do cliente:** como a empresa se relaciona e atende seu público.
 			- **A operação:** como os serviços são entregues com eficiência.
 			- **O mercado:** como a marca se posiciona e se destaca da concorrência.
-	
 	- Neste contexto, a fusão de dados públicos e privados eleva a IA a um novo patamar.
----
 - **4 Mudanças Estratégicas na IA para negócios** - [26:49](https://youtu.be/DWJm1mH8z0M?t=1606)
 	1. **De modelos genéricos a de IA a modelos especializados por domínio.**
-		- **Large Language Model → LLMs**
+		- **Large Language Models → LLMs**
 			- *No primeiro momento*, todos ficaram maravilhados pela habilidade de responder a qualquer tipo de discussão e vincular dados de todas as fontes.
-
 			- Deram um salto inicial para chamar a atenção sobre o grande potencial da IA generativa em qualquer área das empresas.
-
 			- **Custo e Infraestrutura**
 				- Exigem mais recursos financeiros para treinamento.
 				- Maior estrutura de *data centers* para serem consumidos.
-
 			- **Assertividade**: Apresentam maior propensão a alucinações por não serem nativamente especializados em um contexto específico.
-
 			- **Aplicação Estratégica**: Devem ser utilizados quando a necessidade da empresa for amplitude de conhecimento.
 		- **Small Language Models → SLMs**
 			1. **Eficiência Econômica e Infraestrutura**
 				- **Redução de Custos**: Menor investimento financeiro tanto no treino inicial quanto na manutenção e operação de infraestrutura de data centers.
 				- **Sustentabilidade Operacional**: Menor consumo energético, viabilizando uma operação de IA mais enxuta e economicamente viável.
-
 			2. **Precisão e Confiabilidade**
 				- **Minimização de alucinações**: Redução expressiva na taxa de resposta incorretas ou fabricadas, garantindo maior confiabilidade técnica.
 				- **Assertividade Contextual**: Foco restrito ao escopo do problema, o que eleva a precisão analítica e operacional.
-
 			3. **Adaptação à Linguagem Corporativa**
 				- **Vocabulário Técnico Setorial**: Domínio profundo de terminologias específicas de diferentes indústrias, tais como meio jurídico, financeiro, comercial e industrial.
 				- **Alinhamento Estratégico**: Capacidade de refletir as diretrizes, normas regulatórias e processos internos da organização.
-
 			4. **Projeções e Tendências de Mercado**
 				- **Crescimento Exponencial**: Projeção de 50% dos modelos de IA em produção serão especializados por domínio até 2027.
 				- **Privacidade e Descentralização (Edge AI)**: Por serem menores, os SLMs facilitam a execução local em servidores próprios ou dispositivos, mitigando riscos de vazamento de dados confidenciais.
-
 			5. **Caso Prático de Sucesso**
 				- **L'Oreal Paris**: Treinamento de um modelo proprietário voltado para as áreas de química e sustentabilidade, direcionamento à inovação e criação de novos produtos biodegradáveis.
-		- **LLMs vs SLMs** [28:23](https://youtu.be/DWJm1mH8z0M?t=1733)
-
-	3. **A ascensão dos agentes de IA**
+		- **LLMs vs. SLMs (Estratégia de Escolha)**
+			1. Alinhamento Linguístico Setorial
+			2. Arquitetura de Escola (LLMs vs SLMs)
+			3. Visão de Futuro e Abordagem Híbrida
+	2. **A ascensão dos agentes de IA**
+	3. AAA
 	4. AAA
-	5. AAA
+---
 ## Agentes de IA (AI Agents & Multi-Agents)
 
 - **Conceito & Função principal**

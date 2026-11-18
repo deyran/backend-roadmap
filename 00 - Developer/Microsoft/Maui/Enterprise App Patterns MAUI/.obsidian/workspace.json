@@ -35,7 +35,8 @@
               "title": "00 Introduction"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,10 +198,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "80210c24645a9332",
+  "active": "56fb36a545dfeaf7",
   "lastOpenFiles": [
-    "Chapter 05 - Communicating between loosely coupled components/00 Introduction.md",
     "TMP.md",
+    "Chapter 05 - Communicating between loosely coupled components/00 Introduction.md",
     "Chapter 05 - Communicating between loosely coupled components/01 Introduction to MVVM Toolkit Messenger.md",
     "Chapter 05 - Communicating between loosely coupled components/Publisher-Subscriber.png",
     "Chapter 04 - Dependency injection/03 - Resolution.md",

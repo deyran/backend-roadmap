@@ -6,6 +6,6 @@
 	- O Compromisso com a Governança e Transparência da IA [35:20](https://youtu.be/DWJm1mH8z0M?t=2120)
 --- 
 # AI Fórum Brasil 2025
-## 4 Mudanças Estratégicas na IA para negócios
-### De modelos genéricos a de IA a modelos especializados por domínio.
-#### Small Language Models → SLMs
+## Tendências e Evolução da IA Corporativa
+### 4 Mudanças Estratégicas na IA para negócios
+#### LLMs vs SLMs
