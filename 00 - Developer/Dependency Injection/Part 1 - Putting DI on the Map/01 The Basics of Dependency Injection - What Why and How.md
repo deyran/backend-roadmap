@@ -12,6 +12,8 @@ separate, and, if either happens, you can’t resurrect it. It takes about 45 mi
 prepare, so a failed attempt means that you may not have time for a second try. On the other hand, any chef can prepare a sauce béarnaise. It’s part of their training and, as
 they’ll tell you, it’s not difficult.
 
+---
+
 You don’t have to be a professional cook to make sauce béarnaise. Anyone learning
 to make it will fail at least once, but after you get the hang of it, you’ll succeed every
 time. We think Dependency Injection (DI) is like sauce béarnaise. It’s assumed to be difficult,
