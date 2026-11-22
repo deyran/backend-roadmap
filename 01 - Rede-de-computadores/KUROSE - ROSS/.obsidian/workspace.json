@@ -13,16 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "CP 1 - Redes de Computadores e a Internet/1.1.2 Uma descrição do serviço.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "1.1.2 Uma descrição do serviço"
             }
           },
           {
-            "id": "390c4ed03c472756",
+            "id": "359290bfe5b33753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mapa Mental.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mapa Mental"
+            }
+          },
+          {
+            "id": "0f6aa48a5d22ee88",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7a2fbc7325b21e71",
@@ -200,7 +215,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "390c4ed03c472756",
+  "active": "0f6aa48a5d22ee88",
   "lastOpenFiles": [
     "Mapa Mental.md",
     "CP 1 - Redes de Computadores e a Internet/1.1.2 Uma descrição do serviço.md",
