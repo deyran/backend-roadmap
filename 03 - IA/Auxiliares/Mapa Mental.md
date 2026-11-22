@@ -5,7 +5,3 @@
 	- Estratégia de IA Aberta e Híbrida [32:01](https://youtu.be/DWJm1mH8z0M?t=1921)
 	- O Compromisso com a Governança e Transparência da IA [35:20](https://youtu.be/DWJm1mH8z0M?t=2120)
 --- 
-# AI Fórum Brasil 2025
-## Tendências e Evolução da IA Corporativa
-### 4 Mudanças Estratégicas na IA para negócios
-#### LLMs vs SLMs

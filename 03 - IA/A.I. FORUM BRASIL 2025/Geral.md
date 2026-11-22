@@ -666,12 +666,24 @@ E aqui entram, né, o assunto do momento, os agentes de A. os agentes GA de fato
 			5. **Caso Prático de Sucesso**
 				- **L'Oreal Paris**: Treinamento de um modelo proprietário voltado para as áreas de química e sustentabilidade, direcionamento à inovação e criação de novos produtos biodegradáveis.
 		- **LLMs vs. SLMs (Estratégia de Escolha)**
-			1. Alinhamento Linguístico Setorial
-			2. Arquitetura de Escola (LLMs vs SLMs)
-			3. Visão de Futuro e Abordagem Híbrida
-	2. **A ascensão dos agentes de IA**
-	3. AAA
-	4. AAA
+			1. **Alinhamento Linguístico Setorial**
+				- **Adaptação Departamental**: As ferramentas precisam refletir com precisão a terminologia, os fluxos de trabalho e as normas de cada área de trabalho (ex: Jurídico, Economia/Finanças, Vendas e Recursos Humanos).
+				- **Enriquecimento Estratégicos**: Esse alinhamento reduz atritos de adoção pelos colaboradores e garante conformidade regulatória (como LGPD) específica para dados sensíveis de cada departamento.
+			2. **Arquitetura de Escolha: LLMs vs SLMs**
+				- **LLMs**
+					- Amplitude de conhecimento generalista e profundidade de contexto.
+					- Tarefas criativas, brainstorming, análise exploratória de dados não estruturado e compreensão de cenários complexos e multidisciplinares.
+				- **SLMs**
+					- Máxima eficiência operacional, agilidade de resposta (baixa latência), e alta assertividade.
+					- Possuem controle mais rígido de alucinações e menor risco de vazamento de dados.
+					- Atendimento ao cliente de alta precisão, assistente de suporte interno e resolução direta e confiável de problemas repetitivos.
+			3. **Visão de Futuro e Abordagem Híbrida**
+				- **Uso Complementar (Não Excludente)**: A maturidade da IA corporativa não dita a escolha de apenas uma tecnologia, mas sim a coexistência sinérgica entre modelos amplos e específicos.
+				- **Escala Corporativa Eficiente**: O objetivo estratégico é disponibilizar o modelo tecnicamente adequado para cada necessidade, aplicação e perfil de usuário.
+				- **Enriquecimento Financeiro**: Adaptar SLMs para tarefas rotineiras otimiza drasticamente os custos computacionais de inferência, reservando o uso de LLMs dispendiosos apenas para demandas que exigem raciocínio complexo.
+	2. A ascensão dos Agentes de IA [30:16](https://youtu.be/DWJm1mH8z0M?t=1816)
+	3. Estratégia de IA Aberta e Híbrida [32:01](https://youtu.be/DWJm1mH8z0M?t=1921)
+	4. O Compromisso com a Governança e Transparência da IA [35:20](https://youtu.be/DWJm1mH8z0M?t=2120)
 ---
 ## Agentes de IA (AI Agents & Multi-Agents)
 
